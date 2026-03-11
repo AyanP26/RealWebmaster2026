@@ -31,16 +31,34 @@ export async function POST(request: Request) {
 
         // Rank remaining candidates based on the query to find top 20
         const parsed = parseQuery(query || "");
-        let rankedCandidates = rankResources(candidates, parsed);
+        let rankedCandidates = rankResources(candidates, parsed, { strict: true });
+        let isFallback = false;
+
+        // If the strict filters + strict ranking yielded 0 results, execute a LOOSE pass against the ENTIRE database
+        // This ensures the user *never* sees an empty screen, as requested.
+        if (rankedCandidates.length === 0) {
+            isFallback = true;
+            // Bypass user filters (candidates) and use the raw typedResources
+            rankedCandidates = rankResources(typedResources, parsed, { strict: false });
+
+            // If even the loose text search found absolutely nothing (e.g., gibberish search),
+            // fulfill the user constraint to *never* show 0 results by grabbing 5 default generic resources.
+            if (rankedCandidates.length === 0) {
+                rankedCandidates = typedResources
+                    .slice(0, 5)
+                    .map(r => ({ ...r, matchScore: 1 }));
+            }
+        }
 
         // If there is no query, or we found matches, take the top 20
         const top20 = rankedCandidates.slice(0, 20);
 
         let lastAiError = null;
 
-        // 2. AI Semantic Processing (with Fallback)
-        // If there's an API key and a specific query (not just empty loading state), use the LLM
-        if (genAI && query?.trim()?.length > 0 && top20.length > 0) {
+        // 2. AI Semantic Processing
+        // We only invoke the expensive LLM if we found *strict* matches. 
+        // If we are in fallback mode, we skip the LLM because it might hallucinate connections.
+        if (!isFallback && genAI && query?.trim()?.length > 0 && top20.length > 0) {
             try {
                 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash", generationConfig: { responseMimeType: "application/json" } });
 
@@ -74,14 +92,17 @@ export async function POST(request: Request) {
                     .map((name: string) => top20.find(r => r.name === name))
                     .filter(Boolean);
 
-                return NextResponse.json({
-                    preRailText: aiResponse.preRailText,
-                    postRailText: aiResponse.postRailText,
-                    results: finalResources,
-                    totalCount: rankedCandidates.length,
-                    isAI: true
-                });
-
+                // Ensure we return *something* even if the AI filtered out everything
+                if (finalResources.length > 0) {
+                    return NextResponse.json({
+                        preRailText: aiResponse.preRailText,
+                        postRailText: aiResponse.postRailText,
+                        results: finalResources,
+                        totalCount: rankedCandidates.length,
+                        isAI: true,
+                        isFallback: false
+                    });
+                }
             } catch (aiError: any) {
                 console.warn("AI Generation Failed or timed out. Falling back to deterministic engine.", aiError);
                 lastAiError = aiError.message || String(aiError);
@@ -89,10 +110,10 @@ export async function POST(request: Request) {
             }
         }
 
-        // 3. Deterministic Fallback (if no API Key or if LLM fails)
+        // 3. Deterministic / Fallback Engine
         // This guarantees we search the FULL JSON file using the robust deterministic engine we built earlier
-        const fallbackResults = rankedCandidates.slice(0, 5); // Take top 5 from the entire ranked dataset
-        const fallbackOverview = generateAIOverview(parsed, fallbackResults, rankedCandidates.length);
+        const fallbackResults = rankedCandidates.slice(0, 5); // Take top 5 from the ranked dataset
+        const fallbackOverview = generateAIOverview(parsed, fallbackResults, rankedCandidates.length, isFallback);
 
         return NextResponse.json({
             preRailText: fallbackOverview.preRailText,
@@ -100,6 +121,7 @@ export async function POST(request: Request) {
             results: fallbackResults,
             totalCount: rankedCandidates.length,
             isAI: false,
+            isFallback: isFallback,
             errorDebug: lastAiError
         });
 

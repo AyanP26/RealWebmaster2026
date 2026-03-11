@@ -1,4 +1,6 @@
 import { CommunityResource } from "../types/resource";
+import nlp from 'compromise';
+import Fuse from 'fuse.js';
 
 // --- Configuration & Dictionaries ---
 
@@ -86,47 +88,93 @@ export interface RankedResource extends CommunityResource {
     matchScore: number;
 }
 
-// --- Pipeline Step 1: Normalization & Parsing ---
-export function parseQuery(rawQuery: string): ParsedQuery {
-    const normalized = rawQuery.toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, "");
-    const rawTokens = normalized.split(/\s+/).filter(t => t.length > 0);
+// --- Fuzzy Search Initialization ---
+const categoryKeys = Object.keys(CATEGORY_MAP);
+const fuseLocations = new Fuse(VALID_LOCATIONS, { threshold: 0.4 });
+const fuseCategories = new Fuse(categoryKeys, { threshold: 0.4 });
 
+// --- Pipeline Step 1: Normalization & Parsing (Powered by Compromise NLP + Fuse Typo Tolerance) ---
+export function parseQuery(rawQuery: string): ParsedQuery {
+    // Initialize the NLP document
+    const doc = nlp(rawQuery);
+
+    // Compute root forms (lemmatization) so "pantries" becomes "pantry"
+    doc.compute('root');
+
+    // 1. Intelligent Flag Detection
+    // We can easily check for synonyms and complex phrases instead of exact string matches
+    const isFreeRequested = doc.has('(free|pro bono|no cost|volunteer)');
+    const isSpanishRequested = doc.has('(spanish|bilingual|español|hispanic)');
+
+    // 2. Entity Extraction for Locations
+    let targetLocation: string | null = null;
+
+    // First, ask Compromise if it found any explicit places (e.g. "Arlington" or multi-word "Falls Church")
+    const places = doc.places().out('array') as string[];
+    for (const place of places) {
+        const p = place.toLowerCase();
+        if (VALID_LOCATIONS.includes(p)) {
+            targetLocation = p;
+            break;
+        }
+
+        // Fallback to fuzzy matching if Compromise isolated a place but spelling is slightly off
+        const fuzzyLoc = fuseLocations.search(p);
+        if (fuzzyLoc.length > 0) {
+            targetLocation = fuzzyLoc[0].item;
+            break;
+        }
+    }
+
+    // If it didn't strictly classify it as a place, do a fallback check against our local dictionary
+    if (!targetLocation) {
+        // Run completely raw fuzzy search on words that are longer than 4 chars (to avoid matching stop words like "near" or "me")
+        const textTokens = rawQuery.toLowerCase().split(/\s+/).filter(t => t.length >= 4);
+        for (const token of textTokens) {
+            const fuzzyLoc = fuseLocations.search(token);
+            if (fuzzyLoc.length > 0) {
+                targetLocation = fuzzyLoc[0].item;
+                break;
+            }
+        }
+    }
+
+    // 3. Keyword & Category Extraction using Lemmas
     const keywords: string[] = [];
     let inferredCategory: string | null = null;
-    let targetLocation: string | null = null;
-    let isFreeRequested = false;
-    let isSpanishRequested = false;
 
-    for (const token of rawTokens) {
-        if (STOP_WORDS.has(token)) continue;
+    // Extract the normalized root data from Compromise
+    const jsonTerms = doc.terms().json() as Array<any>;
 
-        if (token === "free") {
-            isFreeRequested = true;
-            continue;
+    for (const termObj of jsonTerms) {
+        // Compromise provides the "root" (lemma) or falls back to "normal" (lowercase, stripped punctuation)
+        const token = termObj.terms[0]?.root || termObj.terms[0]?.normal;
+
+        if (!token || STOP_WORDS.has(token)) continue;
+
+        // Skip adding the location to the keyword search to prevent double-scoring
+        if (targetLocation && token.includes(targetLocation.split(' ')[0])) continue;
+
+        // Skip adding the boolean flags to keywords
+        if (isFreeRequested && ['free', 'cost', 'bono', 'pro', 'volunteer'].includes(token)) continue;
+        if (isSpanishRequested && ['spanish', 'bilingual', 'español', 'hispanic'].includes(token)) continue;
+
+        // Map to standard schema category (Exact Match)
+        let exactMatchedWord = token;
+
+        // Fuzzy Match (Typo Tolerance) against Category Dictionary
+        if (!CATEGORY_MAP[token] && token.length >= 4) {
+            const fuzzyCat = fuseCategories.search(token);
+            if (fuzzyCat.length > 0) {
+                exactMatchedWord = fuzzyCat[0].item; // E.g., translates "libraris" -> "libraries"
+            }
         }
 
-        if (token === "spanish") {
-            isSpanishRequested = true;
-            continue;
+        if (!inferredCategory && CATEGORY_MAP[exactMatchedWord]) {
+            inferredCategory = CATEGORY_MAP[exactMatchedWord];
         }
 
-        if (VALID_LOCATIONS.includes(token)) {
-            targetLocation = token;
-            continue;
-        }
-
-        if (!inferredCategory && CATEGORY_MAP[token]) {
-            inferredCategory = CATEGORY_MAP[token];
-        }
-
-        keywords.push(token);
-
-        // Simple stemming for plurals so "libraries" matches "library" in text descriptions
-        if (token.endsWith("ies")) {
-            keywords.push(token.slice(0, -3) + "y");
-        } else if (token.endsWith("s") && !token.endsWith("ss")) {
-            keywords.push(token.slice(0, -1));
-        }
+        keywords.push(exactMatchedWord);
     }
 
     return {
@@ -139,8 +187,12 @@ export function parseQuery(rawQuery: string): ParsedQuery {
     };
 }
 
+export interface RankingOptions {
+    strict?: boolean;
+}
+
 // --- Pipeline Step 2: Scoring Algorithm ---
-export function rankResources(resources: CommunityResource[], parsedQuery: ParsedQuery): RankedResource[] {
+export function rankResources(resources: CommunityResource[], parsedQuery: ParsedQuery, options: RankingOptions = { strict: true }): RankedResource[] {
     // If no query, return all
     if (!parsedQuery.raw) {
         return resources.map(r => ({ ...r, matchScore: 1 }));
@@ -167,7 +219,7 @@ export function rankResources(resources: CommunityResource[], parsedQuery: Parse
         if (parsedQuery.inferredCategory) {
             if (resourceCategory.includes(parsedQuery.inferredCategory.toLowerCase())) {
                 score += 50; // Massive boost for exact category match
-            } else {
+            } else if (options.strict) {
                 score -= 30; // Heavy penalty if the query clearly wanted one category but this is another
             }
         }
@@ -178,7 +230,7 @@ export function rankResources(resources: CommunityResource[], parsedQuery: Parse
                 score += 15;
             } else if (resource.zip_code === parsedQuery.targetLocation) {
                 score += 15;
-            } else {
+            } else if (options.strict) {
                 // If they asked for a specific location and this isn't it, penalize heavily.
                 score -= 10;
             }
@@ -195,7 +247,7 @@ export function rankResources(resources: CommunityResource[], parsedQuery: Parse
         // 5. Minimum Threshold Filtering
         // If an explicit category was requested, require a much higher minimum score to prevent random keyword matches
         // from dragging in completely irrelevant items to the RAG pipeline or fallback UI.
-        const minimumThreshold = parsedQuery.inferredCategory ? 20 : 5;
+        const minimumThreshold = options.strict ? (parsedQuery.inferredCategory ? 20 : 5) : 1;
 
         // Only include if score beats the strict threshold
         if (score >= minimumThreshold) {
@@ -213,11 +265,18 @@ export interface AIOverview {
 }
 
 // --- Pipeline Step 3: AI Overview Generator ---
-export function generateAIOverview(parsedQuery: ParsedQuery, topResults: RankedResource[], totalResultsCount: number): AIOverview {
+export function generateAIOverview(parsedQuery: ParsedQuery, topResults: RankedResource[], totalResultsCount: number, isFallback: boolean = false): AIOverview {
     if (topResults.length === 0) {
         return {
-            preRailText: `We couldn't find any resources that perfectly match "${parsedQuery.raw}".`,
-            postRailText: "Try adjusting your search terms or clearing some filters to see more options in the Northern Virginia area."
+            preRailText: `We couldn't find any resources related to "${parsedQuery.raw}".`,
+            postRailText: "Please try adjusting or broadening your search terms."
+        };
+    }
+
+    if (isFallback) {
+        return {
+            preRailText: `We were not able to find exact matches, but here are our closest matches.`,
+            postRailText: "You can find alternates through 211 Virginia or local community centers."
         };
     }
 

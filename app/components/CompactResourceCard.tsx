@@ -7,14 +7,14 @@ interface CompactResourceCardProps {
 
 export default function CompactResourceCard({ resource }: CompactResourceCardProps) {
     return (
-        <div className="w-80 min-w-[20rem] sm:w-96 sm:min-w-[24rem] h-full bg-white rounded-3xl p-6 border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] hover:shadow-lg transition-all duration-300 flex flex-col flex-shrink-0 snap-start">
+        <div className="w-80 min-w-[20rem] sm:w-96 sm:min-w-[24rem] h-[28rem] min-h-[28rem] bg-white rounded-3xl p-6 border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] hover:shadow-lg transition-all duration-300 flex flex-col flex-shrink-0 snap-start">
 
             {/* Header: Name and Description */}
-            <div className="mb-4 flex-grow">
-                <h3 className="text-xl font-bold text-text-dark leading-tight mb-2 line-clamp-1" title={resource.name}>
+            <div className="mb-4">
+                <h3 className="text-xl font-bold text-text-dark leading-tight mb-2 line-clamp-2" title={resource.name}>
                     {resource.name}
                 </h3>
-                <p className="text-gray-500 text-sm line-clamp-2" title={resource.short_description}>
+                <p className="text-gray-500 text-sm line-clamp-3" title={resource.short_description}>
                     {resource.short_description}
                 </p>
             </div>
