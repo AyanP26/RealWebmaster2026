@@ -5,9 +5,14 @@ import { CommunityResource } from "../types/resource";
 import ResourceCard from "../components/ResourceCard";
 import CompactResourceCard from "../components/CompactResourceCard";
 import HomeSearchBar from "../components/HomeSearchBar";
-import ResultMap from "../components/ResultMap";
 import { parseQuery, rankResources, generateAIOverview } from "../utils/searchEngine";
-import { Filter, Map as MapIcon, Check, X, Sparkles } from "lucide-react";
+import { Filter, Map as MapIcon, Check, X, Sparkles, MapPin } from "lucide-react";
+import dynamic from 'next/dynamic';
+
+const ResultMap = dynamic(() => import('../components/ResultMap'), {
+    ssr: false,
+    loading: () => <div className="w-full h-full bg-gray-100 animate-pulse flex items-center justify-center text-gray-400 font-medium">Loading Interactive Map...</div>
+});
 
 interface SearchClientProps {
     initialQuery: string;
@@ -50,6 +55,21 @@ export default function SearchClient({ initialQuery, allResources }: SearchClien
     const [aiResults, setAiResults] = useState<CommunityResource[]>([]);
     const [aiTotalCount, setAiTotalCount] = useState(0);
     const [isUsingRealAI, setIsUsingRealAI] = useState(false);
+
+    // Map UI States
+    const [isMapVisible, setIsMapVisible] = useState(false);
+    const [hoveredResourceId, setHoveredResourceId] = useState<string | null>(null);
+    const [clickedResourceId, setClickedResourceId] = useState<string | null>(null);
+
+    // Scroll to card handler
+    const scrollToCard = (id: string) => {
+        const el = document.getElementById(`resource-card-${id}`);
+        if (el) {
+            el.scrollIntoView({ behavior: "smooth", block: "center" });
+            setHoveredResourceId(id);
+            setClickedResourceId(id);
+        }
+    };
 
     // --- Core API Fetching Effect ---
     useEffect(() => {
@@ -217,25 +237,73 @@ export default function SearchClient({ initialQuery, allResources }: SearchClien
                             </p>
                         </div>
 
-                        {/* Horizontal Content Rail */}
-                        <div className="relative z-10 w-full mb-8 -mx-6 md:-mx-10 px-6 md:px-10">
-                            <div className="flex flex-row overflow-x-auto gap-6 pb-6 pt-2 snap-x snap-mandatory custom-scrollbar">
-                                {aiResults.map((resource, idx) => (
-                                    <CompactResourceCard key={resource.id || idx} resource={resource} />
-                                ))}
+                        {/* Map Toggle Button */}
+                        <div className="relative z-10 mb-6 flex justify-end">
+                            <button
+                                onClick={() => setIsMapVisible(!isMapVisible)}
+                                className={`flex items-center px-5 py-2.5 rounded-full font-bold transition-all shadow-sm ${isMapVisible ? 'bg-gray-800 text-white hover:bg-gray-700' : 'bg-primary-teal text-white hover:bg-teal-700'}`}
+                            >
+                                <MapPin className="w-5 h-5 mr-2" />
+                                {isMapVisible ? "Hide Map" : "Show On Map"}
+                            </button>
+                        </div>
+
+                        {/* Split Pane Layout */}
+                        <div className={`relative z-10 w-full flex flex-col ${isMapVisible ? 'xl:flex-row' : ''} gap-8`}>
+
+                            {/* Cards Column */}
+                            <div className={`flex flex-col gap-6 ${isMapVisible ? 'xl:w-1/2' : 'w-full'}`}>
+                                {isMapVisible ? (
+                                    <div className="flex flex-col gap-6 w-full">
+                                        {aiResults.map((resource, idx) => (
+                                            <div
+                                                id={`resource-card-${resource.id}`}
+                                                key={resource.id || idx}
+                                                onMouseEnter={() => setHoveredResourceId(resource.id)}
+                                                onMouseLeave={() => setHoveredResourceId(null)}
+                                                onClick={() => setClickedResourceId(resource.id)}
+                                                className={`transition-all duration-300 w-full rounded-3xl cursor-pointer ${hoveredResourceId === resource.id || clickedResourceId === resource.id ? 'ring-2 ring-primary-teal shadow-xl scale-[1.02]' : ''}`}
+                                            >
+                                                <CompactResourceCard resource={resource} />
+                                            </div>
+                                        ))}
+                                    </div>
+                                ) : (
+                                    <div className="flex flex-row overflow-x-auto gap-6 pb-6 pt-2 snap-x snap-mandatory custom-scrollbar w-full">
+                                        {aiResults.map((resource, idx) => (
+                                            <div
+                                                id={`resource-card-${resource.id}`}
+                                                key={resource.id || idx}
+                                                onMouseEnter={() => setHoveredResourceId(resource.id)}
+                                                onMouseLeave={() => setHoveredResourceId(null)}
+                                                onClick={() => setClickedResourceId(resource.id)}
+                                                className={`transition-all duration-300 rounded-3xl cursor-pointer ${hoveredResourceId === resource.id || clickedResourceId === resource.id ? 'ring-2 ring-primary-teal shadow-xl scale-[1.02]' : ''}`}
+                                            >
+                                                <CompactResourceCard resource={resource} />
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
                             </div>
+
+                            {/* Interactive Geographic Map Side Panel */}
+                            {isMapVisible && (
+                                <div className="xl:w-1/2 w-full h-[600px] xl:h-auto rounded-3xl overflow-hidden shadow-lg border border-gray-200 xl:sticky xl:top-6 bg-gray-50 flex-shrink-0" style={{ minHeight: '600px', zIndex: 0 }}>
+                                    <ResultMap
+                                        resources={aiResults}
+                                        activeResourceId={hoveredResourceId}
+                                        clickedResourceId={clickedResourceId}
+                                        onMarkerClick={scrollToCard}
+                                    />
+                                </div>
+                            )}
                         </div>
 
                         {/* Conversational Paragraph Post-Rail */}
-                        <div className="relative z-10 mt-2 border-t border-gray-100 pt-6">
+                        <div className="relative z-10 mt-8 border-t border-gray-100 pt-6">
                             <p className="text-gray-600 text-base leading-relaxed">
                                 {aiPostRail}
                             </p>
-                        </div>
-
-                        {/* Interactive Geographic Map */}
-                        <div className="relative z-10 mt-8 w-full h-80 rounded-2xl overflow-hidden shadow-sm border border-gray-100">
-                            <ResultMap resources={aiResults} />
                         </div>
 
                     </div>

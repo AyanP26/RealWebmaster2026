@@ -29,9 +29,22 @@ const cityCoords = {
     "default": [38.8462, -77.3064] // Default to Fairfax if unknown
 };
 
-// Add random jitter to prevent pins from perfectly overlapping
-function addJitter(val) {
-    const jitter = (Math.random() - 0.5) * 0.04; // roughly +/- 2km
+// Deterministic pseudo-random based on string to keep pins stable
+function hashString(str) {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash) + str.charCodeAt(i);
+        hash |= 0;
+    }
+    return Math.abs(hash);
+}
+
+// Add tiny deterministic jitter (approx ~300 meters) so pins don't overlap,
+// but they remain highly accurate to the city center.
+function addJitter(val, addressStr) {
+    const hash = hashString(addressStr || "unknown");
+    const deterministicRandom = (hash % 1000) / 1000; // 0.0 to 1.0
+    const jitter = (deterministicRandom - 0.5) * 0.006;
     return val + jitter;
 }
 
@@ -61,8 +74,8 @@ const updatedData = data.map(resource => {
     modifiedCount++;
     return {
         ...resource,
-        latitude: addJitter(baseCoords[0]),
-        longitude: addJitter(baseCoords[1])
+        latitude: addJitter(baseCoords[0], resource.name + resource.address),
+        longitude: addJitter(baseCoords[1], resource.name + resource.address)
     };
 });
 

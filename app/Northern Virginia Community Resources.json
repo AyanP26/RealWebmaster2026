@@ -15,8 +15,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.89799728529146,
-    "longitude": -77.18429448327763
+    "latitude": 38.880446,
+    "longitude": -77.17295399999999
   },
   {
     "name": "Inova Fair Oaks Hospital",
@@ -34,8 +34,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.8434043687457,
-    "longitude": -77.3040179371277
+    "latitude": 38.844784000000004,
+    "longitude": -77.307816
   },
   {
     "name": "Inova Mount Vernon Hospital",
@@ -53,8 +53,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.80405916959351,
-    "longitude": -77.03184178257621
+    "latitude": 38.80714,
+    "longitude": -77.04455999999999
   },
   {
     "name": "Inova Loudoun Hospital",
@@ -72,8 +72,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.108685447794656,
-    "longitude": -77.58153086554503
+    "latitude": 39.114667999999995,
+    "longitude": -77.56553199999999
   },
   {
     "name": "Sentara Northern Virginia Medical Center",
@@ -91,8 +91,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.64692693284894,
-    "longitude": -77.23875006939903
+    "latitude": 38.65694,
+    "longitude": -77.25096
   },
   {
     "name": "Virginia Hospital Center",
@@ -111,8 +111,8 @@
       "Vietnamese"
     ],
     "is_free_service": false,
-    "latitude": 38.87654785633669,
-    "longitude": -77.07874041012332
+    "latitude": 38.884342,
+    "longitude": -77.088258
   },
   {
     "name": "Fort Belvoir Community Hospital (ATAMMC)",
@@ -129,8 +129,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.83487771458502,
-    "longitude": -77.32394207629208
+    "latitude": 38.847592000000006,
+    "longitude": -77.305008
   },
   {
     "name": "Reston Hospital Center",
@@ -148,8 +148,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.969532406145525,
-    "longitude": -77.33442647739028
+    "latitude": 38.968672000000005,
+    "longitude": -77.341028
   },
   {
     "name": "Dominion Hospital",
@@ -167,8 +167,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.86793715002163,
-    "longitude": -77.16672148536297
+    "latitude": 38.880218,
+    "longitude": -77.173182
   },
   {
     "name": "Northern Virginia Mental Health Institute (NVMHI)",
@@ -185,8 +185,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.88883945002328,
-    "longitude": -77.17248789529432
+    "latitude": 38.884574,
+    "longitude": -77.168826
   },
   {
     "name": "Fairfax-Falls Church CSB – Sharon Bulova Center",
@@ -204,8 +204,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.83005698688064,
-    "longitude": -77.30946042187202
+    "latitude": 38.844502000000006,
+    "longitude": -77.308098
   },
   {
     "name": "Wellness Circle Crisis Stabilization Unit",
@@ -223,8 +223,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.83807382338981,
-    "longitude": -77.31054007063786
+    "latitude": 38.846734000000005,
+    "longitude": -77.305866
   },
   {
     "name": "Fairfax Detoxification Center",
@@ -242,8 +242,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.897728991950125,
-    "longitude": -77.41738074571961
+    "latitude": 38.895116,
+    "longitude": -77.430284
   },
   {
     "name": "Inova Behavioral Health Services – Psychiatric Assessment Center",
@@ -261,8 +261,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.88230954512857,
-    "longitude": -77.18350399168109
+    "latitude": 38.879996,
+    "longitude": -77.17340399999999
   },
   {
     "name": "Inova Cares Clinic for Families – Falls Church",
@@ -280,8 +280,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.88833688281382,
-    "longitude": -77.17627167194095
+    "latitude": 38.879516,
+    "longitude": -77.173884
   },
   {
     "name": "Inova Cares Clinic for Children – Herndon",
@@ -299,8 +299,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.95871509875341,
-    "longitude": -77.37300466062167
+    "latitude": 38.969198,
+    "longitude": -77.386502
   },
   {
     "name": "Inova Cares Clinic for Children – Manassas",
@@ -318,8 +318,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.74343687727537,
-    "longitude": -77.45881933757697
+    "latitude": 38.748482,
+    "longitude": -77.47771800000001
   },
   {
     "name": "Inova Cares Clinic for Children – Sterling",
@@ -337,8 +337,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.00447704812842,
-    "longitude": -77.44169106495762
+    "latitude": 39.005492,
+    "longitude": -77.429308
   },
   {
     "name": "Neighborhood Health (Arlington/Fairfax)",
@@ -358,8 +358,8 @@
       "Arabic"
     ],
     "is_free_service": true,
-    "latitude": 38.86783634098383,
-    "longitude": -77.07357218889253
+    "latitude": 38.883981999999996,
+    "longitude": -77.088618
   },
   {
     "name": "Fairfax County Health Department – South Health Center",
@@ -377,8 +377,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.80520815016233,
-    "longitude": -77.06197637764153
+    "latitude": 38.803384,
+    "longitude": -77.048316
   },
   {
     "name": "Fairfax County Health Department – North Health Center",
@@ -396,8 +396,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.967124822808195,
-    "longitude": -77.33795386186121
+    "latitude": 38.96803,
+    "longitude": -77.34167
   },
   {
     "name": "Arlington County Department of Human Services – Health Center",
@@ -415,8 +415,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.87142219629815,
-    "longitude": -77.07755886417286
+    "latitude": 38.88349,
+    "longitude": -77.08910999999999
   },
   {
     "name": "Loudoun County Health Department",
@@ -434,8 +434,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.12538404451643,
-    "longitude": -77.56003914086054
+    "latitude": 39.113648,
+    "longitude": -77.566552
   },
   {
     "name": "Prince William County Health Department",
@@ -453,8 +453,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.75130530033285,
-    "longitude": -77.47847896623723
+    "latitude": 38.751932000000004,
+    "longitude": -77.47426800000001
   },
   {
     "name": "Patient First Urgent Care – Fairfax",
@@ -472,8 +472,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.8656343904661,
-    "longitude": -77.30654655633295
+    "latitude": 38.84695,
+    "longitude": -77.30565
   },
   {
     "name": "NAMI Northern Virginia",
@@ -490,8 +490,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.79032052319474,
-    "longitude": -77.05529407402815
+    "latitude": 38.803666,
+    "longitude": -77.04803399999999
   },
   {
     "name": "HopeLink Behavioral Health",
@@ -509,8 +509,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.84326872735828,
-    "longitude": -77.19086545967012
+    "latitude": 38.828551999999995,
+    "longitude": -77.19824799999999
   },
   {
     "name": "The Women's Center",
@@ -528,8 +528,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.90866664462602,
-    "longitude": -77.24672678747908
+    "latitude": 38.900834,
+    "longitude": -77.265666
   },
   {
     "name": "George Mason University Center for Community Mental Health",
@@ -547,8 +547,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.845038120131356,
-    "longitude": -77.30949077794733
+    "latitude": 38.847538,
+    "longitude": -77.30506199999999
   },
   {
     "name": "Northern Virginia Family Service (NVFS) – Behavioral Health",
@@ -568,8 +568,8 @@
       "Korean"
     ],
     "is_free_service": false,
-    "latitude": 38.864438157357064,
-    "longitude": -77.15539985273774
+    "latitude": 38.883284,
+    "longitude": -77.170116
   },
   {
     "name": "Loudoun County Community Services Board",
@@ -587,8 +587,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.109244386615636,
-    "longitude": -77.55361120669185
+    "latitude": 39.11299399999999,
+    "longitude": -77.567206
   },
   {
     "name": "Prince William County Community Services",
@@ -606,8 +606,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.763196368436454,
-    "longitude": -77.48365461971309
+    "latitude": 38.750672,
+    "longitude": -77.47552800000001
   },
   {
     "name": "Arlington County Crisis Intervention",
@@ -625,8 +625,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.89970846832669,
-    "longitude": -77.07841788244369
+    "latitude": 38.881678,
+    "longitude": -77.09092199999999
   },
   {
     "name": "Catholic Charities – Mental Health Counseling",
@@ -644,8 +644,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.90103714080435,
-    "longitude": -77.07892491969386
+    "latitude": 38.883466,
+    "longitude": -77.08913399999999
   },
   {
     "name": "Inova Primary Care – N Fairfax Drive (Arlington)",
@@ -663,8 +663,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.87333596609836,
-    "longitude": -77.08971899577952
+    "latitude": 38.88361,
+    "longitude": -77.08899
   },
   {
     "name": "Second Story (Alternative House) – Teen Crisis Shelter",
@@ -682,8 +682,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.88339531918195,
-    "longitude": -77.28068292594814
+    "latitude": 38.900768,
+    "longitude": -77.265732
   },
   {
     "name": "Stone Springs Hospital Center",
@@ -701,8 +701,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.84827769689705,
-    "longitude": -77.29082565226128
+    "latitude": 38.848690000000005,
+    "longitude": -77.30391
   },
   {
     "name": "Haymarket Medical Center (Novant)",
@@ -720,8 +720,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.82911253321359,
-    "longitude": -77.3205837986518
+    "latitude": 38.846806,
+    "longitude": -77.30579399999999
   },
   {
     "name": "Fairfax County Public Library – City of Fairfax Regional",
@@ -738,8 +738,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.84480451818525,
-    "longitude": -77.30622927405744
+    "latitude": 38.845672,
+    "longitude": -77.306928
   },
   {
     "name": "Fairfax County Public Library – Reston Regional",
@@ -756,8 +756,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.97936949691246,
-    "longitude": -77.35247813354222
+    "latitude": 38.970130000000005,
+    "longitude": -77.33957
   },
   {
     "name": "Fairfax County Public Library – Tysons-Pimmit Regional",
@@ -774,8 +774,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.86569547109746,
-    "longitude": -77.17664424051068
+    "latitude": 38.882012,
+    "longitude": -77.171388
   },
   {
     "name": "Fairfax County Public Library – George Mason Regional",
@@ -792,8 +792,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.83242908884291,
-    "longitude": -77.19646650597008
+    "latitude": 38.829752,
+    "longitude": -77.197048
   },
   {
     "name": "Fairfax County Public Library – Pohick Regional",
@@ -810,8 +810,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.793377511430876,
-    "longitude": -77.26627503306432
+    "latitude": 38.797428,
+    "longitude": -77.273172
   },
   {
     "name": "Fairfax County Public Library – Centreville Regional",
@@ -828,8 +828,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.83117357640282,
-    "longitude": -77.43541486308294
+    "latitude": 38.83899,
+    "longitude": -77.43061
   },
   {
     "name": "Fairfax County Public Library – Lorton Community",
@@ -846,8 +846,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.700797583589306,
-    "longitude": -77.21147945205831
+    "latitude": 38.707312,
+    "longitude": -77.224488
   },
   {
     "name": "Fairfax County Public Library – Sherwood Regional",
@@ -864,8 +864,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.81152808245243,
-    "longitude": -77.02997507686766
+    "latitude": 38.806264,
+    "longitude": -77.045436
   },
   {
     "name": "Fairfax County Public Library – Martha Washington",
@@ -882,8 +882,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.79427832338453,
-    "longitude": -77.05629837181698
+    "latitude": 38.807452,
+    "longitude": -77.044248
   },
   {
     "name": "Fairfax County Public Library – Oakton Community",
@@ -900,8 +900,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.882943266127455,
-    "longitude": -77.30786121629586
+    "latitude": 38.880950000000006,
+    "longitude": -77.29775000000001
   },
   {
     "name": "Fairfax County Public Library – Herndon Fortnightly",
@@ -918,8 +918,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.9525310195982,
-    "longitude": -77.37114892353794
+    "latitude": 38.968406,
+    "longitude": -77.387294
   },
   {
     "name": "Fairfax County Public Library – Kingstowne",
@@ -936,8 +936,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.80252702932715,
-    "longitude": -77.18948974114518
+    "latitude": 38.790896,
+    "longitude": -77.185604
   },
   {
     "name": "Fairfax County Public Library – Culmore",
@@ -957,8 +957,8 @@
       "Korean"
     ],
     "is_free_service": true,
-    "latitude": 38.876495985778185,
-    "longitude": -77.17248562983578
+    "latitude": 38.883854,
+    "longitude": -77.169546
   },
   {
     "name": "Arlington Public Library – Central Library",
@@ -976,8 +976,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.87234575620228,
-    "longitude": -77.07292888378603
+    "latitude": 38.88445,
+    "longitude": -77.08815
   },
   {
     "name": "Arlington Public Library – Aurora Hills Branch",
@@ -995,8 +995,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.90146312524398,
-    "longitude": -77.109698844818
+    "latitude": 38.880154,
+    "longitude": -77.092446
   },
   {
     "name": "Arlington Public Library – Westover Branch",
@@ -1014,8 +1014,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.8750159595252,
-    "longitude": -77.09046241917092
+    "latitude": 38.881906,
+    "longitude": -77.090694
   },
   {
     "name": "Arlington Public Library – Columbia Pike Branch",
@@ -1034,8 +1034,8 @@
       "Amharic"
     ],
     "is_free_service": true,
-    "latitude": 38.88759918098721,
-    "longitude": -77.0932347339121
+    "latitude": 38.87875,
+    "longitude": -77.09384999999999
   },
   {
     "name": "Arlington Public Library – Cherrydale Branch",
@@ -1053,8 +1053,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.87028871152957,
-    "longitude": -77.08568586496692
+    "latitude": 38.883184,
+    "longitude": -77.089416
   },
   {
     "name": "Arlington Public Library – Shirlington Branch",
@@ -1072,8 +1072,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.87194498139606,
-    "longitude": -77.09605350709661
+    "latitude": 38.883976,
+    "longitude": -77.088624
   },
   {
     "name": "Arlington Public Library – Glencarlyn Branch",
@@ -1091,8 +1091,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.871910589603736,
-    "longitude": -77.07564207179618
+    "latitude": 38.879278,
+    "longitude": -77.093322
   },
   {
     "name": "Loudoun County Public Library – Rust Library (Leesburg)",
@@ -1110,8 +1110,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.11883849552774,
-    "longitude": -77.56171986339263
+    "latitude": 39.114577999999995,
+    "longitude": -77.56562199999999
   },
   {
     "name": "Loudoun County Public Library – Ashburn Library",
@@ -1129,8 +1129,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.051024386555646,
-    "longitude": -77.47285963818263
+    "latitude": 39.044171999999996,
+    "longitude": -77.487028
   },
   {
     "name": "Loudoun County Public Library – Brambleton Library",
@@ -1148,8 +1148,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.863187317195944,
-    "longitude": -77.30669316753779
+    "latitude": 38.845066,
+    "longitude": -77.30753399999999
   },
   {
     "name": "Loudoun County Public Library – Cascades Library",
@@ -1167,8 +1167,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.86247688636159,
-    "longitude": -77.30567442516032
+    "latitude": 38.844328000000004,
+    "longitude": -77.308272
   },
   {
     "name": "Loudoun County Public Library – Gum Spring Library",
@@ -1186,8 +1186,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.85175239109337,
-    "longitude": -77.31710348210031
+    "latitude": 38.845024,
+    "longitude": -77.307576
   },
   {
     "name": "Loudoun County Public Library – Sterling Library",
@@ -1205,8 +1205,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.99438936669496,
-    "longitude": -77.42811679922629
+    "latitude": 39.005246,
+    "longitude": -77.429554
   },
   {
     "name": "Loudoun County Public Library – Purcellville Library",
@@ -1224,8 +1224,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.86509370265931,
-    "longitude": -77.31001209779292
+    "latitude": 38.84662,
+    "longitude": -77.30597999999999
   },
   {
     "name": "Prince William Public Libraries – Chinn Park Library",
@@ -1243,8 +1243,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.6764653016771,
-    "longitude": -77.25213660963347
+    "latitude": 38.659514,
+    "longitude": -77.24838600000001
   },
   {
     "name": "Prince William Public Libraries – Central Library",
@@ -1262,8 +1262,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.74198475570473,
-    "longitude": -77.47200435600907
+    "latitude": 38.753060000000005,
+    "longitude": -77.47314
   },
   {
     "name": "Prince William Public Libraries – Haymarket Gainesville Library",
@@ -1281,8 +1281,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.864665028513144,
-    "longitude": -77.30290984306957
+    "latitude": 38.848078,
+    "longitude": -77.30452199999999
   },
   {
     "name": "Prince William Public Libraries – Lake Ridge Library",
@@ -1300,8 +1300,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.66875074520389,
-    "longitude": -77.25024524344722
+    "latitude": 38.658914,
+    "longitude": -77.248986
   },
   {
     "name": "Prince William Public Libraries – Bull Run Library",
@@ -1319,8 +1319,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.744567144337424,
-    "longitude": -77.49461223780642
+    "latitude": 38.75009,
+    "longitude": -77.47611
   },
   {
     "name": "Northern Virginia Community College – Annandale Campus",
@@ -1338,8 +1338,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.83407405303967,
-    "longitude": -77.19735382731406
+    "latitude": 38.828503999999995,
+    "longitude": -77.198296
   },
   {
     "name": "Northern Virginia Community College – Loudoun Campus",
@@ -1357,8 +1357,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.0062219794784,
-    "longitude": -77.44711647405421
+    "latitude": 39.005066,
+    "longitude": -77.429734
   },
   {
     "name": "Northern Virginia Community College – Manassas Campus",
@@ -1376,8 +1376,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.746794574763044,
-    "longitude": -77.47344693497297
+    "latitude": 38.7491,
+    "longitude": -77.47710000000001
   },
   {
     "name": "Northern Virginia Community College – Woodbridge Campus",
@@ -1395,8 +1395,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.66054965505868,
-    "longitude": -77.23201875438264
+    "latitude": 38.65565,
+    "longitude": -77.25225
   },
   {
     "name": "Literacy Council of Northern Virginia",
@@ -1414,8 +1414,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.87431557730843,
-    "longitude": -77.18985363479914
+    "latitude": 38.883248,
+    "longitude": -77.170152
   },
   {
     "name": "Fairfax County Adult and Community Education",
@@ -1433,8 +1433,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.77940245345035,
-    "longitude": -77.20424121430038
+    "latitude": 38.788394,
+    "longitude": -77.188106
   },
   {
     "name": "Goodwill Industries of Greater Washington – Job Training",
@@ -1452,8 +1452,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.85523943023779,
-    "longitude": -77.28782880264795
+    "latitude": 38.848408000000006,
+    "longitude": -77.304192
   },
   {
     "name": "Capital Area Food Bank – Lorton Distribution Center",
@@ -1471,8 +1471,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.7159210321862,
-    "longitude": -77.22681290961442
+    "latitude": 38.703928,
+    "longitude": -77.22787199999999
   },
   {
     "name": "Arlington Food Assistance Center (AFAC)",
@@ -1491,8 +1491,8 @@
       "Amharic"
     ],
     "is_free_service": true,
-    "latitude": 38.88443484861567,
-    "longitude": -77.09938872741782
+    "latitude": 38.88118,
+    "longitude": -77.09142
   },
   {
     "name": "Food for Others",
@@ -1510,8 +1510,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.86194388617023,
-    "longitude": -77.3174633201946
+    "latitude": 38.843638000000006,
+    "longitude": -77.308962
   },
   {
     "name": "The Lamb Center – Daytime Drop-In",
@@ -1529,8 +1529,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.84233224854318,
-    "longitude": -77.3107529738082
+    "latitude": 38.843446,
+    "longitude": -77.30915399999999
   },
   {
     "name": "Loudoun Hunger Relief",
@@ -1548,8 +1548,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.11383918335452,
-    "longitude": -77.5471224231903
+    "latitude": 39.118129999999994,
+    "longitude": -77.56206999999999
   },
   {
     "name": "LINK Against Hunger",
@@ -1567,8 +1567,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.1180266033412,
-    "longitude": -77.58061773742276
+    "latitude": 39.117326,
+    "longitude": -77.562874
   },
   {
     "name": "Dulles South Food Pantry",
@@ -1586,8 +1586,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.8517075178485,
-    "longitude": -77.32347985085731
+    "latitude": 38.845156,
+    "longitude": -77.30744399999999
   },
   {
     "name": "ACTS (Helping People-Transforming Communities) Prince William",
@@ -1605,8 +1605,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.8307139106628,
-    "longitude": -77.31047725133554
+    "latitude": 38.847568,
+    "longitude": -77.305032
   },
   {
     "name": "NVFS Hunger Resource Center (SERVE Campus)",
@@ -1624,8 +1624,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.762411267137864,
-    "longitude": -77.4760767875623
+    "latitude": 38.749136,
+    "longitude": -77.477064
   },
   {
     "name": "Western Fairfax Christian Ministries",
@@ -1643,8 +1643,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.88037125081939,
-    "longitude": -77.44300428052009
+    "latitude": 38.893124,
+    "longitude": -77.432276
   },
   {
     "name": "Cornerstones (Food Pantry)",
@@ -1662,8 +1662,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.968232603687724,
-    "longitude": -77.33719527188268
+    "latitude": 38.965834,
+    "longitude": -77.34386599999999
   },
   {
     "name": "Ecumenical Community Helping Others (ECHO)",
@@ -1681,8 +1681,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.78455954970993,
-    "longitude": -77.1720995680746
+    "latitude": 38.787326,
+    "longitude": -77.18917400000001
   },
   {
     "name": "Rising Hope United Methodist Mission Church",
@@ -1700,8 +1700,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.8034511610137,
-    "longitude": -77.0395755036208
+    "latitude": 38.805358,
+    "longitude": -77.046342
   },
   {
     "name": "Koinonia",
@@ -1719,8 +1719,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.88190022756474,
-    "longitude": -77.18468921537944
+    "latitude": 38.881484,
+    "longitude": -77.171916
   },
   {
     "name": "Catholic Charities – Diocese of Arlington Food Pantry",
@@ -1738,8 +1738,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.898252635315394,
-    "longitude": -77.07622777503134
+    "latitude": 38.884126,
+    "longitude": -77.08847399999999
   },
   {
     "name": "Shelter House – Katherine Hanley Family Shelter",
@@ -1757,8 +1757,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.83808750013805,
-    "longitude": -77.31208472487846
+    "latitude": 38.84917,
+    "longitude": -77.30342999999999
   },
   {
     "name": "Bailey's Crossroads Community Shelter",
@@ -1776,8 +1776,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.89868330458316,
-    "longitude": -77.1910800887072
+    "latitude": 38.8838,
+    "longitude": -77.1696
   },
   {
     "name": "Good Shepherd Alliance – Ashburn",
@@ -1795,8 +1795,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.0298059013691,
-    "longitude": -77.49139585604219
+    "latitude": 39.046775999999994,
+    "longitude": -77.48442399999999
   },
   {
     "name": "Loudoun Homeless Services Center",
@@ -1814,8 +1814,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.11862394076791,
-    "longitude": -77.56702063939304
+    "latitude": 39.116389999999996,
+    "longitude": -77.56380999999999
   },
   {
     "name": "NVFS SERVE Family Shelter",
@@ -1833,8 +1833,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.75809125418052,
-    "longitude": -77.48407315085954
+    "latitude": 38.753882000000004,
+    "longitude": -77.472318
   },
   {
     "name": "Prince William County Homeless Prevention Center",
@@ -1852,8 +1852,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.67537260368604,
-    "longitude": -77.23731316587252
+    "latitude": 38.658314000000004,
+    "longitude": -77.24958600000001
   },
   {
     "name": "Share of McLean",
@@ -1871,8 +1871,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.92926633612539,
-    "longitude": -77.17287791618021
+    "latitude": 38.933498,
+    "longitude": -77.177702
   },
   {
     "name": "Homestretch",
@@ -1890,8 +1890,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.874544575923025,
-    "longitude": -77.15732099857317
+    "latitude": 38.882498,
+    "longitude": -77.170902
   },
   {
     "name": "Lorton Community Action Center",
@@ -1909,8 +1909,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.715133916151075,
-    "longitude": -77.23974982849735
+    "latitude": 38.703772,
+    "longitude": -77.228028
   },
   {
     "name": "United Community (Food Assistance)",
@@ -1928,8 +1928,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.823873081441874,
-    "longitude": -77.03972147660282
+    "latitude": 38.806864,
+    "longitude": -77.04483599999999
   },
   {
     "name": "The Salvation Army – Northern Virginia",
@@ -1947,8 +1947,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.81868537673731,
-    "longitude": -77.02865932166041
+    "latitude": 38.806246,
+    "longitude": -77.04545399999999
   },
   {
     "name": "Seven Loaves Services",
@@ -1966,8 +1966,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.004579308465004,
-    "longitude": -77.4281085238997
+    "latitude": 39.005876,
+    "longitude": -77.42892400000001
   },
   {
     "name": "Fairfax County Department of Family Services",
@@ -1987,8 +1987,8 @@
       "Korean"
     ],
     "is_free_service": true,
-    "latitude": 38.85240276125552,
-    "longitude": -77.31610523645247
+    "latitude": 38.843812,
+    "longitude": -77.30878799999999
   },
   {
     "name": "Virginia DMV – Fairfax/Westfields Customer Service Center",
@@ -2006,8 +2006,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.909335328984525,
-    "longitude": -77.4380651653857
+    "latitude": 38.896304,
+    "longitude": -77.429096
   },
   {
     "name": "Virginia DMV – Arlington Customer Service Center",
@@ -2025,8 +2025,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.876694222199376,
-    "longitude": -77.10586647093342
+    "latitude": 38.879104,
+    "longitude": -77.09349599999999
   },
   {
     "name": "Virginia DMV – Franconia Customer Service Center",
@@ -2044,8 +2044,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.82364914265733,
-    "longitude": -77.04428399846896
+    "latitude": 38.805388,
+    "longitude": -77.046312
   },
   {
     "name": "Virginia DMV – Tysons Corner Customer Service Center",
@@ -2063,8 +2063,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.90675724046286,
-    "longitude": -77.27615023862076
+    "latitude": 38.89853,
+    "longitude": -77.26796999999999
   },
   {
     "name": "Virginia DMV – Prince William Customer Service Center",
@@ -2082,8 +2082,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.652402069118246,
-    "longitude": -77.23218128145083
+    "latitude": 38.657342,
+    "longitude": -77.250558
   },
   {
     "name": "Legal Services of Northern Virginia – Fairfax Office",
@@ -2101,8 +2101,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.83232447049062,
-    "longitude": -77.28668656406278
+    "latitude": 38.84731,
+    "longitude": -77.30529
   },
   {
     "name": "Legal Services of Northern Virginia – Arlington Office",
@@ -2120,8 +2120,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.861930728795784,
-    "longitude": -77.07468444404822
+    "latitude": 38.884186,
+    "longitude": -77.088414
   },
   {
     "name": "Legal Services of Northern Virginia – Prince William Office",
@@ -2139,8 +2139,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.734018071435194,
-    "longitude": -77.45991017560439
+    "latitude": 38.748578,
+    "longitude": -77.47762200000001
   },
   {
     "name": "Legal Services of Northern Virginia – Loudoun Office",
@@ -2158,8 +2158,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.11167034737,
-    "longitude": -77.58286262438085
+    "latitude": 39.116929999999996,
+    "longitude": -77.56326999999999
   },
   {
     "name": "Arlington County Department of Human Services",
@@ -2179,8 +2179,8 @@
       "Vietnamese"
     ],
     "is_free_service": true,
-    "latitude": 38.87738805940723,
-    "longitude": -77.09914495018342
+    "latitude": 38.88031,
+    "longitude": -77.09228999999999
   },
   {
     "name": "Prince William County Department of Social Services",
@@ -2198,8 +2198,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.66447124084092,
-    "longitude": -77.26616388550548
+    "latitude": 38.658032,
+    "longitude": -77.249868
   },
   {
     "name": "Loudoun County Department of Family Services",
@@ -2217,8 +2217,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.12383508530289,
-    "longitude": -77.5582920855537
+    "latitude": 39.117926,
+    "longitude": -77.562274
   },
   {
     "name": "Fairfax County Coordinated Services Planning",
@@ -2236,8 +2236,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.860288491378434,
-    "longitude": -77.32531910322976
+    "latitude": 38.846956000000006,
+    "longitude": -77.305644
   },
   {
     "name": "NVFS – Immigration Legal Services",
@@ -2257,8 +2257,8 @@
       "Vietnamese"
     ],
     "is_free_service": false,
-    "latitude": 38.8685785861815,
-    "longitude": -77.188150026727
+    "latitude": 38.884838,
+    "longitude": -77.168562
   },
   {
     "name": "Ethiopian Community Development Council (ECDC)",
@@ -2278,8 +2278,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.88908153487557,
-    "longitude": -77.0946552007942
+    "latitude": 38.879146,
+    "longitude": -77.093454
   },
   {
     "name": "Korean Community Service Center of Greater Washington",
@@ -2297,8 +2297,8 @@
       "Korean"
     ],
     "is_free_service": true,
-    "latitude": 38.83786635777457,
-    "longitude": -77.32511007363428
+    "latitude": 38.848378000000004,
+    "longitude": -77.304222
   },
   {
     "name": "Fairfax County Workforce Development – One-Stop Career Center",
@@ -2316,8 +2316,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.82841994066366,
-    "longitude": -77.29940212542081
+    "latitude": 38.84344,
+    "longitude": -77.30915999999999
   },
   {
     "name": "Prince William County Office of Housing",
@@ -2335,8 +2335,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.66941441075998,
-    "longitude": -77.26585012907078
+    "latitude": 38.655404000000004,
+    "longitude": -77.25249600000001
   },
   {
     "name": "Loudoun County Office of Housing",
@@ -2354,8 +2354,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.10890239803002,
-    "longitude": -77.58408467814218
+    "latitude": 39.112964,
+    "longitude": -77.567236
   },
   {
     "name": "Audrey Moore Rec Center",
@@ -2373,8 +2373,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.8361134530372,
-    "longitude": -77.19333983454861
+    "latitude": 38.831587999999996,
+    "longitude": -77.195212
   },
   {
     "name": "Cub Run Rec Center",
@@ -2392,8 +2392,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.90954518412687,
-    "longitude": -77.45079709180382
+    "latitude": 38.896484,
+    "longitude": -77.428916
   },
   {
     "name": "Franconia Rec Center",
@@ -2411,8 +2411,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.79792170840066,
-    "longitude": -77.04625281354593
+    "latitude": 38.805874,
+    "longitude": -77.04582599999999
   },
   {
     "name": "Lee District Community Center",
@@ -2430,8 +2430,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.82378030844808,
-    "longitude": -77.04184834965024
+    "latitude": 38.807134,
+    "longitude": -77.04456599999999
   },
   {
     "name": "Annandale Community Center",
@@ -2449,8 +2449,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.810693878332955,
-    "longitude": -77.19729700961017
+    "latitude": 38.829608,
+    "longitude": -77.197192
   },
   {
     "name": "Herndon Community Center",
@@ -2468,8 +2468,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.979323652705446,
-    "longitude": -77.37940115589033
+    "latitude": 38.97122,
+    "longitude": -77.38448
   },
   {
     "name": "Reston Community Center – Lake Anne",
@@ -2486,8 +2486,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.95397718874502,
-    "longitude": -77.35428351918665
+    "latitude": 38.971174000000005,
+    "longitude": -77.338526
   },
   {
     "name": "McLean Community Center",
@@ -2504,8 +2504,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.94790512606663,
-    "longitude": -77.19554367535795
+    "latitude": 38.936144,
+    "longitude": -77.175056
   },
   {
     "name": "Jefferson Community Center (Fairfax County NCS)",
@@ -2523,8 +2523,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.78119354238118,
-    "longitude": -77.19702041347729
+    "latitude": 38.788874,
+    "longitude": -77.18762600000001
   },
   {
     "name": "Lorton Community Center",
@@ -2542,8 +2542,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.686998514791995,
-    "longitude": -77.22445522101052
+    "latitude": 38.70754,
+    "longitude": -77.22426
   },
   {
     "name": "Chinn Aquatics & Fitness Center (Prince William)",
@@ -2561,8 +2561,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.85141448730663,
-    "longitude": -77.30073561048361
+    "latitude": 38.848828000000005,
+    "longitude": -77.303772
   },
   {
     "name": "Sharron Baucom Dale City Recreation Center",
@@ -2580,8 +2580,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.841972954857496,
-    "longitude": -77.32573403125137
+    "latitude": 38.843356,
+    "longitude": -77.30924399999999
   },
   {
     "name": "Ben Lomond Community Center",
@@ -2599,8 +2599,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.76725663762921,
-    "longitude": -77.48466045808762
+    "latitude": 38.753546,
+    "longitude": -77.472654
   },
   {
     "name": "Ashburn Recreation Center (Loudoun County)",
@@ -2618,8 +2618,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.05735512370308,
-    "longitude": -77.49333456847914
+    "latitude": 39.042324,
+    "longitude": -77.48887599999999
   },
   {
     "name": "Claude Moore Recreation Center (Loudoun County)",
@@ -2637,8 +2637,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.993273071627,
-    "longitude": -77.43946615418633
+    "latitude": 39.008564,
+    "longitude": -77.426236
   },
   {
     "name": "Dulles South Recreation Center (Loudoun County)",
@@ -2656,8 +2656,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.84022849821317,
-    "longitude": -77.31610149453107
+    "latitude": 38.846500000000006,
+    "longitude": -77.3061
   },
   {
     "name": "Arlington County Department of Parks and Recreation",
@@ -2675,8 +2675,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.893689800042935,
-    "longitude": -77.10558919200874
+    "latitude": 38.882974,
+    "longitude": -77.089626
   },
   {
     "name": "Arlington Community Center (Barcroft Sports & Fitness)",
@@ -2694,8 +2694,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.88314142570012,
-    "longitude": -77.10443732115837
+    "latitude": 38.88142,
+    "longitude": -77.09118
   },
   {
     "name": "Walter Reed Community Center (Arlington)",
@@ -2713,8 +2713,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.870147757070754,
-    "longitude": -77.08967287835493
+    "latitude": 38.882902,
+    "longitude": -77.089698
   },
   {
     "name": "Clarendon Community Center (Arlington)",
@@ -2732,8 +2732,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.862294445273506,
-    "longitude": -77.1048261953825
+    "latitude": 38.880106,
+    "longitude": -77.09249399999999
   },
   {
     "name": "Fairfax County Senior Center – Richmond Highway",
@@ -2751,8 +2751,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.80976123187612,
-    "longitude": -77.0303452899976
+    "latitude": 38.803126,
+    "longitude": -77.04857399999999
   },
   {
     "name": "Kingstowne Senior Center (Fairfax)",
@@ -2769,8 +2769,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.80068798592273,
-    "longitude": -77.17972977105106
+    "latitude": 38.789054,
+    "longitude": -77.18744600000001
   },
   {
     "name": "Reston Community Center – Terry L. Smith Aquatics Center",
@@ -2787,8 +2787,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.96018577049233,
-    "longitude": -77.32155839263173
+    "latitude": 38.969722000000004,
+    "longitude": -77.339978
   },
   {
     "name": "Ethiopian Community Center of Northern Virginia",
@@ -2807,8 +2807,8 @@
       "Tigrinya"
     ],
     "is_free_service": true,
-    "latitude": 38.86726468513509,
-    "longitude": -77.1027979196238
+    "latitude": 38.884288,
+    "longitude": -77.08831199999999
   },
   {
     "name": "Fairfax County Teen Center – Annandale",
@@ -2826,8 +2826,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.82946091887054,
-    "longitude": -77.18518239850907
+    "latitude": 38.832373999999994,
+    "longitude": -77.19442599999999
   },
   {
     "name": "Fairfax County Teen Center – Willston",
@@ -2845,8 +2845,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.888401212971544,
-    "longitude": -77.15330949379515
+    "latitude": 38.884964000000004,
+    "longitude": -77.168436
   },
   {
     "name": "Fairfax County Public Library – Chantilly Regional",
@@ -2863,8 +2863,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.90283468359047,
-    "longitude": -77.44512841386478
+    "latitude": 38.892050000000005,
+    "longitude": -77.43335
   },
   {
     "name": "Northern Virginia Family Service – Multicultural Services",
@@ -2885,8 +2885,8 @@
       "Arabic"
     ],
     "is_free_service": true,
-    "latitude": 38.74385085792037,
-    "longitude": -77.46913596979734
+    "latitude": 38.752304,
+    "longitude": -77.47389600000001
   },
   {
     "name": "Pathway Homes",
@@ -2904,8 +2904,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.854183728768994,
-    "longitude": -77.32074865384824
+    "latitude": 38.84590600000001,
+    "longitude": -77.306694
   },
   {
     "name": "Inova Primary Care – Williams Drive (Fairfax)",
@@ -2923,8 +2923,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.853082868916665,
-    "longitude": -77.3184180571974
+    "latitude": 38.846158,
+    "longitude": -77.30644199999999
   },
   {
     "name": "Willston Multicultural Center",
@@ -2945,8 +2945,8 @@
       "Arabic"
     ],
     "is_free_service": false,
-    "latitude": 38.86877979122363,
-    "longitude": -77.16046662736579
+    "latitude": 38.88197,
+    "longitude": -77.17143
   },
   {
     "name": "Braddock Road Community Center (Fairfax)",
@@ -2964,8 +2964,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.84551536955613,
-    "longitude": -77.28695658690837
+    "latitude": 38.845792,
+    "longitude": -77.30680799999999
   },
   {
     "name": "Prince William County Chinn Park Senior Center",
@@ -2982,8 +2982,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.66905128908255,
-    "longitude": -77.2441170636921
+    "latitude": 38.6606,
+    "longitude": -77.24730000000001
   },
   {
     "name": "Loudoun County Senior Center – Leesburg",
@@ -3000,8 +3000,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.113359597840144,
-    "longitude": -77.55890399912313
+    "latitude": 39.118441999999995,
+    "longitude": -77.561758
   },
   {
     "name": "Fairfax County Park Authority – Lake Fairfax Park",
@@ -3018,8 +3018,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.9510245541788,
-    "longitude": -77.34623523125161
+    "latitude": 38.968804,
+    "longitude": -77.340896
   },
   {
     "name": "Bull Run Regional Park (Prince William)",
@@ -3036,8 +3036,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.8556168354722,
-    "longitude": -77.44913332508628
+    "latitude": 38.843088,
+    "longitude": -77.42651199999999
   },
   {
     "name": "Ida Lee Park Recreation Center (Loudoun)",
@@ -3054,8 +3054,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.12051520447539,
-    "longitude": -77.55686844383719
+    "latitude": 39.11315,
+    "longitude": -77.56705
   },
   {
     "name": "Fairfax County Public Library – Patrick Henry Community",
@@ -3072,8 +3072,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.912679548951516,
-    "longitude": -77.24999685747528
+    "latitude": 38.902982,
+    "longitude": -77.26351799999999
   },
   {
     "name": "Virginia Cooperative Extension – Fairfax County",
@@ -3091,8 +3091,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.845447681268595,
-    "longitude": -77.32384914750475
+    "latitude": 38.843734000000005,
+    "longitude": -77.308866
   },
   {
     "name": "Prince William Public Libraries – Dumfries Library",
@@ -3110,8 +3110,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.850742364895915,
-    "longitude": -77.32058633147228
+    "latitude": 38.849188000000005,
+    "longitude": -77.303412
   },
   {
     "name": "Prince William Public Libraries – Westgate Library",
@@ -3129,8 +3129,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.84088535934157,
-    "longitude": -77.44488670396309
+    "latitude": 38.842308,
+    "longitude": -77.427292
   },
   {
     "name": "RAFT – Older Adult Mental Health (Northern Virginia)",
@@ -3147,8 +3147,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.822419206463195,
-    "longitude": -77.06606139636158
+    "latitude": 38.804254,
+    "longitude": -77.047446
   },
   {
     "name": "Inova Loudoun Hospital – Lansdowne Campus",
@@ -3166,8 +3166,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.09572774696242,
-    "longitude": -77.579556266285
+    "latitude": 39.116989999999994,
+    "longitude": -77.56321
   },
   {
     "name": "Manassas City Human Services",
@@ -3185,8 +3185,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.75430053815961,
-    "longitude": -77.46045744051672
+    "latitude": 38.749202000000004,
+    "longitude": -77.47699800000001
   },
   {
     "name": "Virginia Employment Commission – Manassas Local Office",
@@ -3204,8 +3204,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.76445190093674,
-    "longitude": -77.48441440704138
+    "latitude": 38.753042,
+    "longitude": -77.473158
   },
   {
     "name": "Virginia Employment Commission – Fairfax Local Office",
@@ -3223,8 +3223,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.823039991211864,
-    "longitude": -77.06670676322867
+    "latitude": 38.804128,
+    "longitude": -77.04757199999999
   },
   {
     "name": "Loudoun County Department of Mental Health",
@@ -3242,8 +3242,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.11789218007341,
-    "longitude": -77.58113042257222
+    "latitude": 39.115724,
+    "longitude": -77.564476
   },
   {
     "name": "Loudoun Interfaith Relief",
@@ -3261,8 +3261,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.03351430133539,
-    "longitude": -77.4766418483015
+    "latitude": 39.042725999999995,
+    "longitude": -77.488474
   },
   {
     "name": "LAWS – Domestic Violence & Sexual Assault Services (Loudoun)",
@@ -3280,8 +3280,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.11464139535318,
-    "longitude": -77.56462628192409
+    "latitude": 39.118466,
+    "longitude": -77.561734
   },
   {
     "name": "Fairfax County Library – Dolley Madison Community Branch",
@@ -3298,8 +3298,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.94656455097161,
-    "longitude": -77.18628054166271
+    "latitude": 38.932394,
+    "longitude": -77.17880600000001
   },
   {
     "name": "Fairfax County Library – Great Falls Community Branch",
@@ -3316,8 +3316,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.83342469675758,
-    "longitude": -77.30216715969148
+    "latitude": 38.847394,
+    "longitude": -77.305206
   },
   {
     "name": "Fairfax County Library – John Marshall Community Branch",
@@ -3334,8 +3334,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.82368040211038,
-    "longitude": -77.02840462825576
+    "latitude": 38.804632,
+    "longitude": -77.047068
   },
   {
     "name": "Fairfax County Library – Kings Park Community Branch",
@@ -3352,8 +3352,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.80917904522005,
-    "longitude": -77.1761080104306
+    "latitude": 38.786558,
+    "longitude": -77.189942
   },
   {
     "name": "Fairfax County Library – Richard Byrd Community Branch",
@@ -3370,8 +3370,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.779190980842294,
-    "longitude": -77.18814355344263
+    "latitude": 38.786533999999996,
+    "longitude": -77.189966
   },
   {
     "name": "Fairfax County Library – Thomas Jefferson Community Branch",
@@ -3389,8 +3389,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.88409497625269,
-    "longitude": -77.17386364034314
+    "latitude": 38.883794,
+    "longitude": -77.169606
   },
   {
     "name": "Loudoun County Library – Lovettsville Branch",
@@ -3407,8 +3407,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.839518260611285,
-    "longitude": -77.31059073882969
+    "latitude": 38.845960000000005,
+    "longitude": -77.30664
   },
   {
     "name": "Loudoun County Library – Middleburg Branch",
@@ -3425,8 +3425,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.833907042717556,
-    "longitude": -77.30841262877551
+    "latitude": 38.847832000000004,
+    "longitude": -77.304768
   },
   {
     "name": "Virginia DMV – Loudoun Customer Service Center",
@@ -3444,8 +3444,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.11856424070781,
-    "longitude": -77.54799129183348
+    "latitude": 39.11336,
+    "longitude": -77.56684
   },
   {
     "name": "Cornerstones – Embry Rucker Community Shelter",
@@ -3463,8 +3463,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.95703671467254,
-    "longitude": -77.3341760124319
+    "latitude": 38.97148,
+    "longitude": -77.33821999999999
   },
   {
     "name": "Prince William County Parks – Locust Shade Park",
@@ -3481,8 +3481,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.8534871504548,
-    "longitude": -77.30648781199321
+    "latitude": 38.844304,
+    "longitude": -77.308296
   },
   {
     "name": "Arlington County Shirlington Branch – Job Center",
@@ -3500,8 +3500,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.87715559967392,
-    "longitude": -77.09922604492975
+    "latitude": 38.883784,
+    "longitude": -77.088816
   },
   {
     "name": "Fairfax County Library – Burke Centre Community Branch",
@@ -3518,8 +3518,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.802364943216816,
-    "longitude": -77.27026294223134
+    "latitude": 38.801742,
+    "longitude": -77.26885800000001
   },
   {
     "name": "Northern Virginia Urban League",
@@ -3536,8 +3536,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.8643740702796,
-    "longitude": -77.15569584043601
+    "latitude": 38.883296,
+    "longitude": -77.170104
   },
   {
     "name": "Cornerstones – Youth Employment",
@@ -3555,8 +3555,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.97130723101712,
-    "longitude": -77.32337794880641
+    "latitude": 38.969296,
+    "longitude": -77.34040399999999
   },
   {
     "name": "Coordinated Services Planning – Loudoun County",
@@ -3574,8 +3574,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.13104538034449,
-    "longitude": -77.54846759529093
+    "latitude": 39.113119999999995,
+    "longitude": -77.56707999999999
   },
   {
     "name": "Prince William County Coordinated Entry System (CES)",
@@ -3593,8 +3593,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.67428622972599,
-    "longitude": -77.2675732201838
+    "latitude": 38.658326,
+    "longitude": -77.24957400000001
   },
   {
     "name": "Haymarket Regional Food Pantry",
@@ -3612,8 +3612,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.8390125368326,
-    "longitude": -77.32172406206347
+    "latitude": 38.848624,
+    "longitude": -77.30397599999999
   },
   {
     "name": "Manassas Volunteer Fire Company Food Pantry",
@@ -3631,8 +3631,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.76244220354187,
-    "longitude": -77.49391124104234
+    "latitude": 38.750636,
+    "longitude": -77.475564
   },
   {
     "name": "Amistad de Cristo – Food and Clothing Pantry",
@@ -3650,8 +3650,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.896912696708135,
-    "longitude": -77.07779980166465
+    "latitude": 38.882686,
+    "longitude": -77.089914
   },
   {
     "name": "Mount Olivet United Methodist Church Food Pantry",
@@ -3668,8 +3668,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.88835252253744,
-    "longitude": -77.10821367153154
+    "latitude": 38.883922,
+    "longitude": -77.08867799999999
   },
   {
     "name": "Meals on Wheels of Northern Virginia",
@@ -3686,8 +3686,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.86797251172525,
-    "longitude": -77.09325411279946
+    "latitude": 38.879974,
+    "longitude": -77.092626
   },
   {
     "name": "Pathway Homes Emergency Food Assistance (Fairfax)",
@@ -3705,8 +3705,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.855917626113786,
-    "longitude": -77.30543513294533
+    "latitude": 38.843548000000006,
+    "longitude": -77.309052
   },
   {
     "name": "Cornerstones FREE from Hunger Center",
@@ -3724,8 +3724,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.9794073138672,
-    "longitude": -77.35374255322398
+    "latitude": 38.969392,
+    "longitude": -77.340308
   },
   {
     "name": "Loudoun Hunger Relief – Leesburg Distribution",
@@ -3743,8 +3743,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.106274425041086,
-    "longitude": -77.55417006358027
+    "latitude": 39.118454,
+    "longitude": -77.561746
   },
   {
     "name": "StreetLight Community Outreach Ministries (Woodbridge)",
@@ -3762,8 +3762,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.67238806246455,
-    "longitude": -77.24496168572699
+    "latitude": 38.656454000000004,
+    "longitude": -77.251446
   },
   {
     "name": "Volunteer Fairfax – Community Assistance Network",
@@ -3781,8 +3781,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.85266280731558,
-    "longitude": -77.31968220788494
+    "latitude": 38.843872000000005,
+    "longitude": -77.308728
   },
   {
     "name": "Northern Virginia Family Service – Emergency Financial Assistance",
@@ -3800,8 +3800,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.8889578157478,
-    "longitude": -77.15865390972323
+    "latitude": 38.879558,
+    "longitude": -77.173842
   },
   {
     "name": "Tree of Life Center – Purcellville Food Pantry",
@@ -3819,8 +3819,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.85240154743165,
-    "longitude": -77.29765405848154
+    "latitude": 38.848864000000006,
+    "longitude": -77.303736
   },
   {
     "name": "Dulles South Clothes Closet",
@@ -3838,8 +3838,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.84010113489225,
-    "longitude": -77.29834358176544
+    "latitude": 38.843284000000004,
+    "longitude": -77.309316
   },
   {
     "name": "Restoration Faith Community – Food Pantry (Woodbridge)",
@@ -3857,8 +3857,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.65221783799393,
-    "longitude": -77.26646703455786
+    "latitude": 38.661092000000004,
+    "longitude": -77.246808
   },
   {
     "name": "New Hope Housing (Falls Church area)",
@@ -3876,8 +3876,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.875362553976174,
-    "longitude": -77.1537752678717
+    "latitude": 38.880854,
+    "longitude": -77.172546
   },
   {
     "name": "Carpenter's Shelter (Alexandria-adjacent Fairfax)",
@@ -3895,8 +3895,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.80818354186844,
-    "longitude": -77.04844486154471
+    "latitude": 38.801806,
+    "longitude": -77.049894
   },
   {
     "name": "Good Shepherd Alliance – Leesburg Drop-In Center",
@@ -3914,8 +3914,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.05223369644621,
-    "longitude": -77.47293238333297
+    "latitude": 39.042324,
+    "longitude": -77.48887599999999
   },
   {
     "name": "Northern Virginia Regional Commission 211",
@@ -3935,8 +3935,8 @@
       "Korean"
     ],
     "is_free_service": true,
-    "latitude": 38.86489372186816,
-    "longitude": -77.31108000275606
+    "latitude": 38.843608,
+    "longitude": -77.308992
   },
   {
     "name": "ECHO Thrift Store and Clothing Bank (Springfield)",
@@ -3954,8 +3954,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.777077379237355,
-    "longitude": -77.1904849062758
+    "latitude": 38.791916,
+    "longitude": -77.184584
   },
   {
     "name": "Interfaith Works – Clothing Center (Annandale)",
@@ -3973,8 +3973,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.843510883400405,
-    "longitude": -77.19165955603893
+    "latitude": 38.828162,
+    "longitude": -77.198638
   },
   {
     "name": "Fairfax County Government Center – Main Campus",
@@ -3992,8 +3992,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.849914150683595,
-    "longitude": -77.29790531888369
+    "latitude": 38.846992,
+    "longitude": -77.30560799999999
   },
   {
     "name": "Fairfax Circuit Court Self-Help Center",
@@ -4010,8 +4010,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.85340493583973,
-    "longitude": -77.29092498921575
+    "latitude": 38.84794,
+    "longitude": -77.30466
   },
   {
     "name": "Arlington County Court Self-Help Center",
@@ -4029,8 +4029,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.87907541015511,
-    "longitude": -77.10882667873038
+    "latitude": 38.8822,
+    "longitude": -77.09039999999999
   },
   {
     "name": "Prince William County Government Center",
@@ -4048,8 +4048,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.64133825827405,
-    "longitude": -77.24653788989193
+    "latitude": 38.658476,
+    "longitude": -77.249424
   },
   {
     "name": "Loudoun County Government Center",
@@ -4067,8 +4067,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.10170134682388,
-    "longitude": -77.56746565116724
+    "latitude": 39.114284,
+    "longitude": -77.565916
   },
   {
     "name": "Virginia DMV – Fairfax Braddock Road Customer Service Center",
@@ -4086,8 +4086,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.78635451421854,
-    "longitude": -77.04107442914568
+    "latitude": 38.803222,
+    "longitude": -77.04847799999999
   },
   {
     "name": "Legal Aid Justice Center – Falls Church",
@@ -4105,8 +4105,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.86232120816328,
-    "longitude": -77.15148836313573
+    "latitude": 38.882444,
+    "longitude": -77.17095599999999
   },
   {
     "name": "NOVA Immigration Legal Services (NVFS)",
@@ -4125,8 +4125,8 @@
       "Arabic"
     ],
     "is_free_service": false,
-    "latitude": 38.757299442354864,
-    "longitude": -77.47531642624715
+    "latitude": 38.749376,
+    "longitude": -77.47682400000001
   },
   {
     "name": "Catholic Charities – Immigration Legal Services",
@@ -4145,8 +4145,8 @@
       "Amharic"
     ],
     "is_free_service": false,
-    "latitude": 38.888431285891365,
-    "longitude": -77.10440473178012
+    "latitude": 38.881498,
+    "longitude": -77.09110199999999
   },
   {
     "name": "Fairfax County Office of Human Rights",
@@ -4164,8 +4164,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.856385695900414,
-    "longitude": -77.3051211161262
+    "latitude": 38.847052000000005,
+    "longitude": -77.305548
   },
   {
     "name": "Arlington County Police – Victim Assistance Unit",
@@ -4183,8 +4183,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.8967502211748,
-    "longitude": -77.09010481487606
+    "latitude": 38.881485999999995,
+    "longitude": -77.09111399999999
   },
   {
     "name": "Prince William County Social Services – Manassas Office",
@@ -4202,8 +4202,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.762404720094224,
-    "longitude": -77.47735422284536
+    "latitude": 38.747936,
+    "longitude": -77.47826400000001
   },
   {
     "name": "Loudoun County LINK (Social Services Connection)",
@@ -4221,8 +4221,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.11037905473964,
-    "longitude": -77.58118116938162
+    "latitude": 39.115567999999996,
+    "longitude": -77.56463199999999
   },
   {
     "name": "Fairfax County Domestic Violence Action Center",
@@ -4240,8 +4240,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.84412180647117,
-    "longitude": -77.3067594345927
+    "latitude": 38.846524,
+    "longitude": -77.30607599999999
   },
   {
     "name": "Virginia Poverty Law Center – Northern Virginia Outreach",
@@ -4259,8 +4259,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.835435052777804,
-    "longitude": -77.29566398033415
+    "latitude": 38.843590000000006,
+    "longitude": -77.30901
   },
   {
     "name": "Fairfax County Public Housing Office",
@@ -4278,8 +4278,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.85960662558347,
-    "longitude": -77.28950128693714
+    "latitude": 38.84458600000001,
+    "longitude": -77.308014
   },
   {
     "name": "Virginia Employment Commission – Arlington Office",
@@ -4297,8 +4297,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.890502566452916,
-    "longitude": -77.09148640653054
+    "latitude": 38.879205999999996,
+    "longitude": -77.09339399999999
   },
   {
     "name": "Fairfax County Office of Emergency Management",
@@ -4316,8 +4316,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.82621875765653,
-    "longitude": -77.2938806133493
+    "latitude": 38.848510000000005,
+    "longitude": -77.30409
   },
   {
     "name": "Loudoun County Office of Mapping and GIS",
@@ -4334,8 +4334,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.10147955702291,
-    "longitude": -77.54453469446399
+    "latitude": 39.113786,
+    "longitude": -77.566414
   },
   {
     "name": "Prince William County Office of Veteran Services",
@@ -4353,8 +4353,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.646035425904486,
-    "longitude": -77.2611041758537
+    "latitude": 38.656148,
+    "longitude": -77.25175200000001
   },
   {
     "name": "Fairfax County Veteran Services",
@@ -4371,8 +4371,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.84843952553147,
-    "longitude": -77.30227263041668
+    "latitude": 38.84599,
+    "longitude": -77.30660999999999
   },
   {
     "name": "Arlington County Office of Aging and Disability",
@@ -4390,8 +4390,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.89456216381323,
-    "longitude": -77.08295734508522
+    "latitude": 38.88217,
+    "longitude": -77.09043
   },
   {
     "name": "George Mason University – Recreation and Athletic Complex",
@@ -4408,8 +4408,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.83478890696342,
-    "longitude": -77.28656468771824
+    "latitude": 38.843602000000004,
+    "longitude": -77.308998
   },
   {
     "name": "Potomac Mills Community Center (Prince William)",
@@ -4427,8 +4427,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.67003253771976,
-    "longitude": -77.24758158072578
+    "latitude": 38.657378,
+    "longitude": -77.250522
   },
   {
     "name": "Hunters Woods Neighborhood Center (Reston)",
@@ -4445,8 +4445,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.95723901826544,
-    "longitude": -77.35463965007496
+    "latitude": 38.967604,
+    "longitude": -77.342096
   },
   {
     "name": "Fairfax County Park Authority – Frying Pan Farm Park",
@@ -4463,8 +4463,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.95685986570848,
-    "longitude": -77.37659970753698
+    "latitude": 38.967026,
+    "longitude": -77.388674
   },
   {
     "name": "Huntley Meadows Park (Fairfax)",
@@ -4481,8 +4481,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.82171348788362,
-    "longitude": -77.03199531707374
+    "latitude": 38.80681,
+    "longitude": -77.04489
   },
   {
     "name": "W&OD Regional Trail",
@@ -4499,8 +4499,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.025442461901044,
-    "longitude": -77.482667909548
+    "latitude": 39.045455999999994,
+    "longitude": -77.485744
   },
   {
     "name": "Leesburg Corner Premium Outlets Community Room",
@@ -4517,8 +4517,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.11157996932532,
-    "longitude": -77.5697857415795
+    "latitude": 39.116246,
+    "longitude": -77.563954
   },
   {
     "name": "Fairfax County Senior Center – South County",
@@ -4536,8 +4536,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.81559113480826,
-    "longitude": -77.03073639104126
+    "latitude": 38.806222,
+    "longitude": -77.04547799999999
   },
   {
     "name": "Northern Virginia Regional Park Authority – Meadowlark Botanical Gardens",
@@ -4554,8 +4554,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.899210713181475,
-    "longitude": -77.2564831799828
+    "latitude": 38.903690000000005,
+    "longitude": -77.26281
   },
   {
     "name": "Ellanor C. Lawrence Park (Fairfax County)",
@@ -4572,8 +4572,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.89837451780938,
-    "longitude": -77.43871017119122
+    "latitude": 38.895512000000004,
+    "longitude": -77.429888
   },
   {
     "name": "Loudoun County Senior Center – Ashburn",
@@ -4590,8 +4590,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.05462607299219,
-    "longitude": -77.4765344294039
+    "latitude": 39.04596,
+    "longitude": -77.48523999999999
   },
   {
     "name": "Arlington Boys and Girls Club",
@@ -4609,8 +4609,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.87048126477747,
-    "longitude": -77.0788495350365
+    "latitude": 38.884432,
+    "longitude": -77.088168
   },
   {
     "name": "Fairfax County Senior Center – Lewinsville",
@@ -4627,8 +4627,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.946497132428426,
-    "longitude": -77.18210730301877
+    "latitude": 38.932748000000004,
+    "longitude": -77.17845200000001
   },
   {
     "name": "Jirani Connections (Multicultural Community Hub – Arlington)",
@@ -4648,8 +4648,8 @@
       "French"
     ],
     "is_free_service": true,
-    "latitude": 38.88305977126343,
-    "longitude": -77.10457614633738
+    "latitude": 38.88088,
+    "longitude": -77.09172
   },
   {
     "name": "Neon District Arts Center (Prince William)",
@@ -4667,8 +4667,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.73695225814443,
-    "longitude": -77.4637356128119
+    "latitude": 38.750282,
+    "longitude": -77.47591800000001
   },
   {
     "name": "Virginia Hospital Center – Urgent Care",
@@ -4686,8 +4686,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.884871820402,
-    "longitude": -77.10991783073321
+    "latitude": 38.8801,
+    "longitude": -77.09249999999999
   },
   {
     "name": "Mary's Center (Northern Virginia Location)",
@@ -4706,8 +4706,8 @@
       "Amharic"
     ],
     "is_free_service": false,
-    "latitude": 38.862437590126,
-    "longitude": -77.30418027804204
+    "latitude": 38.844184000000006,
+    "longitude": -77.308416
   },
   {
     "name": "Joseph's House (Arlington – HIV/AIDS Services)",
@@ -4725,8 +4725,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.83627937508383,
-    "longitude": -77.31271843758329
+    "latitude": 38.843584,
+    "longitude": -77.309016
   },
   {
     "name": "Community Health Center of Loudoun",
@@ -4744,8 +4744,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.127314975283745,
-    "longitude": -77.57951457925519
+    "latitude": 39.11503999999999,
+    "longitude": -77.56515999999999
   },
   {
     "name": "Reston Hospital Center Urgent Care",
@@ -4763,8 +4763,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.979540399537306,
-    "longitude": -77.352073559019
+    "latitude": 38.966416,
+    "longitude": -77.343284
   },
   {
     "name": "Crossroads Free Clinic (Prince William)",
@@ -4782,8 +4782,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.745016895899155,
-    "longitude": -77.45794258599756
+    "latitude": 38.75201,
+    "longitude": -77.47419000000001
   },
   {
     "name": "Greater Prince William Community Health Center",
@@ -4801,8 +4801,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.75740784546345,
-    "longitude": -77.48960810267356
+    "latitude": 38.750558,
+    "longitude": -77.47564200000001
   },
   {
     "name": "Patient First – Woodbridge",
@@ -4820,8 +4820,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.64027512618132,
-    "longitude": -77.26289129938776
+    "latitude": 38.659676,
+    "longitude": -77.24822400000001
   },
   {
     "name": "Patient First – Herndon",
@@ -4839,8 +4839,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.97696824769503,
-    "longitude": -77.40397589294581
+    "latitude": 38.971556,
+    "longitude": -77.38414399999999
   },
   {
     "name": "Patient First – Manassas",
@@ -4858,8 +4858,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.74746085789668,
-    "longitude": -77.47534417340445
+    "latitude": 38.74955,
+    "longitude": -77.47665
   },
   {
     "name": "CareNow Urgent Care – Ashburn",
@@ -4877,8 +4877,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.03895699608803,
-    "longitude": -77.47167013408179
+    "latitude": 39.045708,
+    "longitude": -77.485492
   },
   {
     "name": "Concentra Urgent Care – Fairfax",
@@ -4896,8 +4896,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.83570162279229,
-    "longitude": -77.29091504119684
+    "latitude": 38.849032,
+    "longitude": -77.303568
   },
   {
     "name": "Concentra Urgent Care – Sterling",
@@ -4915,8 +4915,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.01377410257451,
-    "longitude": -77.42153789866721
+    "latitude": 39.005462,
+    "longitude": -77.429338
   },
   {
     "name": "Novant Health Urgent Care – Gainesville",
@@ -4934,8 +4934,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.85570191321812,
-    "longitude": -77.32571042631007
+    "latitude": 38.845708,
+    "longitude": -77.30689199999999
   },
   {
     "name": "Inova Alexandria Hospital",
@@ -4954,8 +4954,8 @@
       "Amharic"
     ],
     "is_free_service": false,
-    "latitude": 38.82263472676777,
-    "longitude": -77.02917551446978
+    "latitude": 38.80183,
+    "longitude": -77.04987
   },
   {
     "name": "Kaiser Permanente – Falls Church Medical Center",
@@ -4973,8 +4973,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.866247511204186,
-    "longitude": -77.17817399497581
+    "latitude": 38.879954,
+    "longitude": -77.173446
   },
   {
     "name": "Kaiser Permanente – Reston Medical Center",
@@ -4992,8 +4992,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.960199245104484,
-    "longitude": -77.32482869043326
+    "latitude": 38.96578,
+    "longitude": -77.34392
   },
   {
     "name": "Kaiser Permanente – Manassas Medical Center",
@@ -5011,8 +5011,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.753418764473516,
-    "longitude": -77.47212645834139
+    "latitude": 38.74931,
+    "longitude": -77.47689
   },
   {
     "name": "Arlington Free Clinic",
@@ -5031,8 +5031,8 @@
       "Amharic"
     ],
     "is_free_service": true,
-    "latitude": 38.89758692361278,
-    "longitude": -77.10472025321819
+    "latitude": 38.881228,
+    "longitude": -77.09137199999999
   },
   {
     "name": "Loudoun County Free Clinic",
@@ -5050,8 +5050,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.12036392196202,
-    "longitude": -77.56092218524499
+    "latitude": 39.11588,
+    "longitude": -77.56432
   },
   {
     "name": "Crossroads Free Clinic – Manassas",
@@ -5069,8 +5069,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.75189606777332,
-    "longitude": -77.4660872168292
+    "latitude": 38.751752,
+    "longitude": -77.47444800000001
   },
   {
     "name": "Northern Virginia Dental Clinic",
@@ -5088,8 +5088,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.86869095821062,
-    "longitude": -77.17292448435093
+    "latitude": 38.883812,
+    "longitude": -77.16958799999999
   },
   {
     "name": "Planned Parenthood – Springfield Health Center",
@@ -5107,8 +5107,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.770393632472604,
-    "longitude": -77.19812676504074
+    "latitude": 38.791957999999994,
+    "longitude": -77.18454200000001
   },
   {
     "name": "Pathway Homes – Fairfax",
@@ -5126,8 +5126,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.83214013264244,
-    "longitude": -77.29167320976677
+    "latitude": 38.849098000000005,
+    "longitude": -77.303502
   },
   {
     "name": "HopeLink Behavioral Health – Annandale",
@@ -5145,8 +5145,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.84754969675103,
-    "longitude": -77.17857226621501
+    "latitude": 38.83181,
+    "longitude": -77.19498999999999
   },
   {
     "name": "Second Story (Alternative House) – Youth Crisis",
@@ -5164,8 +5164,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.898517759712426,
-    "longitude": -77.26207011474224
+    "latitude": 38.901956000000006,
+    "longitude": -77.264544
   },
   {
     "name": "The Women's Center – Vienna",
@@ -5183,8 +5183,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.89483771284398,
-    "longitude": -77.24847530556944
+    "latitude": 38.898782000000004,
+    "longitude": -77.267718
   },
   {
     "name": "Aspire Counseling Services – Falls Church",
@@ -5202,8 +5202,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.867526777150985,
-    "longitude": -77.16005285583233
+    "latitude": 38.879918,
+    "longitude": -77.17348199999999
   },
   {
     "name": "Loudoun County Community Services Board – Outpatient",
@@ -5221,8 +5221,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.12184138246618,
-    "longitude": -77.58351930615805
+    "latitude": 39.11801,
+    "longitude": -77.56219
   },
   {
     "name": "Neighborhood Health (Arlington) – Columbia Pike",
@@ -5242,8 +5242,8 @@
       "Arabic"
     ],
     "is_free_service": true,
-    "latitude": 38.88282939658981,
-    "longitude": -77.0811506889133
+    "latitude": 38.884257999999996,
+    "longitude": -77.088342
   },
   {
     "name": "Dominion Hospital – Inpatient Psychiatry",
@@ -5261,8 +5261,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.86560522145963,
-    "longitude": -77.15690508021703
+    "latitude": 38.884592,
+    "longitude": -77.168808
   },
   {
     "name": "Fairfax County CSB – Crisis Intervention",
@@ -5280,8 +5280,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.853592780197516,
-    "longitude": -77.3050235952884
+    "latitude": 38.846548000000006,
+    "longitude": -77.306052
   },
   {
     "name": "Prince William Community Services – Crisis Line",
@@ -5299,8 +5299,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.74485617244406,
-    "longitude": -77.46076485400579
+    "latitude": 38.7506,
+    "longitude": -77.4756
   },
   {
     "name": "Haymarket Medical Center – Novant Health",
@@ -5318,8 +5318,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.833189033984524,
-    "longitude": -77.28994319526012
+    "latitude": 38.846662,
+    "longitude": -77.305938
   },
   {
     "name": "Virginia Hospital Center – Arlington",
@@ -5338,8 +5338,8 @@
       "Vietnamese"
     ],
     "is_free_service": false,
-    "latitude": 38.88652139508186,
-    "longitude": -77.10534136237754
+    "latitude": 38.882896,
+    "longitude": -77.089704
   },
   {
     "name": "Cornerstones Health Navigation",
@@ -5357,8 +5357,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.95608438635245,
-    "longitude": -77.33966354469665
+    "latitude": 38.968672000000005,
+    "longitude": -77.341028
   },
   {
     "name": "Inova Primary Care – Falls Church",
@@ -5376,8 +5376,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.885605283560196,
-    "longitude": -77.19033796130412
+    "latitude": 38.88176,
+    "longitude": -77.17164
   },
   {
     "name": "Inova Behavioral Health – Psychiatric Assessment Center",
@@ -5395,8 +5395,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.86408032686259,
-    "longitude": -77.16475701840984
+    "latitude": 38.882192,
+    "longitude": -77.171208
   },
   {
     "name": "Loudoun County Health Department – Leesburg Office",
@@ -5414,8 +5414,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.13072181179584,
-    "longitude": -77.56282061883027
+    "latitude": 39.11564,
+    "longitude": -77.56456
   },
   {
     "name": "Prince William County Health Department – Manassas",
@@ -5433,8 +5433,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.76237501773989,
-    "longitude": -77.4874807649402
+    "latitude": 38.75,
+    "longitude": -77.4762
   },
   {
     "name": "Arlington County Department of Human Services – Mental Health",
@@ -5453,8 +5453,8 @@
       "Amharic"
     ],
     "is_free_service": false,
-    "latitude": 38.890183132281585,
-    "longitude": -77.09142742741014
+    "latitude": 38.88025,
+    "longitude": -77.09235
   },
   {
     "name": "Mary's Center – Northern Virginia Outreach",
@@ -5473,8 +5473,8 @@
       "Amharic"
     ],
     "is_free_service": false,
-    "latitude": 38.82622350233267,
-    "longitude": -77.30078573558646
+    "latitude": 38.844592000000006,
+    "longitude": -77.308008
   },
   {
     "name": "Northern Virginia Family Service – Behavioral Health",
@@ -5494,8 +5494,8 @@
       "Korean"
     ],
     "is_free_service": false,
-    "latitude": 38.89367649735494,
-    "longitude": -77.19003088612773
+    "latitude": 38.883116,
+    "longitude": -77.170284
   },
   {
     "name": "Catholic Charities – Mental Health Counseling Arlington",
@@ -5513,8 +5513,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.899106843769495,
-    "longitude": -77.105996658138
+    "latitude": 38.884306,
+    "longitude": -77.08829399999999
   },
   {
     "name": "Grafton Integrated Health Network – Manassas",
@@ -5531,8 +5531,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.76704645584199,
-    "longitude": -77.46235843885428
+    "latitude": 38.75072,
+    "longitude": -77.47548
   },
   {
     "name": "Child Development Center of Northern Virginia",
@@ -5550,8 +5550,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.89122150663987,
-    "longitude": -77.18176947787093
+    "latitude": 38.88125,
+    "longitude": -77.17215
   },
   {
     "name": "Smithsonian Udvar-Hazy Center",
@@ -5569,8 +5569,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.878858923831416,
-    "longitude": -77.43918232108368
+    "latitude": 38.89148,
+    "longitude": -77.43392
   },
   {
     "name": "Children's Science Center Lab – Fair Oaks",
@@ -5587,8 +5587,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.842668649954675,
-    "longitude": -77.30005758631926
+    "latitude": 38.84557,
+    "longitude": -77.30703
   },
   {
     "name": "Wolf Trap National Park for the Performing Arts",
@@ -5605,8 +5605,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.908937853237525,
-    "longitude": -77.26543512897885
+    "latitude": 38.901902,
+    "longitude": -77.26459799999999
   },
   {
     "name": "Workhouse Arts Center – Lorton",
@@ -5623,8 +5623,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.711342131216526,
-    "longitude": -77.21512331648417
+    "latitude": 38.706508,
+    "longitude": -77.225292
   },
   {
     "name": "Northern Virginia Community College – Alexandria Campus",
@@ -5642,8 +5642,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.818721631564536,
-    "longitude": -77.0382355749263
+    "latitude": 38.806642000000004,
+    "longitude": -77.045058
   },
   {
     "name": "George Mason University – Fairfax Campus",
@@ -5660,8 +5660,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.82682454904587,
-    "longitude": -77.28699356077114
+    "latitude": 38.843668,
+    "longitude": -77.308932
   },
   {
     "name": "Marymount University – Arlington",
@@ -5678,8 +5678,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.867746830778614,
-    "longitude": -77.10164469872547
+    "latitude": 38.881744,
+    "longitude": -77.09085599999999
   },
   {
     "name": "Virginia International University – Fairfax",
@@ -5699,8 +5699,8 @@
       "Mandarin"
     ],
     "is_free_service": false,
-    "latitude": 38.841744016360224,
-    "longitude": -77.30028197899773
+    "latitude": 38.847586,
+    "longitude": -77.305014
   },
   {
     "name": "Sylvan Learning Center – Fairfax",
@@ -5717,8 +5717,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.97688269692827,
-    "longitude": -77.35667693931426
+    "latitude": 38.971522,
+    "longitude": -77.338178
   },
   {
     "name": "Huntington Learning Center – Sterling",
@@ -5735,8 +5735,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.0035078574154,
-    "longitude": -77.43638775102202
+    "latitude": 39.003998,
+    "longitude": -77.430802
   },
   {
     "name": "Kumon Math & Reading – Centreville",
@@ -5753,8 +5753,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.86003128978956,
-    "longitude": -77.41929159064132
+    "latitude": 38.838426000000005,
+    "longitude": -77.431174
   },
   {
     "name": "Kumon Math & Reading – Ashburn",
@@ -5771,8 +5771,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.02382241736151,
-    "longitude": -77.46748956312898
+    "latitude": 39.04497,
+    "longitude": -77.48622999999999
   },
   {
     "name": "Mathnasium of Reston",
@@ -5789,8 +5789,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.95420872012144,
-    "longitude": -77.35476421721839
+    "latitude": 38.970718000000005,
+    "longitude": -77.338982
   },
   {
     "name": "Brain Balance Achievement Centers – Ashburn",
@@ -5807,8 +5807,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.06076309998584,
-    "longitude": -77.47751532076869
+    "latitude": 39.04398,
+    "longitude": -77.48722
   },
   {
     "name": "Fairfax County Adult & Community Education",
@@ -5826,8 +5826,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.78017636035464,
-    "longitude": -77.18419683945854
+    "latitude": 38.787907999999995,
+    "longitude": -77.188592
   },
   {
     "name": "Loudoun County Adult Education – Leesburg",
@@ -5845,8 +5845,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.116200227614556,
-    "longitude": -77.56378721151283
+    "latitude": 39.114583999999994,
+    "longitude": -77.56561599999999
   },
   {
     "name": "Prince William County Adult Education – Gateway",
@@ -5864,8 +5864,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.67388177170828,
-    "longitude": -77.24200849828723
+    "latitude": 38.655824,
+    "longitude": -77.252076
   },
   {
     "name": "NVCC – Loudoun Campus (Sterling)",
@@ -5883,8 +5883,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.99188286629817,
-    "longitude": -77.43255316146632
+    "latitude": 39.00551,
+    "longitude": -77.42929000000001
   },
   {
     "name": "NVCC – Manassas Campus",
@@ -5902,8 +5902,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.73486572760399,
-    "longitude": -77.47279834090814
+    "latitude": 38.749394,
+    "longitude": -77.47680600000001
   },
   {
     "name": "NVCC – Woodbridge Campus",
@@ -5921,8 +5921,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.657544672908614,
-    "longitude": -77.26946859132354
+    "latitude": 38.660108,
+    "longitude": -77.247792
   },
   {
     "name": "Prince William Public Libraries – Central Library (Manassas)",
@@ -5940,8 +5940,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.75798301469463,
-    "longitude": -77.46149185707641
+    "latitude": 38.752928000000004,
+    "longitude": -77.47327200000001
   },
   {
     "name": "Hispanic Committee of Virginia – Education Services",
@@ -5959,8 +5959,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.63973077357971,
-    "longitude": -77.25161172774293
+    "latitude": 38.656466,
+    "longitude": -77.251434
   },
   {
     "name": "NOVA Wild Educational Programs",
@@ -5977,8 +5977,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.90394564705073,
-    "longitude": -77.25441629602385
+    "latitude": 38.901458000000005,
+    "longitude": -77.265042
   },
   {
     "name": "Reston Montessori School",
@@ -5995,8 +5995,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.96707702567388,
-    "longitude": -77.32857090153797
+    "latitude": 38.968186,
+    "longitude": -77.341514
   },
   {
     "name": "Fairfax County Public Schools – Parent Resource Center",
@@ -6016,8 +6016,8 @@
       "Korean"
     ],
     "is_free_service": true,
-    "latitude": 38.86076436386983,
-    "longitude": -77.31667582550145
+    "latitude": 38.845282000000005,
+    "longitude": -77.307318
   },
   {
     "name": "Fairfax County Library – Dolley Madison Branch",
@@ -6034,8 +6034,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.93541085575353,
-    "longitude": -77.15843133282712
+    "latitude": 38.932196000000005,
+    "longitude": -77.179004
   },
   {
     "name": "Fairfax County Library – Great Falls Branch",
@@ -6052,8 +6052,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.86461815241682,
-    "longitude": -77.31700373214997
+    "latitude": 38.843464000000004,
+    "longitude": -77.309136
   },
   {
     "name": "Fairfax County Library – Culmore Branch",
@@ -6073,8 +6073,8 @@
       "Korean"
     ],
     "is_free_service": true,
-    "latitude": 38.886985745005184,
-    "longitude": -77.1862833605248
+    "latitude": 38.88008,
+    "longitude": -77.17331999999999
   },
   {
     "name": "Fairfax County Library – Kingstowne Branch",
@@ -6091,8 +6091,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.78968308622995,
-    "longitude": -77.16921488286762
+    "latitude": 38.791405999999995,
+    "longitude": -77.185094
   },
   {
     "name": "Fairfax County Library – Herndon Fortnightly Branch",
@@ -6109,8 +6109,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.9720066209431,
-    "longitude": -77.39785086362822
+    "latitude": 38.97188,
+    "longitude": -77.38382
   },
   {
     "name": "Fairfax County Library – Kings Park Branch",
@@ -6127,8 +6127,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.76951010747092,
-    "longitude": -77.17031842036248
+    "latitude": 38.789455999999994,
+    "longitude": -77.187044
   },
   {
     "name": "Annandale Korean School",
@@ -6146,8 +6146,8 @@
       "Korean"
     ],
     "is_free_service": false,
-    "latitude": 38.830579445379506,
-    "longitude": -77.20731581182442
+    "latitude": 38.830424,
+    "longitude": -77.196376
   },
   {
     "name": "Goodwill Industries – Job Training (NoVA)",
@@ -6165,8 +6165,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.84148438498879,
-    "longitude": -77.32150800710433
+    "latitude": 38.844628,
+    "longitude": -77.30797199999999
   },
   {
     "name": "Sky Zone Trampoline Park – Springfield",
@@ -6184,8 +6184,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.78928938563165,
-    "longitude": -77.19375822175274
+    "latitude": 38.790374,
+    "longitude": -77.186126
   },
   {
     "name": "Sky Zone Trampoline Park – Manassas",
@@ -6202,8 +6202,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.7700944400071,
-    "longitude": -77.4803135185716
+    "latitude": 38.753612000000004,
+    "longitude": -77.472588
   },
   {
     "name": "Launch Entertainment Park – Herndon",
@@ -6221,8 +6221,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.95243626420593,
-    "longitude": -77.40478683208417
+    "latitude": 38.969204,
+    "longitude": -77.386496
   },
   {
     "name": "Flight Adventure Park – Springfield",
@@ -6239,8 +6239,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.80001511206815,
-    "longitude": -77.19886442406032
+    "latitude": 38.790355999999996,
+    "longitude": -77.186144
   },
   {
     "name": "Urban Air Trampoline and Adventure Park – Manassas",
@@ -6258,8 +6258,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.755814452707824,
-    "longitude": -77.48943739890444
+    "latitude": 38.750372,
+    "longitude": -77.475828
   },
   {
     "name": "ZavaZone – Sterling",
@@ -6276,8 +6276,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.017847798726116,
-    "longitude": -77.4431826015315
+    "latitude": 39.008702,
+    "longitude": -77.426098
   },
   {
     "name": "Atomic Trampoline – Leesburg",
@@ -6294,8 +6294,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.10151156635786,
-    "longitude": -77.56774138438597
+    "latitude": 39.117596,
+    "longitude": -77.562604
   },
   {
     "name": "Rebounderz – Sterling",
@@ -6312,8 +6312,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.01195762232137,
-    "longitude": -77.43612236127365
+    "latitude": 39.006308,
+    "longitude": -77.428492
   },
   {
     "name": "Ultrazone Laser Tag – Bailey's Crossroads",
@@ -6330,8 +6330,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.87548965314739,
-    "longitude": -77.16114058055469
+    "latitude": 38.883392,
+    "longitude": -77.170008
   },
   {
     "name": "Shadowland Laser Adventures – Alexandria",
@@ -6348,8 +6348,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.79016645311022,
-    "longitude": -77.03909044603185
+    "latitude": 38.802484,
+    "longitude": -77.04921599999999
   },
   {
     "name": "Dave & Buster's – Springfield",
@@ -6367,8 +6367,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.79344829748097,
-    "longitude": -77.20005485731808
+    "latitude": 38.790596,
+    "longitude": -77.18590400000001
   },
   {
     "name": "Dave & Buster's – Fairfax",
@@ -6385,8 +6385,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.861111653554964,
-    "longitude": -77.30743864409844
+    "latitude": 38.844514000000004,
+    "longitude": -77.308086
   },
   {
     "name": "Fun Land of Fairfax",
@@ -6403,8 +6403,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.859975241339754,
-    "longitude": -77.3074393626957
+    "latitude": 38.847526,
+    "longitude": -77.30507399999999
   },
   {
     "name": "Autobahn Indoor Speedway – Manassas",
@@ -6421,8 +6421,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.76542594990895,
-    "longitude": -77.45776154625776
+    "latitude": 38.749568000000004,
+    "longitude": -77.47663200000001
   },
   {
     "name": "Autobahn Indoor Speedway – Sterling",
@@ -6439,8 +6439,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.99288837558525,
-    "longitude": -77.41543731051536
+    "latitude": 39.004556,
+    "longitude": -77.430244
   },
   {
     "name": "Escape Room Arlington",
@@ -6457,8 +6457,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.86608640767987,
-    "longitude": -77.08533471477058
+    "latitude": 38.880448,
+    "longitude": -77.092152
   },
   {
     "name": "Escape Room Live – Old Town Alexandria",
@@ -6475,8 +6475,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.79277145627328,
-    "longitude": -77.02952441887622
+    "latitude": 38.804188,
+    "longitude": -77.047512
   },
   {
     "name": "Escapology – Fairfax",
@@ -6493,8 +6493,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.85342863410507,
-    "longitude": -77.32359288199206
+    "latitude": 38.848168,
+    "longitude": -77.30443199999999
   },
   {
     "name": "Exit Plan Escape Rooms – Leesburg",
@@ -6511,8 +6511,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.112067706497314,
-    "longitude": -77.5477100221093
+    "latitude": 39.118598,
+    "longitude": -77.561602
   },
   {
     "name": "Scramble Indoor Playground – Falls Church",
@@ -6529,8 +6529,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.8672516754601,
-    "longitude": -77.16450294184187
+    "latitude": 38.880044,
+    "longitude": -77.173356
   },
   {
     "name": "Hyper Kidz – Franconia",
@@ -6547,8 +6547,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.817044193476285,
-    "longitude": -77.0370826817786
+    "latitude": 38.807614,
+    "longitude": -77.044086
   },
   {
     "name": "Kidz Plaza Indoor Playground – Ashburn",
@@ -6565,8 +6565,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.059933721317826,
-    "longitude": -77.48835704018529
+    "latitude": 39.04344,
+    "longitude": -77.48776
   },
   {
     "name": "Beehive Indoor Playground – Woodbridge",
@@ -6584,8 +6584,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.66078603122218,
-    "longitude": -77.23468157483894
+    "latitude": 38.656178000000004,
+    "longitude": -77.251722
   },
   {
     "name": "Kid's Choice Sports & Fun Center – Woodbridge",
@@ -6603,8 +6603,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.66920682122425,
-    "longitude": -77.23346510736471
+    "latitude": 38.657264,
+    "longitude": -77.250636
   },
   {
     "name": "National Air and Space Museum – Udvar-Hazy Center",
@@ -6622,8 +6622,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.88142645553149,
-    "longitude": -77.43546203631736
+    "latitude": 38.896754,
+    "longitude": -77.428646
   },
   {
     "name": "National Museum of the Marine Corps",
@@ -6640,8 +6640,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.86582509013883,
-    "longitude": -77.31790403172104
+    "latitude": 38.84431,
+    "longitude": -77.30829
   },
   {
     "name": "LEGO Discovery Center – Tysons",
@@ -6659,8 +6659,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.92528870867091,
-    "longitude": -77.1860075974272
+    "latitude": 38.934596,
+    "longitude": -77.176604
   },
   {
     "name": "NOVA Wild (Reston Zoo)",
@@ -6677,8 +6677,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.88988171317897,
-    "longitude": -77.25132776693694
+    "latitude": 38.899598000000005,
+    "longitude": -77.266902
   },
   {
     "name": "Leesburg Animal Park",
@@ -6695,8 +6695,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.10140392032134,
-    "longitude": -77.58027562855759
+    "latitude": 39.115058,
+    "longitude": -77.565142
   },
   {
     "name": "Great Falls National Park",
@@ -6713,8 +6713,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.948424244731065,
-    "longitude": -77.15774903645543
+    "latitude": 38.934200000000004,
+    "longitude": -77.177
   },
   {
     "name": "Great Country Farms – Bluemont",
@@ -6731,8 +6731,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.84311723968033,
-    "longitude": -77.31696429540692
+    "latitude": 38.848636000000006,
+    "longitude": -77.303964
   },
   {
     "name": "Empower Adventures – Zip Lines",
@@ -6749,8 +6749,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.83546214418152,
-    "longitude": -77.30450135582441
+    "latitude": 38.849056000000004,
+    "longitude": -77.303544
   },
   {
     "name": "iFLY Indoor Skydiving – Loudoun",
@@ -6767,8 +6767,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.03119707753459,
-    "longitude": -77.50663656628325
+    "latitude": 39.041796,
+    "longitude": -77.489404
   },
   {
     "name": "Bowlero – Leesburg",
@@ -6785,8 +6785,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.106898217498504,
-    "longitude": -77.57216877625815
+    "latitude": 39.118376,
+    "longitude": -77.561824
   },
   {
     "name": "Bowlero – Fairfax",
@@ -6803,8 +6803,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.83359605974565,
-    "longitude": -77.3215912140945
+    "latitude": 38.848702,
+    "longitude": -77.30389799999999
   },
   {
     "name": "The Zone – Ashburn",
@@ -6821,8 +6821,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.0581824621592,
-    "longitude": -77.48762529728214
+    "latitude": 39.043692,
+    "longitude": -77.48750799999999
   },
   {
     "name": "Monster Mini Golf – Chantilly",
@@ -6839,8 +6839,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.887750321938704,
-    "longitude": -77.41490485625488
+    "latitude": 38.896448,
+    "longitude": -77.428952
   },
   {
     "name": "TopGolf – Ashburn",
@@ -6857,8 +6857,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.03410533761303,
-    "longitude": -77.47327324387894
+    "latitude": 39.045089999999995,
+    "longitude": -77.48611
   },
   {
     "name": "Great Waves Waterpark – Alexandria",
@@ -6876,8 +6876,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.82364434884471,
-    "longitude": -77.06048270146171
+    "latitude": 38.80606,
+    "longitude": -77.04563999999999
   },
   {
     "name": "Atlantis Waterpark – Bull Run Regional Park",
@@ -6894,8 +6894,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.82604645747973,
-    "longitude": -77.44290736052362
+    "latitude": 38.841894,
+    "longitude": -77.427706
   },
   {
     "name": "Sportrock Climbing Centers – Alexandria",
@@ -6912,8 +6912,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.80343038769654,
-    "longitude": -77.05825319038883
+    "latitude": 38.80777,
+    "longitude": -77.04392999999999
   },
   {
     "name": "Sportrock Climbing Centers – Sterling",
@@ -6930,8 +6930,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.99505098205528,
-    "longitude": -77.42387381625397
+    "latitude": 39.004508,
+    "longitude": -77.43029200000001
   },
   {
     "name": "Dulles Ice Skating Center – Ashburn",
@@ -6948,8 +6948,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.06144359158355,
-    "longitude": -77.48971585919902
+    "latitude": 39.042018,
+    "longitude": -77.489182
   },
   {
     "name": "SkateQuest – Reston",
@@ -6966,8 +6966,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.965633371567215,
-    "longitude": -77.3376054343184
+    "latitude": 38.968684,
+    "longitude": -77.341016
   },
   {
     "name": "Creative Cauldron – Falls Church",
@@ -6985,8 +6985,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.9005290413967,
-    "longitude": -77.18084238806745
+    "latitude": 38.879864,
+    "longitude": -77.173536
   },
   {
     "name": "Signature Theatre – Arlington",
@@ -7003,8 +7003,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.89050085246378,
-    "longitude": -77.11041884527147
+    "latitude": 38.882692,
+    "longitude": -77.089908
   },
   {
     "name": "Bowlero – Sterling",
@@ -7021,8 +7021,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.01890687777765,
-    "longitude": -77.44688539445855
+    "latitude": 39.008498,
+    "longitude": -77.426302
   },
   {
     "name": "St. Mary of Sorrows Food Pantry",
@@ -7040,8 +7040,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.82888846889255,
-    "longitude": -77.28896927988932
+    "latitude": 38.844874000000004,
+    "longitude": -77.307726
   },
   {
     "name": "Goodwill Retail Store – Manassas",
@@ -7059,8 +7059,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.743227683872966,
-    "longitude": -77.47498745165653
+    "latitude": 38.74976,
+    "longitude": -77.47644000000001
   },
   {
     "name": "Goodwill Retail Store – Leesburg",
@@ -7078,8 +7078,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.12504307797218,
-    "longitude": -77.55776222146245
+    "latitude": 39.113018,
+    "longitude": -77.56718199999999
   },
   {
     "name": "Goodwill Retail Store – Chantilly",
@@ -7096,8 +7096,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.87526094651053,
-    "longitude": -77.44661173356359
+    "latitude": 38.893262,
+    "longitude": -77.432138
   },
   {
     "name": "Salvation Army Thrift Store – Woodbridge",
@@ -7115,8 +7115,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.64848135469788,
-    "longitude": -77.24405864460775
+    "latitude": 38.65523,
+    "longitude": -77.25267000000001
   },
   {
     "name": "Salvation Army Thrift Store – Chantilly",
@@ -7133,8 +7133,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.88627584944686,
-    "longitude": -77.42654270296427
+    "latitude": 38.89472,
+    "longitude": -77.43068
   },
   {
     "name": "ReStore (Habitat for Humanity NOVA) – Alexandria",
@@ -7152,8 +7152,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.82309433032505,
-    "longitude": -77.05392453026163
+    "latitude": 38.802442,
+    "longitude": -77.049258
   },
   {
     "name": "ReStore (Habitat for Humanity NOVA) – Manassas",
@@ -7171,8 +7171,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.748444831453654,
-    "longitude": -77.45878987678239
+    "latitude": 38.752226,
+    "longitude": -77.473974
   },
   {
     "name": "Herndon-Reston FISH",
@@ -7190,8 +7190,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.98825458217455,
-    "longitude": -77.38912089954937
+    "latitude": 38.970056,
+    "longitude": -77.385644
   },
   {
     "name": "SERVE Community Thrift Store – Manassas",
@@ -7209,8 +7209,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.73852082895356,
-    "longitude": -77.45659359878893
+    "latitude": 38.753636,
+    "longitude": -77.472564
   },
   {
     "name": "Second Chance Shop – Vienna",
@@ -7227,8 +7227,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.89861542652311,
-    "longitude": -77.28500295620768
+    "latitude": 38.900252,
+    "longitude": -77.26624799999999
   },
   {
     "name": "Acts of Mercy Thrift Shop – Leesburg",
@@ -7245,8 +7245,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.13046810325101,
-    "longitude": -77.57640406505118
+    "latitude": 39.114481999999995,
+    "longitude": -77.56571799999999
   },
   {
     "name": "Grace Alliance Church Food Pantry – Sterling",
@@ -7264,8 +7264,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.00797876662858,
-    "longitude": -77.42768387546555
+    "latitude": 39.007286,
+    "longitude": -77.427514
   },
   {
     "name": "Holy Trinity Parish Food Pantry – Gainesville",
@@ -7283,8 +7283,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.854777183342605,
-    "longitude": -77.32529668367398
+    "latitude": 38.847652000000004,
+    "longitude": -77.304948
   },
   {
     "name": "Hylton United Methodist Food Pantry – Dale City",
@@ -7302,8 +7302,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.831992558583906,
-    "longitude": -77.29883162359248
+    "latitude": 38.846836,
+    "longitude": -77.305764
   },
   {
     "name": "Diaper Bank of the National Capital Area",
@@ -7321,8 +7321,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.84479053558848,
-    "longitude": -77.29219656071173
+    "latitude": 38.844478,
+    "longitude": -77.308122
   },
   {
     "name": "Samaritan Inn – Prince William",
@@ -7340,8 +7340,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.84309662814602,
-    "longitude": -77.29075219133502
+    "latitude": 38.847424000000004,
+    "longitude": -77.305176
   },
   {
     "name": "Annandale Christian Community for Action (ACCA)",
@@ -7359,8 +7359,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.81255542088823,
-    "longitude": -77.209435946982
+    "latitude": 38.82926,
+    "longitude": -77.19754
   },
   {
     "name": "PathForward (Doorways for Women – Arlington)",
@@ -7379,8 +7379,8 @@
       "Amharic"
     ],
     "is_free_service": true,
-    "latitude": 38.89289000621113,
-    "longitude": -77.08838289139351
+    "latitude": 38.881797999999996,
+    "longitude": -77.090802
   },
   {
     "name": "A-SPAN (Arlington Street People's Assistance Network)",
@@ -7398,8 +7398,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.89008363844139,
-    "longitude": -77.11098390602078
+    "latitude": 38.88322,
+    "longitude": -77.08937999999999
   },
   {
     "name": "ALIVE! Food Pantry – Alexandria",
@@ -7417,8 +7417,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.79606029488175,
-    "longitude": -77.05932256417023
+    "latitude": 38.804182,
+    "longitude": -77.047518
   },
   {
     "name": "St. Luke's Church Food Pantry – McLean",
@@ -7435,8 +7435,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.950237964851276,
-    "longitude": -77.1660165447912
+    "latitude": 38.936816,
+    "longitude": -77.174384
   },
   {
     "name": "Community Assistance Program (CAP) – Woodbridge",
@@ -7454,8 +7454,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.653569263942984,
-    "longitude": -77.25338994351405
+    "latitude": 38.656832,
+    "longitude": -77.251068
   },
   {
     "name": "Trinity Presbyterian Community Market – Arlington",
@@ -7473,8 +7473,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.8686560128818,
-    "longitude": -77.09295248501755
+    "latitude": 38.883496,
+    "longitude": -77.08910399999999
   },
   {
     "name": "Project Mend-A-House",
@@ -7491,8 +7491,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.13512421263033,
-    "longitude": -77.5633813589332
+    "latitude": 39.11291,
+    "longitude": -77.56729
   },
   {
     "name": "New Hope Housing – Patrick Henry Family Shelter",
@@ -7510,8 +7510,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.89270225375294,
-    "longitude": -77.18838447279231
+    "latitude": 38.884232,
+    "longitude": -77.169168
   },
   {
     "name": "Volunteers of America Chesapeake – NOVA Programs",
@@ -7529,8 +7529,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.88297440196192,
-    "longitude": -77.15331884062535
+    "latitude": 38.884598000000004,
+    "longitude": -77.168802
   },
   {
     "name": "Jewish Social Service Agency (JSSA) Food Aid",
@@ -7549,8 +7549,8 @@
       "Hebrew"
     ],
     "is_free_service": true,
-    "latitude": 38.8542415858127,
-    "longitude": -77.32326672526015
+    "latitude": 38.84695,
+    "longitude": -77.30565
   },
   {
     "name": "Burke Centre Food Pantry",
@@ -7567,8 +7567,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.813806048753136,
-    "longitude": -77.2785354362539
+    "latitude": 38.800512,
+    "longitude": -77.270088
   },
   {
     "name": "NOVA Medical Equipment Loan Closet – Leesburg",
@@ -7585,8 +7585,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.13172348051633,
-    "longitude": -77.55802538532807
+    "latitude": 39.114194,
+    "longitude": -77.566006
   },
   {
     "name": "Dulles Area Transportation Association – Senior Transport",
@@ -7603,8 +7603,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.134711424599494,
-    "longitude": -77.5496221296206
+    "latitude": 39.11519,
+    "longitude": -77.56501
   },
   {
     "name": "Salvation Army – Leesburg Corps",
@@ -7622,8 +7622,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.129597814721095,
-    "longitude": -77.55210935409859
+    "latitude": 39.114079999999994,
+    "longitude": -77.56612
   },
   {
     "name": "Open Heart Kitchen – Sterling",
@@ -7641,8 +7641,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.0078965418569,
-    "longitude": -77.41320587667164
+    "latitude": 39.005444,
+    "longitude": -77.429356
   },
   {
     "name": "Dulles South Food Pantry – Clothing Closet",
@@ -7660,8 +7660,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.840938775306185,
-    "longitude": -77.32147297211606
+    "latitude": 38.84581,
+    "longitude": -77.30678999999999
   },
   {
     "name": "Mercy House Living Centers – Arlington",
@@ -7679,8 +7679,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.89468878693911,
-    "longitude": -77.10131487491559
+    "latitude": 38.881264,
+    "longitude": -77.091336
   },
   {
     "name": "ECHO Thrift Store – Springfield",
@@ -7698,8 +7698,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.79081027395525,
-    "longitude": -77.2007884732498
+    "latitude": 38.787686,
+    "longitude": -77.18881400000001
   },
   {
     "name": "Interfaith Works Clothing Center – Annandale",
@@ -7717,8 +7717,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.82864403681571,
-    "longitude": -77.20390938381568
+    "latitude": 38.831336,
+    "longitude": -77.195464
   },
   {
     "name": "Koinonia Emergency Assistance – Falls Church",
@@ -7736,8 +7736,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.89431332077043,
-    "longitude": -77.16413438098125
+    "latitude": 38.880062,
+    "longitude": -77.173338
   },
   {
     "name": "Manassas Area SERVE Food Distribution",
@@ -7755,8 +7755,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.762474447944676,
-    "longitude": -77.48183490452715
+    "latitude": 38.75285,
+    "longitude": -77.47335000000001
   },
   {
     "name": "Food for Others – Fairfax",
@@ -7774,8 +7774,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.86592864334454,
-    "longitude": -77.32047813762253
+    "latitude": 38.84917,
+    "longitude": -77.30342999999999
   },
   {
     "name": "Reston Community Center Food Drop",
@@ -7792,8 +7792,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.96529281336369,
-    "longitude": -77.33722608030492
+    "latitude": 38.968252,
+    "longitude": -77.341448
   },
   {
     "name": "Northern Virginia 211 Resource Hotline",
@@ -7813,8 +7813,8 @@
       "Korean"
     ],
     "is_free_service": true,
-    "latitude": 38.842554682943025,
-    "longitude": -77.29630639595361
+    "latitude": 38.844778000000005,
+    "longitude": -77.307822
   },
   {
     "name": "Catholic Charities Food Pantry – Arlington",
@@ -7832,8 +7832,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.87904088068005,
-    "longitude": -77.0924960629974
+    "latitude": 38.88142,
+    "longitude": -77.09118
   },
   {
     "name": "Good Shepherd Alliance Day Shelter – Ashburn",
@@ -7851,8 +7851,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.02821367315559,
-    "longitude": -77.47533911689841
+    "latitude": 39.041501999999994,
+    "longitude": -77.48969799999999
   },
   {
     "name": "Shelter House Family Crisis Center",
@@ -7870,8 +7870,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.82963407997788,
-    "longitude": -77.30948020732336
+    "latitude": 38.844982,
+    "longitude": -77.30761799999999
   },
   {
     "name": "Volunteer Fairfax – Community Assistance",
@@ -7889,8 +7889,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.84957624989746,
-    "longitude": -77.32496221704037
+    "latitude": 38.844916000000005,
+    "longitude": -77.307684
   },
   {
     "name": "Fairfax County Office of Elections",
@@ -7908,8 +7908,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.865241215879074,
-    "longitude": -77.30305207673767
+    "latitude": 38.847832000000004,
+    "longitude": -77.304768
   },
   {
     "name": "Arlington County Clerk of Courts",
@@ -7926,8 +7926,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.883503375994756,
-    "longitude": -77.10700953577474
+    "latitude": 38.88283,
+    "longitude": -77.08976999999999
   },
   {
     "name": "Prince William County Circuit Court Clerk",
@@ -7944,8 +7944,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.731017700498604,
-    "longitude": -77.47403217312008
+    "latitude": 38.752226,
+    "longitude": -77.473974
   },
   {
     "name": "Loudoun County Clerk of Courts",
@@ -7962,8 +7962,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.1019061294801,
-    "longitude": -77.55634281774667
+    "latitude": 39.11622199999999,
+    "longitude": -77.56397799999999
   },
   {
     "name": "Virginia Social Services – Fairfax Eligibility Office",
@@ -7981,8 +7981,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.8008851428935,
-    "longitude": -77.04736879443843
+    "latitude": 38.805418,
+    "longitude": -77.04628199999999
   },
   {
     "name": "Inova Juniper Program – Domestic Violence Services",
@@ -8000,8 +8000,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.883501327401085,
-    "longitude": -77.16884917861152
+    "latitude": 38.88323,
+    "longitude": -77.17017
   },
   {
     "name": "NOVA Legal Aid – Woodbridge Walk-In Clinic",
@@ -8019,8 +8019,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.660325170311054,
-    "longitude": -77.25692635115978
+    "latitude": 38.655344,
+    "longitude": -77.252556
   },
   {
     "name": "Fairfax County Consumer Protection",
@@ -8038,8 +8038,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.83976057425149,
-    "longitude": -77.31488604532471
+    "latitude": 38.846092000000006,
+    "longitude": -77.306508
   },
   {
     "name": "Prince William ACTS – Emergency Rental Assistance",
@@ -8057,8 +8057,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.85149640552795,
-    "longitude": -77.30110940929767
+    "latitude": 38.847898,
+    "longitude": -77.30470199999999
   },
   {
     "name": "Loudoun County Circuit Court Self-Help Center",
@@ -8075,8 +8075,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.09592020819258,
-    "longitude": -77.57374170545427
+    "latitude": 39.11828,
+    "longitude": -77.56192
   },
   {
     "name": "Renters Help – Fairfax County Housing Counseling",
@@ -8094,8 +8094,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.859337257427924,
-    "longitude": -77.3166438751097
+    "latitude": 38.848144000000005,
+    "longitude": -77.304456
   },
   {
     "name": "US Citizenship & Immigration Services – Arlington Asylum Office",
@@ -8113,8 +8113,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.868158755703575,
-    "longitude": -77.09959114470789
+    "latitude": 38.882439999999995,
+    "longitude": -77.09016
   },
   {
     "name": "Fairfax County Park Authority Permits Office",
@@ -8131,8 +8131,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.86127666350344,
-    "longitude": -77.31108721010766
+    "latitude": 38.843434,
+    "longitude": -77.30916599999999
   },
   {
     "name": "Arlington GFMA – Grants for Nonprofits",
@@ -8149,8 +8149,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.88336315324769,
-    "longitude": -77.08440346210642
+    "latitude": 38.882422,
+    "longitude": -77.090178
   },
   {
     "name": "Virginia Attorney General – Northern Virginia Regional Office",
@@ -8168,8 +8168,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.10697946572955,
-    "longitude": -77.57627051144325
+    "latitude": 39.1166,
+    "longitude": -77.5636
   },
   {
     "name": "Fairfax County Police Community Services",
@@ -8187,8 +8187,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.82825364439171,
-    "longitude": -77.31692348604122
+    "latitude": 38.848594000000006,
+    "longitude": -77.304006
   },
   {
     "name": "Arlington County Office of Sustainability",
@@ -8205,8 +8205,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.89220825322569,
-    "longitude": -77.07195957266913
+    "latitude": 38.880832,
+    "longitude": -77.09176799999999
   },
   {
     "name": "Prince William County Planning Office",
@@ -8224,8 +8224,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.67373927826323,
-    "longitude": -77.25846285856105
+    "latitude": 38.659898,
+    "longitude": -77.248002
   },
   {
     "name": "Loudoun County Department of Permitting",
@@ -8242,8 +8242,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.126308541508855,
-    "longitude": -77.55533460691099
+    "latitude": 39.114086,
+    "longitude": -77.566114
   },
   {
     "name": "PACT (Prince William Alternative Community Treatment)",
@@ -8261,8 +8261,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.75218262969613,
-    "longitude": -77.47290097627008
+    "latitude": 38.747936,
+    "longitude": -77.47826400000001
   },
   {
     "name": "Loudoun County Registrar of Voters",
@@ -8279,8 +8279,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.133853862715746,
-    "longitude": -77.56343488888359
+    "latitude": 39.115046,
+    "longitude": -77.56515399999999
   },
   {
     "name": "Center for Nonprofit Advancement – Northern Virginia",
@@ -8297,8 +8297,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.8462712821361,
-    "longitude": -77.30249979334609
+    "latitude": 38.847142000000005,
+    "longitude": -77.305458
   },
   {
     "name": "Arlington County Department of Community Planning",
@@ -8316,8 +8316,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.87959856863348,
-    "longitude": -77.07681333545867
+    "latitude": 38.884161999999996,
+    "longitude": -77.088438
   },
   {
     "name": "Fairfax County Office of Disability Rights",
@@ -8335,8 +8335,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.855034715214416,
-    "longitude": -77.29383076946229
+    "latitude": 38.846896,
+    "longitude": -77.30570399999999
   },
   {
     "name": "Schar School of Policy & Government – NOVA Community Clinics",
@@ -8353,8 +8353,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.897995361425075,
-    "longitude": -77.08954180481675
+    "latitude": 38.881485999999995,
+    "longitude": -77.09111399999999
   },
   {
     "name": "Virginia Judicial System – Fairfax General District Court",
@@ -8371,8 +8371,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.85281299131649,
-    "longitude": -77.30493924910778
+    "latitude": 38.847964000000005,
+    "longitude": -77.304636
   },
   {
     "name": "Social Security Administration – Fairfax Field Office",
@@ -8390,8 +8390,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.83558449917394,
-    "longitude": -77.32035215235867
+    "latitude": 38.845186000000005,
+    "longitude": -77.307414
   },
   {
     "name": "Social Security Administration – Arlington Field Office",
@@ -8409,8 +8409,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.898879906052585,
-    "longitude": -77.07200393679568
+    "latitude": 38.878678,
+    "longitude": -77.09392199999999
   },
   {
     "name": "Social Security Administration – Woodbridge Field Office",
@@ -8428,8 +8428,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.64135719133599,
-    "longitude": -77.25209864533754
+    "latitude": 38.657354,
+    "longitude": -77.250546
   },
   {
     "name": "IRS Taxpayer Assistance Center – Fairfax",
@@ -8447,8 +8447,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.802568117612246,
-    "longitude": -77.1823127808131
+    "latitude": 38.790583999999996,
+    "longitude": -77.185916
   },
   {
     "name": "Prince William County Adult Education & Literacy",
@@ -8466,8 +8466,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.65628486089251,
-    "longitude": -77.23935904625425
+    "latitude": 38.658608,
+    "longitude": -77.24929200000001
   },
   {
     "name": "AARP Foundation Tax-Aide – Fairfax",
@@ -8485,8 +8485,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.84729446150381,
-    "longitude": -77.31942585882032
+    "latitude": 38.846920000000004,
+    "longitude": -77.30568
   },
   {
     "name": "Virginia Relay (Communication Access)",
@@ -8503,8 +8503,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.82888672336963,
-    "longitude": -77.3247447303061
+    "latitude": 38.845780000000005,
+    "longitude": -77.30682
   },
   {
     "name": "Office of the Public Defender – Fairfax County",
@@ -8521,8 +8521,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.836662066406845,
-    "longitude": -77.28950182265419
+    "latitude": 38.847826000000005,
+    "longitude": -77.304774
   },
   {
     "name": "Office of the Public Defender – Arlington/Falls Church",
@@ -8539,8 +8539,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.88753859212134,
-    "longitude": -77.10974606962996
+    "latitude": 38.881569999999996,
+    "longitude": -77.09102999999999
   },
   {
     "name": "Office of the Public Defender – Prince William",
@@ -8558,8 +8558,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.76113103921655,
-    "longitude": -77.47825289210238
+    "latitude": 38.7494,
+    "longitude": -77.4768
   },
   {
     "name": "Fairfax County Board of Zoning Appeals",
@@ -8576,8 +8576,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.83390429427136,
-    "longitude": -77.3204166736746
+    "latitude": 38.844064,
+    "longitude": -77.30853599999999
   },
   {
     "name": "Small Business Administration – Virginia District Office",
@@ -8595,8 +8595,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.85831639334556,
-    "longitude": -77.29763614155057
+    "latitude": 38.846884,
+    "longitude": -77.30571599999999
   },
   {
     "name": "George Mason University Law School Clinics",
@@ -8613,8 +8613,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.87872564036304,
-    "longitude": -77.1023980012665
+    "latitude": 38.879368,
+    "longitude": -77.093232
   },
   {
     "name": "Volunteer Lawyers Project of the DC Bar",
@@ -8632,8 +8632,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.84384829714593,
-    "longitude": -77.32566753872429
+    "latitude": 38.844424000000004,
+    "longitude": -77.308176
   },
   {
     "name": "Arlington County Office of Economic Development",
@@ -8650,8 +8650,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.87386643671773,
-    "longitude": -77.07945475428134
+    "latitude": 38.882362,
+    "longitude": -77.090238
   },
   {
     "name": "Fairfax County Economic Development Authority",
@@ -8668,8 +8668,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.89401676213056,
-    "longitude": -77.27599790541329
+    "latitude": 38.90243,
+    "longitude": -77.26406999999999
   },
   {
     "name": "Loudoun County Economic Development",
@@ -8686,8 +8686,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.11542827002032,
-    "longitude": -77.54663710442935
+    "latitude": 39.115171999999994,
+    "longitude": -77.565028
   },
   {
     "name": "Equal Employment Opportunity Commission – Baltimore Field Office (NOVA)",
@@ -8705,8 +8705,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.86081588057884,
-    "longitude": -77.29286682751797
+    "latitude": 38.849032,
+    "longitude": -77.303568
   },
   {
     "name": "Northern Virginia Transportation Commission",
@@ -8723,8 +8723,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.84503445001413,
-    "longitude": -77.30393059324143
+    "latitude": 38.848366000000006,
+    "longitude": -77.304234
   },
   {
     "name": "Loudoun County Public Schools – Adult English Learner Program",
@@ -8742,8 +8742,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 39.057434434342774,
-    "longitude": -77.49547993373318
+    "latitude": 39.045899999999996,
+    "longitude": -77.4853
   },
   {
     "name": "Arlington County Tenant-Landlord Commission",
@@ -8761,8 +8761,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.88065283873865,
-    "longitude": -77.07329430308734
+    "latitude": 38.881617999999996,
+    "longitude": -77.090982
   },
   {
     "name": "Prince William County Office of Community Services",
@@ -8780,8 +8780,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.769340077279615,
-    "longitude": -77.46704532079129
+    "latitude": 38.753468,
+    "longitude": -77.47273200000001
   },
   {
     "name": "Loudoun County Commissioner of the Revenue",
@@ -8798,8 +8798,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.100509600638134,
-    "longitude": -77.57796803896464
+    "latitude": 39.117548,
+    "longitude": -77.562652
   },
   {
     "name": "Inova Urgent Care – Ashburn",
@@ -8817,8 +8817,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.03970997850224,
-    "longitude": -77.50219852472743
+    "latitude": 39.045468,
+    "longitude": -77.485732
   },
   {
     "name": "Inova Urgent Care – Centreville",
@@ -8836,8 +8836,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.832458386983454,
-    "longitude": -77.41201118150069
+    "latitude": 38.840748000000005,
+    "longitude": -77.42885199999999
   },
   {
     "name": "Kaiser Permanente – Tysons Corner Medical Center",
@@ -8855,8 +8855,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.95024960315287,
-    "longitude": -77.1677452193616
+    "latitude": 38.932646,
+    "longitude": -77.178554
   },
   {
     "name": "Kaiser Permanente – Fair Oaks Medical Center",
@@ -8874,8 +8874,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.84244156092234,
-    "longitude": -77.31382478112342
+    "latitude": 38.846734000000005,
+    "longitude": -77.305866
   },
   {
     "name": "Kaiser Permanente – Springfield Medical Center",
@@ -8893,8 +8893,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.7938352538407,
-    "longitude": -77.20076092504632
+    "latitude": 38.788748,
+    "longitude": -77.187752
   },
   {
     "name": "TJ Health – Burke Primary Care",
@@ -8911,8 +8911,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.78718076849743,
-    "longitude": -77.25781627916861
+    "latitude": 38.796318,
+    "longitude": -77.274282
   },
   {
     "name": "Reston Hospital Urgent Care – Herndon",
@@ -8930,8 +8930,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.95558096747265,
-    "longitude": -77.38450495369825
+    "latitude": 38.969078,
+    "longitude": -77.386622
   },
   {
     "name": "Therapeutic Solutions Mental Health – Fairfax",
@@ -8949,8 +8949,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.854437314685995,
-    "longitude": -77.29658724679477
+    "latitude": 38.844226000000006,
+    "longitude": -77.308374
   },
   {
     "name": "CareFirst BlueCross BlueShield – Health Center Leesburg",
@@ -8968,8 +8968,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.10032802931518,
-    "longitude": -77.56373928187129
+    "latitude": 39.113161999999996,
+    "longitude": -77.567038
   },
   {
     "name": "Pediatric Associates of Northern Virginia",
@@ -8987,8 +8987,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.84503727971104,
-    "longitude": -77.30855882989592
+    "latitude": 38.847892,
+    "longitude": -77.30470799999999
   },
   {
     "name": "FeedMore WCS Northern Virginia Hub",
@@ -9006,8 +9006,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.72175477897628,
-    "longitude": -77.23891502271879
+    "latitude": 38.70373,
+    "longitude": -77.22807
   },
   {
     "name": "Reston Interfaith – Basic Needs Assistance",
@@ -9025,8 +9025,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.952201545388874,
-    "longitude": -77.34828201905472
+    "latitude": 38.971432,
+    "longitude": -77.338268
   },
   {
     "name": "Holy Cross Regional Catholic School Food Pantry",
@@ -9044,8 +9044,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.85810462982549,
-    "longitude": -77.29020167412303
+    "latitude": 38.849104000000004,
+    "longitude": -77.303496
   },
   {
     "name": "A Place to Be – Leesburg Area Food Support",
@@ -9062,8 +9062,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.12630126260409,
-    "longitude": -77.54632169049708
+    "latitude": 39.117259999999995,
+    "longitude": -77.56294
   },
   {
     "name": "Mathnasium – Ashburn",
@@ -9080,8 +9080,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.03054607330253,
-    "longitude": -77.48501401026984
+    "latitude": 39.042066,
+    "longitude": -77.48913399999999
   },
   {
     "name": "Kumon Math and Reading Center – Reston",
@@ -9099,8 +9099,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.98619535947739,
-    "longitude": -77.35480036915814
+    "latitude": 38.968324,
+    "longitude": -77.341376
   },
   {
     "name": "Kumon Math and Reading Center – Manassas",
@@ -9118,8 +9118,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.73122045771834,
-    "longitude": -77.47635190599158
+    "latitude": 38.748536,
+    "longitude": -77.477664
   },
   {
     "name": "Northern Virginia Community College – Extended Learning Institute",
@@ -9136,8 +9136,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.82117974914953,
-    "longitude": -77.20899575808697
+    "latitude": 38.829986,
+    "longitude": -77.196814
   },
   {
     "name": "Stratford University – Falls Church",
@@ -9154,8 +9154,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.89726509887922,
-    "longitude": -77.18795710480954
+    "latitude": 38.880926,
+    "longitude": -77.172474
   },
   {
     "name": "George Mason University – Arlington Campus",
@@ -9172,8 +9172,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.87637587501134,
-    "longitude": -77.10293649066445
+    "latitude": 38.883531999999995,
+    "longitude": -77.089068
   },
   {
     "name": "Marymount University",
@@ -9191,8 +9191,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.87833480998855,
-    "longitude": -77.08877538853247
+    "latitude": 38.87887,
+    "longitude": -77.09373
   },
   {
     "name": "Virginia International University",
@@ -9211,8 +9211,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.852679450693664,
-    "longitude": -77.30385112554903
+    "latitude": 38.846146000000005,
+    "longitude": -77.306454
   },
   {
     "name": "Embry-Riddle Aeronautical University – Dulles",
@@ -9229,8 +9229,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.977093021913355,
-    "longitude": -77.38977511108763
+    "latitude": 38.968436,
+    "longitude": -77.387264
   },
   {
     "name": "Loudoun County Public Schools Virtual Academy",
@@ -9247,8 +9247,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.04798250734531,
-    "longitude": -77.4772296060476
+    "latitude": 39.041225999999995,
+    "longitude": -77.48997399999999
   },
   {
     "name": "Springfield Golf & Country Club",
@@ -9265,8 +9265,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.78446135325392,
-    "longitude": -77.16747416053913
+    "latitude": 38.787319999999994,
+    "longitude": -77.18918000000001
   },
   {
     "name": "TopGolf – McLean",
@@ -9283,8 +9283,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.92975232247153,
-    "longitude": -77.1792153646945
+    "latitude": 38.932628,
+    "longitude": -77.178572
   },
   {
     "name": "The Capital Grille – Fairfax",
@@ -9301,8 +9301,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.916678949867986,
-    "longitude": -77.17407237527702
+    "latitude": 38.933978,
+    "longitude": -77.177222
   },
   {
     "name": "Ted's Bulletin – Arlington (Clarendon)",
@@ -9319,8 +9319,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.898458884962636,
-    "longitude": -77.09505293894449
+    "latitude": 38.882596,
+    "longitude": -77.090004
   },
   {
     "name": "Founding Farmers – Tysons",
@@ -9337,8 +9337,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.94690956425553,
-    "longitude": -77.1594566997562
+    "latitude": 38.93486,
+    "longitude": -77.17634
   },
   {
     "name": "Lost Dog Cafe – Arlington",
@@ -9355,8 +9355,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.89835791163351,
-    "longitude": -77.08217860494132
+    "latitude": 38.88418,
+    "longitude": -77.08842
   },
   {
     "name": "Lazy Dog Restaurant & Bar – Chantilly",
@@ -9373,8 +9373,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.9814110780537,
-    "longitude": -77.37837228279061
+    "latitude": 38.971586,
+    "longitude": -77.384114
   },
   {
     "name": "Clyde's of Reston",
@@ -9391,8 +9391,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.9844057242593,
-    "longitude": -77.34909947692891
+    "latitude": 38.966584000000005,
+    "longitude": -77.343116
   },
   {
     "name": "Mike's American Bar & Grill – Springfield",
@@ -9409,8 +9409,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.77284160665181,
-    "longitude": -77.1965009180181
+    "latitude": 38.786798,
+    "longitude": -77.18970200000001
   },
   {
     "name": "Jackson's – Reston",
@@ -9427,8 +9427,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.965487346483414,
-    "longitude": -77.35193891833573
+    "latitude": 38.969032000000006,
+    "longitude": -77.340668
   },
   {
     "name": "Glory Days Grill – Centreville",
@@ -9445,8 +9445,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.878584092446225,
-    "longitude": -77.42111846972539
+    "latitude": 38.896646000000004,
+    "longitude": -77.428754
   },
   {
     "name": "Red Robin Gourmet Burgers – Fairfax",
@@ -9464,8 +9464,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.837229114166526,
-    "longitude": -77.29691097739858
+    "latitude": 38.84758,
+    "longitude": -77.30502
   },
   {
     "name": "Bellissimo Restaurant – Fairfax",
@@ -9482,8 +9482,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.84547750351468,
-    "longitude": -77.31512949332031
+    "latitude": 38.845348,
+    "longitude": -77.30725199999999
   },
   {
     "name": "Il Canale – Georgetown (Arlington area)",
@@ -9501,8 +9501,8 @@
       "Italian"
     ],
     "is_free_service": false,
-    "latitude": 38.84825170986012,
-    "longitude": -77.32111766999348
+    "latitude": 38.845240000000004,
+    "longitude": -77.30736
   },
   {
     "name": "Trattoria Alberto – Alexandria",
@@ -9520,8 +9520,8 @@
       "Italian"
     ],
     "is_free_service": false,
-    "latitude": 38.8012931000281,
-    "longitude": -77.03675744698602
+    "latitude": 38.802346,
+    "longitude": -77.049354
   },
   {
     "name": "Paolo's Ristorante – Reston",
@@ -9538,8 +9538,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.96051291759442,
-    "longitude": -77.35668898179
+    "latitude": 38.967988000000005,
+    "longitude": -77.341712
   },
   {
     "name": "TRIO Grill – Fairfax (Merrifield)",
@@ -9556,8 +9556,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.94931104649458,
-    "longitude": -77.19427692905066
+    "latitude": 38.936174,
+    "longitude": -77.175026
   },
   {
     "name": "Vapiano – Arlington",
@@ -9574,8 +9574,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.872221059872246,
-    "longitude": -77.08982393436219
+    "latitude": 38.87878,
+    "longitude": -77.09382
   },
   {
     "name": "Maggiano's Little Italy – Tysons Corner",
@@ -9592,8 +9592,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.9130311360437,
-    "longitude": -77.24927770563691
+    "latitude": 38.903150000000004,
+    "longitude": -77.26335
   },
   {
     "name": "Olive Garden – Manassas",
@@ -9611,8 +9611,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.742341566423384,
-    "longitude": -77.47817187214608
+    "latitude": 38.748434,
+    "longitude": -77.477766
   },
   {
     "name": "Sweetwater Tavern – Centreville",
@@ -9629,8 +9629,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.82229960448529,
-    "longitude": -77.43142972727004
+    "latitude": 38.843376,
+    "longitude": -77.42622399999999
   },
   {
     "name": "Sfizi Cafe – Falls Church",
@@ -9648,8 +9648,8 @@
       "Italian"
     ],
     "is_free_service": false,
-    "latitude": 38.86307709424161,
-    "longitude": -77.15138199889797
+    "latitude": 38.883308,
+    "longitude": -77.170092
   },
   {
     "name": "El Tio Restaurant – McLean",
@@ -9667,8 +9667,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.937380584259245,
-    "longitude": -77.19601918498967
+    "latitude": 38.932724,
+    "longitude": -77.178476
   },
   {
     "name": "Casa Tequila Bar & Grill – Lorton",
@@ -9686,8 +9686,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.69464098829286,
-    "longitude": -77.21366290960123
+    "latitude": 38.704924,
+    "longitude": -77.22687599999999
   },
   {
     "name": "Guapo's Restaurant – Falls Church",
@@ -9705,8 +9705,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.922209338759735,
-    "longitude": -77.19205744839756
+    "latitude": 38.934194,
+    "longitude": -77.177006
   },
   {
     "name": "Taco Bamba – Falls Church",
@@ -9724,8 +9724,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.81346310667146,
-    "longitude": -77.21446679132796
+    "latitude": 38.828005999999995,
+    "longitude": -77.19879399999999
   },
   {
     "name": "Uncle Julio's – Fairfax",
@@ -9743,8 +9743,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.842031487078074,
-    "longitude": -77.30427378839052
+    "latitude": 38.843332000000004,
+    "longitude": -77.309268
   },
   {
     "name": "Mama Tigre – Oakton",
@@ -9761,8 +9761,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.831718774010156,
-    "longitude": -77.3042140681383
+    "latitude": 38.845960000000005,
+    "longitude": -77.30664
   },
   {
     "name": "Anita's New Mexico Style Mexican Food – Herndon",
@@ -9780,8 +9780,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.964067649203365,
-    "longitude": -77.36629566923688
+    "latitude": 38.96954,
+    "longitude": -77.38616
   },
   {
     "name": "Rio Grande Mexican Restaurant – Leesburg",
@@ -9799,8 +9799,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 39.105923144949806,
-    "longitude": -77.58160126553895
+    "latitude": 39.115154,
+    "longitude": -77.565046
   },
   {
     "name": "Chipotle Mexican Grill – Multiple NOVA Locations",
@@ -9818,8 +9818,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.89516974106385,
-    "longitude": -77.2770890286555
+    "latitude": 38.898938,
+    "longitude": -77.267562
   },
   {
     "name": "Baja Fresh – Arlington",
@@ -9837,8 +9837,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.89392634371202,
-    "longitude": -77.11059534181331
+    "latitude": 38.884432,
+    "longitude": -77.088168
   },
   {
     "name": "Haandi Restaurant – Falls Church",
@@ -9857,8 +9857,8 @@
       "Urdu"
     ],
     "is_free_service": false,
-    "latitude": 38.899700007902894,
-    "longitude": -77.17191034378884
+    "latitude": 38.879378,
+    "longitude": -77.174022
   },
   {
     "name": "Minerva Indian Restaurant – Centreville",
@@ -9877,8 +9877,8 @@
       "Telugu"
     ],
     "is_free_service": false,
-    "latitude": 38.88430574986489,
-    "longitude": -77.43496147801645
+    "latitude": 38.896682,
+    "longitude": -77.428718
   },
   {
     "name": "Tandoori Nights – Fairfax",
@@ -9896,8 +9896,8 @@
       "Hindi"
     ],
     "is_free_service": false,
-    "latitude": 38.83768926464435,
-    "longitude": -77.3018691615283
+    "latitude": 38.846146000000005,
+    "longitude": -77.306454
   },
   {
     "name": "Bollywood Bistro – Fairfax",
@@ -9916,8 +9916,8 @@
       "Gujarati"
     ],
     "is_free_service": false,
-    "latitude": 38.86032606267485,
-    "longitude": -77.31402660485402
+    "latitude": 38.845462000000005,
+    "longitude": -77.307138
   },
   {
     "name": "Indique Heights – Chevy Chase (NOVA-serving)",
@@ -9935,8 +9935,8 @@
       "Hindi"
     ],
     "is_free_service": false,
-    "latitude": 38.83164119699932,
-    "longitude": -77.31529120975546
+    "latitude": 38.846452000000006,
+    "longitude": -77.306148
   },
   {
     "name": "Kabob Palace – Arlington (Crystal City)",
@@ -9955,8 +9955,8 @@
       "Urdu"
     ],
     "is_free_service": false,
-    "latitude": 38.86180147033969,
-    "longitude": -77.1050156584956
+    "latitude": 38.87902,
+    "longitude": -77.09357999999999
   },
   {
     "name": "Raaga – Fairfax",
@@ -9974,8 +9974,8 @@
       "Hindi"
     ],
     "is_free_service": false,
-    "latitude": 38.83836184815067,
-    "longitude": -77.31251110114529
+    "latitude": 38.847454000000006,
+    "longitude": -77.305146
   },
   {
     "name": "Passage to India – Bethesda (NOVA-adjacent)",
@@ -9993,8 +9993,8 @@
       "Hindi"
     ],
     "is_free_service": false,
-    "latitude": 38.85033619785212,
-    "longitude": -77.32282386994379
+    "latitude": 38.846914000000005,
+    "longitude": -77.305686
   },
   {
     "name": "Karma Modern Indian – Tysons",
@@ -10012,8 +10012,8 @@
       "Hindi"
     ],
     "is_free_service": false,
-    "latitude": 38.896747604246166,
-    "longitude": -77.25830140452277
+    "latitude": 38.904008000000005,
+    "longitude": -77.262492
   },
   {
     "name": "Masala Wok – Herndon",
@@ -10032,8 +10032,8 @@
       "Telugu"
     ],
     "is_free_service": false,
-    "latitude": 38.973942734003444,
-    "longitude": -77.37346002966964
+    "latitude": 38.967428,
+    "longitude": -77.388272
   },
   {
     "name": "A&J Restaurant – Annandale",
@@ -10052,8 +10052,8 @@
       "Taiwanese"
     ],
     "is_free_service": false,
-    "latitude": 38.83834620979499,
-    "longitude": -77.2092771910135
+    "latitude": 38.832338,
+    "longitude": -77.194462
   },
   {
     "name": "Peking Gourmet Inn – Falls Church",
@@ -10071,8 +10071,8 @@
       "Chinese"
     ],
     "is_free_service": false,
-    "latitude": 38.889072366540574,
-    "longitude": -77.15395630979621
+    "latitude": 38.87951,
+    "longitude": -77.17389
   },
   {
     "name": "Fortune Chinese Seafood Restaurant – Falls Church",
@@ -10090,8 +10090,8 @@
       "Cantonese"
     ],
     "is_free_service": false,
-    "latitude": 38.809012717341275,
-    "longitude": -77.04099234608515
+    "latitude": 38.802754,
+    "longitude": -77.048946
   },
   {
     "name": "Yu Noodles – Merrifield",
@@ -10109,8 +10109,8 @@
       "Chinese"
     ],
     "is_free_service": false,
-    "latitude": 38.89870612527312,
-    "longitude": -77.18665347291244
+    "latitude": 38.88281,
+    "longitude": -77.17058999999999
   },
   {
     "name": "P.F. Chang's – Tysons Galleria",
@@ -10127,8 +10127,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.94217537656739,
-    "longitude": -77.16782414379736
+    "latitude": 38.934848,
+    "longitude": -77.17635200000001
   },
   {
     "name": "Pho 75 – Arlington",
@@ -10146,8 +10146,8 @@
       "Vietnamese"
     ],
     "is_free_service": false,
-    "latitude": 38.889009241930005,
-    "longitude": -77.1093794684416
+    "latitude": 38.883178,
+    "longitude": -77.089422
   },
   {
     "name": "Four Sisters Restaurant – Falls Church",
@@ -10166,8 +10166,8 @@
       "Vietnamese"
     ],
     "is_free_service": false,
-    "latitude": 38.86482115586937,
-    "longitude": -77.15893511713793
+    "latitude": 38.880548,
+    "longitude": -77.17285199999999
   },
   {
     "name": "Huong Viet Restaurant – Falls Church",
@@ -10185,8 +10185,8 @@
       "Vietnamese"
     ],
     "is_free_service": false,
-    "latitude": 38.867686986723335,
-    "longitude": -77.16193766302071
+    "latitude": 38.88257,
+    "longitude": -77.17083
   },
   {
     "name": "Pho 95 – Sterling",
@@ -10204,8 +10204,8 @@
       "Vietnamese"
     ],
     "is_free_service": false,
-    "latitude": 39.01529393852419,
-    "longitude": -77.43068936001751
+    "latitude": 39.004724,
+    "longitude": -77.430076
   },
   {
     "name": "Nam Viet Restaurant – Arlington",
@@ -10223,8 +10223,8 @@
       "Vietnamese"
     ],
     "is_free_service": false,
-    "latitude": 38.864438916084175,
-    "longitude": -77.10893006692628
+    "latitude": 38.882188,
+    "longitude": -77.090412
   },
   {
     "name": "Honey Pig – Annandale",
@@ -10242,8 +10242,8 @@
       "Korean"
     ],
     "is_free_service": false,
-    "latitude": 38.8218412839395,
-    "longitude": -77.18807311129768
+    "latitude": 38.832836,
+    "longitude": -77.193964
   },
   {
     "name": "Woomi Garden – Annandale",
@@ -10261,8 +10261,8 @@
       "Korean"
     ],
     "is_free_service": false,
-    "latitude": 38.81969700270207,
-    "longitude": -77.20050609760422
+    "latitude": 38.830976,
+    "longitude": -77.195824
   },
   {
     "name": "Kogiya Korean BBQ – Centreville",
@@ -10280,8 +10280,8 @@
       "Korean"
     ],
     "is_free_service": false,
-    "latitude": 38.87851859869321,
-    "longitude": -77.44797055864836
+    "latitude": 38.891888,
+    "longitude": -77.43351200000001
   },
   {
     "name": "Bonchon Chicken – Arlington",
@@ -10299,8 +10299,8 @@
       "Korean"
     ],
     "is_free_service": false,
-    "latitude": 38.89252133423525,
-    "longitude": -77.09283679748586
+    "latitude": 38.88187,
+    "longitude": -77.09073
   },
   {
     "name": "Sushi Rock – Arlington",
@@ -10318,8 +10318,8 @@
       "Japanese"
     ],
     "is_free_service": false,
-    "latitude": 38.87333915376844,
-    "longitude": -77.08742739456592
+    "latitude": 38.881768,
+    "longitude": -77.09083199999999
   },
   {
     "name": "Koi Restaurant – Leesburg",
@@ -10337,8 +10337,8 @@
       "Japanese"
     ],
     "is_free_service": false,
-    "latitude": 39.10561085951345,
-    "longitude": -77.56683350827123
+    "latitude": 39.116564,
+    "longitude": -77.56363599999999
   },
   {
     "name": "Sakuramen – Arlington",
@@ -10356,8 +10356,8 @@
       "Japanese"
     ],
     "is_free_service": false,
-    "latitude": 38.843648764477244,
-    "longitude": -77.31658155037583
+    "latitude": 38.845168,
+    "longitude": -77.30743199999999
   },
   {
     "name": "Ramen 38 – Sterling",
@@ -10375,8 +10375,8 @@
       "Japanese"
     ],
     "is_free_service": false,
-    "latitude": 38.98841634088709,
-    "longitude": -77.4429702789211
+    "latitude": 39.006721999999996,
+    "longitude": -77.428078
   },
   {
     "name": "Samurai Japanese Restaurant – Manassas",
@@ -10394,8 +10394,8 @@
       "Japanese"
     ],
     "is_free_service": false,
-    "latitude": 38.739969972338976,
-    "longitude": -77.4699596015217
+    "latitude": 38.74925,
+    "longitude": -77.47695
   },
   {
     "name": "Enatye Ethiopian Restaurant – Herndon",
@@ -10413,8 +10413,8 @@
       "Amharic"
     ],
     "is_free_service": false,
-    "latitude": 38.9737163778766,
-    "longitude": -77.3866282436885
+    "latitude": 38.972582,
+    "longitude": -77.383118
   },
   {
     "name": "Dukem Ethiopian Restaurant – Silver Spring (NOVA-serving)",
@@ -10432,8 +10432,8 @@
       "Amharic"
     ],
     "is_free_service": false,
-    "latitude": 38.830465270187354,
-    "longitude": -77.32431302005689
+    "latitude": 38.848978,
+    "longitude": -77.30362199999999
   },
   {
     "name": "Lalibela Ethiopian Restaurant – Falls Church",
@@ -10451,8 +10451,8 @@
       "Amharic"
     ],
     "is_free_service": false,
-    "latitude": 38.86544367774946,
-    "longitude": -77.17448382029774
+    "latitude": 38.879816,
+    "longitude": -77.17358399999999
   },
   {
     "name": "Ambar – Clarendon",
@@ -10469,8 +10469,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.877542144846686,
-    "longitude": -77.07545769341364
+    "latitude": 38.881036,
+    "longitude": -77.09156399999999
   },
   {
     "name": "Nazca Mochica – Herndon",
@@ -10488,8 +10488,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.96229193567839,
-    "longitude": -77.36900423692822
+    "latitude": 38.970692,
+    "longitude": -77.385008
   },
   {
     "name": "Cuba Libre Restaurant & Rum Bar – Arlington",
@@ -10507,8 +10507,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.86202120335402,
-    "longitude": -77.09231360724014
+    "latitude": 38.879038,
+    "longitude": -77.09356199999999
   },
   {
     "name": "Chili's Grill & Bar – Manassas",
@@ -10526,8 +10526,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.75052750451118,
-    "longitude": -77.46436125165461
+    "latitude": 38.748128,
+    "longitude": -77.478072
   },
   {
     "name": "Cosi Salvadoreño – Woodbridge",
@@ -10545,8 +10545,8 @@
       "Spanish"
     ],
     "is_free_service": false,
-    "latitude": 38.65380933039478,
-    "longitude": -77.24748659262124
+    "latitude": 38.655938,
+    "longitude": -77.251962
   },
   {
     "name": "Kapnos – Ballston (Arlington)",
@@ -10564,8 +10564,8 @@
       "Greek"
     ],
     "is_free_service": false,
-    "latitude": 38.88803652090787,
-    "longitude": -77.08244385543
+    "latitude": 38.883778,
+    "longitude": -77.088822
   },
   {
     "name": "Agora Tysons",
@@ -10583,8 +10583,8 @@
       "Turkish"
     ],
     "is_free_service": false,
-    "latitude": 38.887782456637645,
-    "longitude": -77.2656025203394
+    "latitude": 38.898578,
+    "longitude": -77.267922
   },
   {
     "name": "Spartans Greek & Italian Restaurant – Vienna",
@@ -10602,8 +10602,8 @@
       "Greek"
     ],
     "is_free_service": false,
-    "latitude": 38.89519208094433,
-    "longitude": -77.27179041917329
+    "latitude": 38.898518,
+    "longitude": -77.26798199999999
   },
   {
     "name": "Lebanese Taverna – Arlington",
@@ -10621,8 +10621,8 @@
       "Arabic"
     ],
     "is_free_service": false,
-    "latitude": 38.853674163178056,
-    "longitude": -77.30499616545264
+    "latitude": 38.845744,
+    "longitude": -77.306856
   },
   {
     "name": "Bangkok Golden – Falls Church",
@@ -10640,8 +10640,8 @@
       "Thai"
     ],
     "is_free_service": false,
-    "latitude": 38.90081510914673,
-    "longitude": -77.1665863506113
+    "latitude": 38.884526,
+    "longitude": -77.168874
   },
   {
     "name": "Esaan Tumbar – McLean",
@@ -10659,8 +10659,8 @@
       "Thai"
     ],
     "is_free_service": false,
-    "latitude": 38.94378369863228,
-    "longitude": -77.18508598104536
+    "latitude": 38.934110000000004,
+    "longitude": -77.17709
   },
   {
     "name": "Thai Basil – Chantilly",
@@ -10678,8 +10678,8 @@
       "Thai"
     ],
     "is_free_service": false,
-    "latitude": 38.87480374005595,
-    "longitude": -77.4168401581422
+    "latitude": 38.89421,
+    "longitude": -77.43119
   },
   {
     "name": "Thai Luang – Woodbridge",
@@ -10697,8 +10697,8 @@
       "Thai"
     ],
     "is_free_service": false,
-    "latitude": 38.66370386658432,
-    "longitude": -77.24155724831361
+    "latitude": 38.660216,
+    "longitude": -77.247684
   },
   {
     "name": "Ocean Paradise Seafood – Fairfax",
@@ -10715,8 +10715,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.834903055988846,
-    "longitude": -77.29137065835411
+    "latitude": 38.848528,
+    "longitude": -77.30407199999999
   },
   {
     "name": "Texas de Brazil – Fairfax",
@@ -10734,8 +10734,8 @@
       "Portuguese"
     ],
     "is_free_service": false,
-    "latitude": 38.85045453805785,
-    "longitude": -77.3054681553076
+    "latitude": 38.849068,
+    "longitude": -77.30353199999999
   },
   {
     "name": "J. Gilbert's Wood-Fired Steaks & Seafood – McLean",
@@ -10752,8 +10752,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.923308231433076,
-    "longitude": -77.16037427246913
+    "latitude": 38.931068,
+    "longitude": -77.180132
   },
   {
     "name": "Silver Diner – Reston",
@@ -10770,8 +10770,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.96059840837502,
-    "longitude": -77.3219693153604
+    "latitude": 38.967334,
+    "longitude": -77.342366
   },
   {
     "name": "We the Pizza – Arlington",
@@ -10788,8 +10788,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.89758994882662,
-    "longitude": -77.09528657783817
+    "latitude": 38.880435999999996,
+    "longitude": -77.092164
   },
   {
     "name": "Flippin' Pizza – Reston Town Center",
@@ -10806,8 +10806,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.98314977690906,
-    "longitude": -77.35129737468667
+    "latitude": 38.966338,
+    "longitude": -77.343362
   },
   {
     "name": "Pupatella – Arlington",
@@ -10825,8 +10825,8 @@
       "Italian"
     ],
     "is_free_service": false,
-    "latitude": 38.894446566170146,
-    "longitude": -77.10332351367055
+    "latitude": 38.881234,
+    "longitude": -77.091366
   },
   {
     "name": "Bonefish Grill – Reston",
@@ -10843,8 +10843,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.96862700439847,
-    "longitude": -77.35578303761545
+    "latitude": 38.97112,
+    "longitude": -77.33858
   },
   {
     "name": "Ruthie's All-Day – Arlington",
@@ -10861,8 +10861,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.882904670170845,
-    "longitude": -77.10353318537788
+    "latitude": 38.88274,
+    "longitude": -77.08985999999999
   },
   {
     "name": "Amphora Restaurant Diner – Vienna",
@@ -10880,8 +10880,8 @@
       "Greek"
     ],
     "is_free_service": false,
-    "latitude": 38.913412316574934,
-    "longitude": -77.27173765585162
+    "latitude": 38.899244,
+    "longitude": -77.267256
   },
   {
     "name": "Rare Bird Coffee – Falls Church",
@@ -10898,8 +10898,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.884119424987816,
-    "longitude": -77.18804148631803
+    "latitude": 38.88248,
+    "longitude": -77.17092
   },
   {
     "name": "Haraz Coffee House – Fairfax",
@@ -10917,8 +10917,8 @@
       "Arabic"
     ],
     "is_free_service": false,
-    "latitude": 38.82694111753213,
-    "longitude": -77.30743761467217
+    "latitude": 38.84449600000001,
+    "longitude": -77.308104
   },
   {
     "name": "Founding Farmers – Reston",
@@ -10935,8 +10935,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.98475968992075,
-    "longitude": -77.32138968632084
+    "latitude": 38.967964,
+    "longitude": -77.341736
   },
   {
     "name": "Lebanese Butcher & Grill – Falls Church",
@@ -10954,8 +10954,8 @@
       "Arabic"
     ],
     "is_free_service": false,
-    "latitude": 38.881084171966734,
-    "longitude": -77.16545019906184
+    "latitude": 38.881292,
+    "longitude": -77.172108
   },
   {
     "name": "Zaytinia – Arlington",
@@ -10974,8 +10974,8 @@
       "Arabic"
     ],
     "is_free_service": false,
-    "latitude": 38.859596549404415,
-    "longitude": -77.31241615829543
+    "latitude": 38.848798,
+    "longitude": -77.30380199999999
   },
   {
     "name": "Moby Dick House of Kabob – Vienna",
@@ -10993,8 +10993,8 @@
       "Persian/Farsi"
     ],
     "is_free_service": false,
-    "latitude": 38.88480667518971,
-    "longitude": -77.26049597141386
+    "latitude": 38.902514000000004,
+    "longitude": -77.263986
   },
   {
     "name": "Amoo's Restaurant – McLean",
@@ -11012,8 +11012,8 @@
       "Persian/Farsi"
     ],
     "is_free_service": false,
-    "latitude": 38.95235635651999,
-    "longitude": -77.18170030076608
+    "latitude": 38.935520000000004,
+    "longitude": -77.17568
   },
   {
     "name": "Fuddruckers – Manassas",
@@ -11030,8 +11030,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.737958352099575,
-    "longitude": -77.48765140088875
+    "latitude": 38.752346,
+    "longitude": -77.473854
   },
   {
     "name": "Benihana – Springfield",
@@ -11049,8 +11049,8 @@
       "Japanese"
     ],
     "is_free_service": false,
-    "latitude": 38.80131222809496,
-    "longitude": -77.18413134576662
+    "latitude": 38.788148,
+    "longitude": -77.18835200000001
   },
   {
     "name": "Red's Table – Reston",
@@ -11067,8 +11067,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.96840584683848,
-    "longitude": -77.34966792620787
+    "latitude": 38.968372,
+    "longitude": -77.341328
   },
   {
     "name": "Sweetwater Tavern – Sterling",
@@ -11085,8 +11085,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.01950841963697,
-    "longitude": -77.42006317402569
+    "latitude": 39.004112,
+    "longitude": -77.430688
   },
   {
     "name": "Coastal Flats – Tysons",
@@ -11103,8 +11103,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 38.9222139244976,
-    "longitude": -77.18424033712124
+    "latitude": 38.933468,
+    "longitude": -77.177732
   },
   {
     "name": "Mon Ami Gabi – Reston",
@@ -11122,8 +11122,8 @@
       "French"
     ],
     "is_free_service": false,
-    "latitude": 38.96781021514247,
-    "longitude": -77.35447454790236
+    "latitude": 38.966014,
+    "longitude": -77.34368599999999
   },
   {
     "name": "Bel Forno – McLean",
@@ -11141,8 +11141,8 @@
       "Italian"
     ],
     "is_free_service": false,
-    "latitude": 38.92792906435282,
-    "longitude": -77.19531360847249
+    "latitude": 38.935436,
+    "longitude": -77.175764
   },
   {
     "name": "Fairfax County Public Library – Virginia Room (Local History)",
@@ -11159,8 +11159,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 38.8607185925361,
-    "longitude": -77.29862928341666
+    "latitude": 38.843476,
+    "longitude": -77.309124
   },
   {
     "name": "Brain Balance Achievement Center – Ashburn",
@@ -11177,8 +11177,8 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.056258904440014,
-    "longitude": -77.47537343397518
+    "latitude": 39.042857999999995,
+    "longitude": -77.48834199999999
   },
   {
     "name": "Loudoun County School of the Arts",
@@ -11195,8 +11195,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.100761965643066,
-    "longitude": -77.56348240845428
+    "latitude": 39.113834,
+    "longitude": -77.566366
   },
   {
     "name": "Arlington County Police Department – Domestic Violence Unit",
@@ -11214,8 +11214,8 @@
       "Spanish"
     ],
     "is_free_service": true,
-    "latitude": 38.90128436887693,
-    "longitude": -77.10318776564067
+    "latitude": 38.880808,
+    "longitude": -77.091792
   },
   {
     "name": "National Alliance on Mental Illness (NAMI) Loudoun",
@@ -11232,8 +11232,8 @@
       "English"
     ],
     "is_free_service": true,
-    "latitude": 39.1121646370216,
-    "longitude": -77.5564385913905
+    "latitude": 39.115556,
+    "longitude": -77.564644
   },
   {
     "name": "Nostos Restaurant – Vienna",
@@ -11251,8 +11251,8 @@
       "Greek"
     ],
     "is_free_service": false,
-    "latitude": 38.915042077299404,
-    "longitude": -77.25085822030783
+    "latitude": 38.901554000000004,
+    "longitude": -77.264946
   },
   {
     "name": "Bowlero Leesburg",
@@ -11269,7 +11269,7 @@
       "English"
     ],
     "is_free_service": false,
-    "latitude": 39.115059157068956,
-    "longitude": -77.57575941961103
+    "latitude": 39.116431999999996,
+    "longitude": -77.563768
   }
 ]
