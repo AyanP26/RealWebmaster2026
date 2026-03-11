@@ -2,6 +2,7 @@
 
 @theme {
   --color-primary-blue: #1d4ed8;
+  --color-primary-teal: #0f5c5c;
   --color-accent-orange: #ea580c;
   --color-light-bg: #ffffff;
   --color-text-dark: #1e293b;
@@ -25,5 +26,16 @@ body {
 @layer utilities {
   .pill-shape {
     @apply rounded-full;
+  }
+}
+
+/* Skeleton loading shimmer animation */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
   }
 }

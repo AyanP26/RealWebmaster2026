@@ -15,6 +15,9 @@ const CATEGORY_MAP: Record<string, string> = {
     "shelter": "Food & Basic Needs",
     "shelters": "Food & Basic Needs",
     "homeless": "Food & Basic Needs",
+    "housing": "Food & Basic Needs",
+    "rent": "Government & Legal Services",
+    "bills": "Government & Legal Services",
     "hospital": "Healthcare & Mental Health",
     "hospitals": "Healthcare & Mental Health",
     "clinic": "Healthcare & Mental Health",
@@ -31,6 +34,15 @@ const CATEGORY_MAP: Record<string, string> = {
     "books": "Education & Libraries",
     "school": "Education & Libraries",
     "schools": "Education & Libraries",
+    "college": "Education & Libraries",
+    "colleges": "Education & Libraries",
+    "university": "Education & Libraries",
+    "universities": "Education & Libraries",
+    "student": "Education & Libraries",
+    "students": "Education & Libraries",
+    "degree": "Education & Libraries",
+    "class": "Education & Libraries",
+    "classes": "Education & Libraries",
     "education": "Education & Libraries",
     "job": "Government & Legal Services",
     "jobs": "Government & Legal Services",
@@ -62,8 +74,76 @@ const CATEGORY_MAP: Record<string, string> = {
     "restaurants": "Restaurants",
     "dining": "Restaurants",
     "eat": "Restaurants",
-    "cafe": "Restaurants"
+    "cafe": "Restaurants",
+    "pizza": "Restaurants",
+    "burger": "Restaurants",
+    "burgers": "Restaurants",
+    "sushi": "Restaurants",
+    "tacos": "Restaurants",
+    "brunch": "Restaurants",
+    "breakfast": "Restaurants",
+    "lunch": "Restaurants",
+    "dinner": "Restaurants",
+    "coffee": "Restaurants",
+    "bakery": "Restaurants",
+    "deli": "Restaurants",
+    "gym": "Community & Recreation",
+    "fitness": "Community & Recreation",
+    "sports": "Community & Recreation",
+    "swim": "Community & Recreation",
+    "swimming": "Community & Recreation",
+    "soccer": "Community & Recreation",
+    "baseball": "Community & Recreation",
+    "basketball": "Community & Recreation",
+    "camp": "Community & Recreation",
+    "camps": "Community & Recreation",
+    "daycare": "Community & Recreation",
+    "preschool": "Education & Libraries",
+    "tutoring": "Education & Libraries",
+    "tutor": "Education & Libraries",
+    "ged": "Education & Libraries",
+    "esl": "Education & Libraries",
+    "english": "Education & Libraries",
+    "insurance": "Government & Legal Services",
+    "medicaid": "Healthcare & Mental Health",
+    "medicare": "Healthcare & Mental Health",
+    "dentist": "Healthcare & Mental Health",
+    "dental": "Healthcare & Mental Health",
+    "pharmacy": "Healthcare & Mental Health",
+    "vision": "Healthcare & Mental Health",
+    "eye": "Healthcare & Mental Health",
+    "pregnancy": "Healthcare & Mental Health",
+    "addiction": "Healthcare & Mental Health",
+    "rehab": "Healthcare & Mental Health",
+    "substance": "Healthcare & Mental Health",
+    "depression": "Healthcare & Mental Health",
+    "anxiety": "Healthcare & Mental Health",
+    "clothing": "Food & Basic Needs",
+    "clothes": "Food & Basic Needs",
+    "diapers": "Food & Basic Needs",
+    "furniture": "Food & Basic Needs",
+    "utility": "Government & Legal Services",
+    "utilities": "Government & Legal Services",
+    "immigration": "Government & Legal Services",
+    "citizenship": "Government & Legal Services",
+    "tax": "Government & Legal Services",
+    "taxes": "Government & Legal Services",
+    "volunteer": "Community & Recreation",
+    "volunteering": "Community & Recreation",
+    "donate": "Community & Recreation",
+    "donation": "Community & Recreation"
 };
+
+// Cuisine words that disambiguate "food" from Food & Basic Needs → Restaurants
+const CUISINE_WORDS = new Set([
+    "indian", "mexican", "chinese", "thai", "japanese", "korean", "vietnamese",
+    "italian", "french", "greek", "mediterranean", "ethiopian", "turkish",
+    "lebanese", "persian", "american", "southern", "bbq", "barbecue",
+    "seafood", "vegan", "vegetarian", "halal", "kosher", "organic",
+    "salvadoran", "peruvian", "colombian", "brazilian", "cuban", "caribbean",
+    "african", "moroccan", "spanish", "tapas", "ramen", "pho", "dim sum",
+    "fast", "fine"
+]);
 
 const VALID_LOCATIONS = [
     "chantilly", "fairfax", "arlington", "reston", "alexandria",
@@ -90,8 +170,10 @@ export interface RankedResource extends CommunityResource {
 
 // --- Fuzzy Search Initialization ---
 const categoryKeys = Object.keys(CATEGORY_MAP);
-const fuseLocations = new Fuse(VALID_LOCATIONS, { threshold: 0.4 });
-const fuseCategories = new Fuse(categoryKeys, { threshold: 0.4 });
+// Require a much stricter threshold (0.2 means closer match) to prevent "where" from matching "herndon" 
+const fuseLocations = new Fuse(VALID_LOCATIONS, { threshold: 0.2 });
+// Require stricter threshold for categories so "cheap" doesn't match "health"
+const fuseCategories = new Fuse(categoryKeys, { threshold: 0.2 });
 
 // --- Pipeline Step 1: Normalization & Parsing (Powered by Compromise NLP + Fuse Typo Tolerance) ---
 export function parseQuery(rawQuery: string): ParsedQuery {
@@ -128,8 +210,8 @@ export function parseQuery(rawQuery: string): ParsedQuery {
 
     // If it didn't strictly classify it as a place, do a fallback check against our local dictionary
     if (!targetLocation) {
-        // Run completely raw fuzzy search on words that are longer than 4 chars (to avoid matching stop words like "near" or "me")
-        const textTokens = rawQuery.toLowerCase().split(/\s+/).filter(t => t.length >= 4);
+        // Run completely raw fuzzy search on words that are longer than 5 chars (to avoid matching stop words like "near", "where", "cheap")
+        const textTokens = rawQuery.toLowerCase().split(/\s+/).filter(t => t.length >= 5);
         for (const token of textTokens) {
             const fuzzyLoc = fuseLocations.search(token);
             if (fuzzyLoc.length > 0) {
@@ -163,7 +245,8 @@ export function parseQuery(rawQuery: string): ParsedQuery {
         let exactMatchedWord = token;
 
         // Fuzzy Match (Typo Tolerance) against Category Dictionary
-        if (!CATEGORY_MAP[token] && token.length >= 4) {
+        // Only run fuzzy search on sufficiently long tokens (5+ length) to prevent wild guesses
+        if (!CATEGORY_MAP[token] && token.length >= 5) {
             const fuzzyCat = fuseCategories.search(token);
             if (fuzzyCat.length > 0) {
                 exactMatchedWord = fuzzyCat[0].item; // E.g., translates "libraris" -> "libraries"
@@ -175,6 +258,16 @@ export function parseQuery(rawQuery: string): ParsedQuery {
         }
 
         keywords.push(exactMatchedWord);
+    }
+
+    // --- CUISINE DISAMBIGUATION ---
+    // If the query contains a cuisine word (e.g. "indian", "mexican", "thai"),
+    // override the category to "Restaurants" even if "food" mapped to "Food & Basic Needs".
+    // This ensures "indian food" returns Indian restaurants, not food banks.
+    const lowerTokens = rawQuery.toLowerCase().split(/\s+/);
+    const hasCuisineWord = lowerTokens.some(t => CUISINE_WORDS.has(t));
+    if (hasCuisineWord && (inferredCategory === "Food & Basic Needs" || !inferredCategory)) {
+        inferredCategory = "Restaurants";
     }
 
     return {
@@ -191,72 +284,133 @@ export interface RankingOptions {
     strict?: boolean;
 }
 
-// --- Pipeline Step 2: Scoring Algorithm ---
+// --- Pipeline Step 2: UNIVERSAL Scoring Algorithm (Fuse.js-First) ---
+// This engine works for ANY query by using full-text fuzzy search as the PRIMARY
+// ranking mechanism. Category inference and location are applied as BONUS boosts,
+// not hard filters. This guarantees relevant results for every possible search.
 export function rankResources(resources: CommunityResource[], parsedQuery: ParsedQuery, options: RankingOptions = { strict: true }): RankedResource[] {
     // If no query, return all
     if (!parsedQuery.raw) {
         return resources.map(r => ({ ...r, matchScore: 1 }));
     }
 
+    // ========================================================================
+    // STEP 1: Full-Text Fuzzy Search (THE PRIMARY RANKING SIGNAL)
+    // This searches across name, description, category, tags, and address
+    // for ANY query, even ones with no mapped keywords whatsoever.
+    // ========================================================================
+    const fuseAllResources = new Fuse(resources, {
+        keys: [
+            { name: 'name', weight: 0.4 },
+            { name: 'short_description', weight: 0.25 },
+            { name: 'category', weight: 0.1 },
+            { name: 'tags', weight: 0.15 },
+            { name: 'address', weight: 0.05 },
+            { name: 'city', weight: 0.05 }
+        ],
+        threshold: 0.45,
+        ignoreLocation: true,
+        includeScore: true
+    });
+
+    // Search using the RAW query (not just extracted keywords) so the full context is used
+    const fuzzyResults = fuseAllResources.search(parsedQuery.raw);
+
+    // Build a map of resource name -> fuzzy relevance score (0 = perfect match, 1 = no match)
+    // We invert it so higher = better
+    const fuzzyScoreMap = new Map<string, number>();
+    fuzzyResults.forEach((result, index) => {
+        const fuseScore = result.score ?? 1;
+        // Convert Fuse score (0=best, 1=worst) to our score (100=best, 0=worst)
+        const relevanceScore = Math.round((1 - fuseScore) * 100);
+        // Also give a small positional bonus so earlier fuzzy results rank higher
+        const positionalBonus = Math.max(0, 20 - index);
+        fuzzyScoreMap.set(result.item.name, relevanceScore + positionalBonus);
+    });
+
+    // ALSO search by each individual keyword separately and merge scores.
+    // This handles conversational queries like "fun things to do with kids" where
+    // the raw query doesn't match directly but individual words like "kid" and "fun" do.
+    for (const kw of parsedQuery.keywords) {
+        if (kw.length < 3 || STOP_WORDS.has(kw)) continue; // Skip tiny/stop words
+        const kwResults = fuseAllResources.search(kw);
+        kwResults.forEach((result, index) => {
+            const fuseScore = result.score ?? 1;
+            const relevanceScore = Math.round((1 - fuseScore) * 60); // Slightly lower weight per-keyword
+            const positionalBonus = Math.max(0, 10 - index);
+            const existing = fuzzyScoreMap.get(result.item.name) ?? 0;
+            // Add to existing score (cumulative — matching multiple keywords = higher score)
+            fuzzyScoreMap.set(result.item.name, existing + relevanceScore + positionalBonus);
+        });
+    }
+
+    // ========================================================================
+    // STEP 2: Apply structured boosts on top of the fuzzy base score
+    // Category, location, and boolean flags act as BONUSES, not hard filters
+    // ========================================================================
     const scored: RankedResource[] = [];
 
     for (const resource of resources) {
-        let score = 0;
+        // Start with the fuzzy relevance score as the base (or 0 if not in fuzzy results)
+        let score = fuzzyScoreMap.get(resource.name) ?? 0;
 
         const resourceName = resource.name.toLowerCase();
         const resourceDesc = resource.short_description.toLowerCase();
         const resourceCity = resource.city.toLowerCase();
         const resourceCategory = resource.category.toLowerCase();
 
-        // 1. Keyword Matching (10 pts per match)
+        // Bonus 1: Direct keyword matching in name/description (strong signal)
         for (const kw of parsedQuery.keywords) {
-            if (resourceName.includes(kw)) score += 15; // Higher weight for name match
-            else if (resourceDesc.includes(kw)) score += 10;
+            if (resourceName.includes(kw)) score += 20;
+            else if (resourceDesc.includes(kw)) score += 12;
             else if (resource.tags && resource.tags.some(t => t.toLowerCase() === kw)) score += 10;
         }
 
-        // 2. Category Match (Very Strong Weight)
+        // Bonus 2: Category match (boost, NOT a hard filter or penalty)
         if (parsedQuery.inferredCategory) {
             if (resourceCategory.includes(parsedQuery.inferredCategory.toLowerCase())) {
-                score += 50; // Massive boost for exact category match
-            } else if (options.strict) {
-                score -= 30; // Heavy penalty if the query clearly wanted one category but this is another
+                score += 40; // Significant boost for matching category
             }
+            // NO PENALTY for mismatched category — the fuzzy score handles relevance
         }
 
-        // 3. Location Match (15 pts)
+        // Bonus 3: Location match
         if (parsedQuery.targetLocation) {
             if (resourceCity === parsedQuery.targetLocation) {
-                score += 15;
+                score += 25; // Strong boost for location match
             } else if (resource.zip_code === parsedQuery.targetLocation) {
-                score += 15;
-            } else if (options.strict) {
-                // If they asked for a specific location and this isn't it, penalize heavily.
-                score -= 10;
+                score += 25;
             }
+            // NO PENALTY for wrong location — just no bonus
         }
 
-        // 4. Boolean Boosts
+        // Bonus 4: Boolean boosts
         if (parsedQuery.isFreeRequested && resource.is_free_service) {
-            score += 10;
+            score += 15;
         }
         if (parsedQuery.isSpanishRequested && resource.languages_supported?.includes("Spanish")) {
-            score += 10;
+            score += 15;
         }
 
-        // 5. Minimum Threshold Filtering
-        // If an explicit category was requested, require a much higher minimum score to prevent random keyword matches
-        // from dragging in completely irrelevant items to the RAG pipeline or fallback UI.
-        const minimumThreshold = options.strict ? (parsedQuery.inferredCategory ? 20 : 5) : 1;
-
-        // Only include if score beats the strict threshold
-        if (score >= minimumThreshold) {
+        // Only include resources that have SOME relevance (either from fuzzy or keyword match)
+        if (score > 0) {
             scored.push({ ...resource, matchScore: score });
         }
     }
 
     // Sort descending by score
-    return scored.sort((a, b) => b.matchScore - a.matchScore);
+    let finalScored = scored.sort((a, b) => b.matchScore - a.matchScore);
+
+    // SAFETY NET: If somehow nothing scored above 0, do a raw fuzzy search as last resort
+    if (finalScored.length === 0 && parsedQuery.raw.trim() !== "") {
+        console.log(`[SearchEngine] No results for "${parsedQuery.raw}". Raw fuzzy fallback.`);
+        finalScored = fuzzyResults.slice(0, 20).map((result, index) => ({
+            ...result.item,
+            matchScore: Math.max(1, 20 - index)
+        }));
+    }
+
+    return finalScored;
 }
 
 export interface AIOverview {

@@ -207,11 +207,69 @@ export default function SearchClient({ initialQuery, allResources }: SearchClien
             <div className="w-full md:w-3/4 flex flex-col">
                 {/* Integrated Response Container */}
                 {isLoadingAI ? (
-                    <div className="bg-white rounded-[2rem] p-6 md:p-10 border border-teal-100 shadow-sm flex flex-col items-center justify-center min-h-[400px] relative overflow-hidden">
-                        <div className="absolute top-0 right-0 w-64 h-64 bg-teal-50 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-pulse"></div>
-                        <Sparkles className="w-12 h-12 text-primary-teal mb-4 animate-bounce" />
-                        <h3 className="text-xl font-bold text-text-dark mb-2">Analyzing search intent...</h3>
-                        <p className="text-gray-500 text-center max-w-sm">Generating semantic matches and writing custom overview.</p>
+                    <div className="bg-white rounded-[2rem] p-6 md:p-10 border border-gray-100 shadow-sm flex flex-col relative overflow-hidden">
+                        {/* Decorative shimmer overlay */}
+                        <div className="absolute inset-0 -translate-x-full animate-[shimmer_2s_infinite] bg-gradient-to-r from-transparent via-white/60 to-transparent" style={{ animationName: 'shimmer' }}></div>
+
+                        {/* Skeleton Header: Badge + Title */}
+                        <div className="mb-8">
+                            <div className="flex items-center mb-3">
+                                <div className="h-6 w-32 bg-gray-200 rounded-full animate-pulse"></div>
+                                <div className="h-7 w-48 bg-gray-200 rounded-lg animate-pulse ml-3"></div>
+                            </div>
+                            {/* Skeleton paragraph lines */}
+                            <div className="space-y-3 mt-4">
+                                <div className="h-4 bg-gray-100 rounded-full w-full animate-pulse"></div>
+                                <div className="h-4 bg-gray-100 rounded-full w-5/6 animate-pulse" style={{ animationDelay: '150ms' }}></div>
+                                <div className="h-4 bg-gray-100 rounded-full w-3/4 animate-pulse" style={{ animationDelay: '300ms' }}></div>
+                            </div>
+                        </div>
+
+                        {/* Skeleton Map Toggle Button */}
+                        <div className="mb-6 flex justify-end">
+                            <div className="h-10 w-40 bg-gray-200 rounded-full animate-pulse"></div>
+                        </div>
+
+                        {/* Skeleton Horizontal Card Rail */}
+                        <div className="flex flex-row gap-6 pb-6 pt-2 overflow-hidden w-full">
+                            {[1, 2, 3, 4].map(i => (
+                                <div key={i} className="flex-shrink-0 w-[340px] bg-gray-50 rounded-3xl border border-gray-100 p-5 animate-pulse" style={{ animationDelay: `${i * 100}ms` }}>
+                                    {/* Card title skeleton */}
+                                    <div className="h-5 bg-gray-200 rounded-lg w-3/4 mb-3"></div>
+                                    {/* Card description skeleton */}
+                                    <div className="space-y-2 mb-4">
+                                        <div className="h-3 bg-gray-100 rounded-full w-full"></div>
+                                        <div className="h-3 bg-gray-100 rounded-full w-5/6"></div>
+                                        <div className="h-3 bg-gray-100 rounded-full w-2/3"></div>
+                                    </div>
+                                    {/* Card address skeleton */}
+                                    <div className="flex items-center gap-2 mb-4">
+                                        <div className="w-4 h-4 bg-gray-200 rounded-full"></div>
+                                        <div className="h-3 bg-gray-100 rounded-full w-48"></div>
+                                    </div>
+                                    {/* Card tags skeleton */}
+                                    <div className="flex gap-2">
+                                        <div className="h-6 w-16 bg-gray-200 rounded-full"></div>
+                                        <div className="h-6 w-20 bg-gray-200 rounded-full"></div>
+                                        <div className="h-6 w-14 bg-gray-200 rounded-full"></div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* Skeleton Post-Rail Text */}
+                        <div className="mt-8 border-t border-gray-100 pt-6">
+                            <div className="space-y-3">
+                                <div className="h-4 bg-gray-100 rounded-full w-full animate-pulse"></div>
+                                <div className="h-4 bg-gray-100 rounded-full w-4/5 animate-pulse" style={{ animationDelay: '200ms' }}></div>
+                            </div>
+                        </div>
+
+                        {/* Centered status text */}
+                        <div className="flex items-center justify-center mt-6 gap-2">
+                            <Sparkles className="w-4 h-4 text-primary-teal animate-spin" />
+                            <span className="text-sm text-gray-400 font-medium">Analyzing your search...</span>
+                        </div>
                     </div>
                 ) : aiResults.length > 0 ? (
                     <div className="bg-white rounded-[2rem] p-6 md:p-10 border border-gray-100 shadow-sm flex flex-col relative overflow-hidden transition-all duration-500">
@@ -241,63 +299,42 @@ export default function SearchClient({ initialQuery, allResources }: SearchClien
                         <div className="relative z-10 mb-6 flex justify-end">
                             <button
                                 onClick={() => setIsMapVisible(!isMapVisible)}
-                                className={`flex items-center px-5 py-2.5 rounded-full font-bold transition-all shadow-sm ${isMapVisible ? 'bg-gray-800 text-white hover:bg-gray-700' : 'bg-primary-teal text-white hover:bg-teal-700'}`}
+                                className={`flex items-center px-6 py-2.5 rounded-full font-bold transition-all shadow-md border border-transparent ${isMapVisible ? 'bg-gray-800 text-white hover:bg-gray-700' : 'bg-[#e65c00] text-white hover:bg-[#cc5200] hover:shadow-lg'}`}
                             >
                                 <MapPin className="w-5 h-5 mr-2" />
                                 {isMapVisible ? "Hide Map" : "Show On Map"}
                             </button>
                         </div>
 
-                        {/* Split Pane Layout */}
-                        <div className={`relative z-10 w-full flex flex-col ${isMapVisible ? 'xl:flex-row' : ''} gap-8`}>
-
-                            {/* Cards Column */}
-                            <div className={`flex flex-col gap-6 ${isMapVisible ? 'xl:w-1/2' : 'w-full'}`}>
-                                {isMapVisible ? (
-                                    <div className="flex flex-col gap-6 w-full">
-                                        {aiResults.map((resource, idx) => (
-                                            <div
-                                                id={`resource-card-${resource.id}`}
-                                                key={resource.id || idx}
-                                                onMouseEnter={() => setHoveredResourceId(resource.id)}
-                                                onMouseLeave={() => setHoveredResourceId(null)}
-                                                onClick={() => setClickedResourceId(resource.id)}
-                                                className={`transition-all duration-300 w-full rounded-3xl cursor-pointer ${hoveredResourceId === resource.id || clickedResourceId === resource.id ? 'ring-2 ring-primary-teal shadow-xl scale-[1.02]' : ''}`}
-                                            >
-                                                <CompactResourceCard resource={resource} />
-                                            </div>
-                                        ))}
+                        {/* Cards - Always horizontal scroll */}
+                        <div className="relative z-10 w-full">
+                            <div className="flex flex-row overflow-x-auto gap-6 pb-6 pt-2 snap-x snap-mandatory custom-scrollbar w-full">
+                                {aiResults.map((resource, idx) => (
+                                    <div
+                                        id={`resource-card-${resource.id}`}
+                                        key={resource.id || idx}
+                                        onMouseEnter={() => setHoveredResourceId(resource.id)}
+                                        onMouseLeave={() => setHoveredResourceId(null)}
+                                        onClick={() => setClickedResourceId(resource.id)}
+                                        className={`transition-all duration-300 rounded-3xl cursor-pointer flex-shrink-0 ${hoveredResourceId === resource.id || clickedResourceId === resource.id ? 'ring-2 ring-primary-teal shadow-xl scale-[1.02]' : ''}`}
+                                    >
+                                        <CompactResourceCard resource={resource} />
                                     </div>
-                                ) : (
-                                    <div className="flex flex-row overflow-x-auto gap-6 pb-6 pt-2 snap-x snap-mandatory custom-scrollbar w-full">
-                                        {aiResults.map((resource, idx) => (
-                                            <div
-                                                id={`resource-card-${resource.id}`}
-                                                key={resource.id || idx}
-                                                onMouseEnter={() => setHoveredResourceId(resource.id)}
-                                                onMouseLeave={() => setHoveredResourceId(null)}
-                                                onClick={() => setClickedResourceId(resource.id)}
-                                                className={`transition-all duration-300 rounded-3xl cursor-pointer ${hoveredResourceId === resource.id || clickedResourceId === resource.id ? 'ring-2 ring-primary-teal shadow-xl scale-[1.02]' : ''}`}
-                                            >
-                                                <CompactResourceCard resource={resource} />
-                                            </div>
-                                        ))}
-                                    </div>
-                                )}
+                                ))}
                             </div>
-
-                            {/* Interactive Geographic Map Side Panel */}
-                            {isMapVisible && (
-                                <div className="xl:w-1/2 w-full h-[600px] xl:h-auto rounded-3xl overflow-hidden shadow-lg border border-gray-200 xl:sticky xl:top-6 bg-gray-50 flex-shrink-0" style={{ minHeight: '600px', zIndex: 0 }}>
-                                    <ResultMap
-                                        resources={aiResults}
-                                        activeResourceId={hoveredResourceId}
-                                        clickedResourceId={clickedResourceId}
-                                        onMarkerClick={scrollToCard}
-                                    />
-                                </div>
-                            )}
                         </div>
+
+                        {/* Interactive Geographic Map - Full Width Below Cards */}
+                        {isMapVisible && (
+                            <div className="relative z-10 w-full h-[450px] rounded-3xl overflow-hidden shadow-lg border border-gray-200 bg-gray-50 mt-2" style={{ zIndex: 0 }}>
+                                <ResultMap
+                                    resources={aiResults}
+                                    activeResourceId={hoveredResourceId}
+                                    clickedResourceId={clickedResourceId}
+                                    onMarkerClick={scrollToCard}
+                                />
+                            </div>
+                        )}
 
                         {/* Conversational Paragraph Post-Rail */}
                         <div className="relative z-10 mt-8 border-t border-gray-100 pt-6">
