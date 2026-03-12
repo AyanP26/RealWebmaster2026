@@ -33,13 +33,14 @@ export default function Navbar({ style }: NavbarProps) {
                 </Link>
 
                 {/* Center: Category Links */}
-                <div className="hidden lg:flex items-center space-x-5">
+                <div className="hidden lg:flex items-center space-x-4">
                     <Link href="/category/food" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Food</Link>
                     <Link href="/category/health" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Health</Link>
                     <Link href="/category/education" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Education</Link>
                     <Link href="/category/government" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Gov & Legal</Link>
                     <Link href="/category/community" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Community</Link>
                     <Link href="/category/restaurants" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Dining</Link>
+                    <Link href="/history" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">History</Link>
                 </div>
 
                 {/* Right side: CTAs and Mobile Toggle */}
@@ -76,6 +77,7 @@ export default function Navbar({ style }: NavbarProps) {
                         <Link href="/category/government" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">Gov & Legal</Link>
                         <Link href="/category/community" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">Community</Link>
                         <Link href="/category/restaurants" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">Dining</Link>
+                        <Link href="/history" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">History</Link>
                         
                         <div className="border-t border-gray-100 pt-3 flex flex-col space-y-2">
                            <Link

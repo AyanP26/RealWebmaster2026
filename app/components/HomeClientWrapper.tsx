@@ -50,18 +50,21 @@ export default function HomeClientWrapper({ children }: HomeClientWrapperProps) 
             {/* The intro landing — always in the DOM */}
             <HeroLanding onNavbarReady={handleNavbarReady} />
 
-            {/* Content section — Navbar sits directly here (no wrapper) for sticky to work */}
-            <div ref={contentRef}>
+            {/* Navbar arrives at stage 6 of HeroLanding */}
+            <div className="fixed top-6 left-0 w-full z-50 pointer-events-none">
+                <div className="pointer-events-auto">
+                    <Navbar
+                        style={{
+                            opacity: navbarVisible ? 1 : 0,
+                            transform: navbarVisible ? 'translateY(0)' : 'translateY(-20px)',
+                            transition: 'opacity 1000ms ease-out, transform 1000ms ease-out',
+                        }}
+                    />
+                </div>
+            </div>
 
-                {/* Navbar — sticky positioning works because it's a direct child of this tall container */}
-                <Navbar
-                    style={{
-                        opacity: navbarVisible ? 1 : 0,
-                        transform: navbarVisible ? 'translateY(0)' : 'translateY(-20px)',
-                        transition: 'opacity 700ms ease-out, transform 700ms ease-out',
-                    }}
-                />
-
+            {/* Content section */}
+            <div ref={contentRef} className="relative z-20">
                 {children}
             </div>
         </div>
