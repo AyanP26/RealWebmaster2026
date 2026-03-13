@@ -11922,5 +11922,72 @@
     "is_free_service": false,
     "latitude": 38.6369,
     "longitude": -77.1953
+  },
+  {
+    "id": "peking-gourmet-603",
+    "name": "Peking Gourmet Inn",
+    "short_description": "A legendary institution in Falls Church, famous for Peking Duck. A true NoVA legend.",
+    "category": "Restaurants",
+    "address": "6029 Leesburg Pike",
+    "city": "Falls Church",
+    "zip_code": "22041",
+    "website": "http://www.pekinggourmet.com",
+    "is_free_service": false,
+    "tags": ["Legend", "Family Style"],
+    "latitude": 38.8517,
+    "longitude": -77.1356
+  },
+  {
+    "id": "l-auberge-604",
+    "name": "L'Auberge Chez François",
+    "short_description": "Upscale, romantic French inn in Great Falls. The ultimate date night destination.",
+    "category": "Restaurants",
+    "address": "332 Springvale Rd",
+    "city": "Great Falls",
+    "zip_code": "22066",
+    "website": "https://www.laubergechezfrancois.com",
+    "is_free_service": false,
+    "tags": ["Date Night", "Legend"],
+    "latitude": 38.9958,
+    "longitude": -77.2691
+  },
+  {
+    "id": "enat-toast-605",
+    "name": "Enat Toast",
+    "short_description": "A vibrant hidden gem in Alexandria serving Ethiopian-fusion toast.",
+    "category": "Restaurants",
+    "address": "4710 Eisenhower Ave",
+    "city": "Alexandria",
+    "zip_code": "22304",
+    "is_free_service": false,
+    "tags": ["Hidden Gem"],
+    "latitude": 38.8041,
+    "longitude": -77.1189
+  },
+  {
+    "id": "boru-ramen-606",
+    "name": "Boru Ramen",
+    "short_description": "Sleek Arlington ramen shop with a relaxed late night atmosphere.",
+    "category": "Restaurants",
+    "address": "2915 Columbia Pike",
+    "city": "Arlington",
+    "zip_code": "22204",
+    "is_free_service": false,
+    "tags": ["Late Night"],
+    "latitude": 38.8625,
+    "longitude": -77.0911
+  },
+  {
+    "id": "compass-coffee-rosslyn-607",
+    "name": "Compass Coffee - Rosslyn",
+    "short_description": "Best coffee & study spot in Rosslyn with ample seating.",
+    "category": "Restaurants",
+    "address": "1201 Wilson Blvd",
+    "city": "Arlington",
+    "zip_code": "22209",
+    "is_free_service": false,
+    "tags": ["Coffee & Study"],
+    "latitude": 38.8951,
+    "longitude": -77.0701
   }
 ]
