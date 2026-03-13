@@ -88,15 +88,11 @@ export default function ReferencesPage() {
                                 </li>
                                 <li className="text-sm flex items-start gap-2">
                                     <span className="text-primary-blue mt-1">•</span>
-                                    <span>**Framer Motion** - A library for creating animations in React applications.</span>
+                                    <span>**Leaflet / React-Leaflet** - Used for interactive mapping and coordinate data display.</span>
                                 </li>
                                 <li className="text-sm flex items-start gap-2">
                                     <span className="text-primary-blue mt-1">•</span>
-                                    <span>**Three.js / React-Three-Fiber** - A library for creating 3D graphics in React.</span>
-                                </li>
-                                <li className="text-sm flex items-start gap-2">
-                                    <span className="text-primary-blue mt-1">•</span>
-                                    <span>**Leaflet / React-Leaflet** - Used for interactive map components.</span>
+                                    <span>**Compromise** - Used for natural language processing of resource search queries.</span>
                                 </li>
                             </ul>
                             <ul className="space-y-4 font-medium">
@@ -106,15 +102,11 @@ export default function ReferencesPage() {
                                 </li>
                                 <li className="text-sm flex items-start gap-2">
                                     <span className="text-accent-orange mt-1">•</span>
-                                    <span>**Google Gemini API** - Used for AI-powered resource categorization.</span>
+                                    <span>**Google Gemini API (@google/generative-ai)** - Used for intelligent resource categorization.</span>
                                 </li>
                                 <li className="text-sm flex items-start gap-2">
                                     <span className="text-accent-orange mt-1">•</span>
-                                    <span>**Next-Auth** - Standardized library for secure authentication.</span>
-                                </li>
-                                <li className="text-sm flex items-start gap-2">
-                                    <span className="text-accent-orange mt-1">•</span>
-                                    <span>**Stripe** - For payment processing and checkout flows.</span>
+                                    <span>**Tailwind CSS** - A utility-first CSS framework for rapid UI development and consistent styling.</span>
                                 </li>
                             </ul>
                         </div>
