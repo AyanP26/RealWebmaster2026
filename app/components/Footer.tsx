@@ -66,6 +66,7 @@ export default function Footer() {
                         &copy; {new Date().getFullYear()} Weave Nova. All rights reserved.
                     </p>
                     <div className="flex space-x-6 mt-4 md:mt-0 text-xs font-bold text-gray-400 uppercase tracking-widest">
+                        <Link href="/references" className="hover:text-primary-blue transition-colors">References</Link>
                         <Link href="/privacy" className="hover:text-primary-blue transition-colors">Privacy</Link>
                         <Link href="/terms" className="hover:text-primary-blue transition-colors">Terms</Link>
                     </div>
