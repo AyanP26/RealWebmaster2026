@@ -2,7 +2,6 @@
 
 import { useState, useMemo, useEffect } from 'react';
 import { CommunityResource } from "../types/resource";
-import ResourceCard from "../components/ResourceCard";
 import CompactResourceCard from "../components/CompactResourceCard";
 import HomeSearchBar from "../components/HomeSearchBar";
 import { parseQuery, rankResources, generateAIOverview } from "../utils/searchEngine";
