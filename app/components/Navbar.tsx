@@ -51,7 +51,6 @@ export default function Navbar({ style }: NavbarProps) {
                                         { href: "/category/government", label: "Gov & Legal", icon: <Briefcase className="w-4 h-4" /> },
                                         { href: "/category/community", label: "Community", icon: <Handshake className="w-4 h-4" /> },
                                         { href: "/category/restaurants", label: "Dining", icon: <MapPin className="w-4 h-4" /> },
-                                        { href: "/category/nature", label: "Nature", icon: <TreePine className="w-4 h-4" /> },
                                     ].map((item) => (
                                         <Link 
                                             key={item.href}
@@ -69,6 +68,7 @@ export default function Navbar({ style }: NavbarProps) {
                         </div>
                     </div>
                     
+                    <Link href="/category/nature" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Nature</Link>
                     <Link href="/history" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">History</Link>
                     <Link href="/about" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">About</Link>
                 </div>
@@ -127,13 +127,13 @@ export default function Navbar({ style }: NavbarProps) {
                                 <MapPin className="w-4 h-4 text-accent-orange" />
                                 <span>Dining</span>
                             </Link>
-                            <Link href="/category/nature" onClick={toggleMenu} className="flex items-center space-x-3 p-2 rounded-xl hover:bg-blue-50/50 text-sm font-semibold text-gray-600">
-                                <TreePine className="w-4 h-4 text-primary-teal" />
-                                <span>Nature</span>
-                            </Link>
                         </div>
                         
                         <div className="px-2 py-2 text-xs font-bold text-gray-400 uppercase tracking-widest pt-2">Explore</div>
+                        <Link href="/category/nature" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-xl hover:bg-emerald-50/50 flex items-center space-x-2">
+                            <TreePine className="w-4 h-4 text-emerald-600" />
+                            <span>Nature</span>
+                        </Link>
                         <Link href="/history" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-xl hover:bg-blue-50/50">History</Link>
                         <Link href="/about" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-xl hover:bg-blue-50/50">About</Link>
                         
