@@ -2,7 +2,7 @@ export interface CommunityResource {
     id: string;
     name: string;
     short_description: string;
-    category: "Healthcare" | "Education" | "Food Assistance" | "Workforce Development" | "Housing" | "Legal Aid" | "Community Support" | "Other";
+    category: "Healthcare & Mental Health" | "Education & Libraries" | "Food & Basic Needs" | "Government & Legal Services" | "Community & Recreation" | "Restaurants" | "Nature" | "Other";
     tags?: string[];
 
     // Location
