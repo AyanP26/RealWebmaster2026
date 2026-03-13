@@ -142,8 +142,7 @@ export default function RestaurantsCategoryPage() {
                         {/* Legend Card 1 */}
                         <div className="min-w-[300px] md:min-w-[450px] snap-start group relative">
                             <div className="relative aspect-[16/10] rounded-[3rem] overflow-hidden shadow-xl mb-6">
-                                <div className="absolute inset-0 bg-gray-200 flex items-center justify-center text-gray-400 italic">User Image Placeholder: Pho Bowl</div>
-                                {/* <img src="/nova_pho_bowl.jpg" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Legendary Pho" /> */}
+                                <img src="https://images.pexels.com/photos/30136627/pexels-photo-30136627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Legendary Pho" />
                                 <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl text-xs font-bold uppercase tracking-widest text-orange-600 border border-orange-100">Most Authentic</div>
                             </div>
                             <h3 className="text-2xl font-extrabold text-gray-900 mb-2">Eden Center Institutions</h3>
@@ -153,8 +152,7 @@ export default function RestaurantsCategoryPage() {
                         {/* Legend Card 2 */}
                         <div className="min-w-[300px] md:min-w-[450px] snap-start group relative">
                             <div className="relative aspect-[16/10] rounded-[3rem] overflow-hidden shadow-xl mb-6">
-                                <div className="absolute inset-0 bg-gray-200 flex items-center justify-center text-gray-400 italic">User Image Placeholder: Korean BBQ</div>
-                                {/* <img src="/nova_kbbq.jpg" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Legendary KBBQ" /> */}
+                                <img src="https://images.pexels.com/photos/2611917/pexels-photo-2611917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Legendary KBBQ" />
                                 <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl text-xs font-bold uppercase tracking-widest text-orange-600 border border-orange-100">Crowd Favorite</div>
                             </div>
                             <h3 className="text-2xl font-extrabold text-gray-900 mb-2">Annandale's K-Town</h3>
@@ -164,8 +162,7 @@ export default function RestaurantsCategoryPage() {
                         {/* Legend Card 3 */}
                         <div className="min-w-[300px] md:min-w-[450px] snap-start group relative">
                             <div className="relative aspect-[16/10] rounded-[3rem] overflow-hidden shadow-xl mb-6">
-                                <div className="absolute inset-0 bg-gray-200 flex items-center justify-center text-gray-400 italic">User Image Placeholder: Upscale Bistro</div>
-                                {/* <img src="/nova_bistro.jpg" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Legendary Bistro" /> */}
+                                <img src="https://images.pexels.com/photos/6267516/pexels-photo-6267516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Legendary Bistro" />
                                 <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl text-xs font-bold uppercase tracking-widest text-orange-600 border border-orange-100">Top Rated</div>
                             </div>
                             <h3 className="text-2xl font-extrabold text-gray-900 mb-2">Old Town Fine Dining</h3>
@@ -229,22 +226,22 @@ export default function RestaurantsCategoryPage() {
                         <div className="p-10 border-2 border-gray-100 rounded-[3rem] hover:border-orange-200 transition-colors">
                             <h3 className="text-2xl font-bold mb-4 text-gray-900 text-center">Eden Center</h3>
                             <p className="text-gray-500 text-center mb-8">The most diverse Vietnamese shopping center on the East Coast. Try the Banh Mi or fresh spring rolls from any of the local walk-up windows.</p>
-                             <div className="h-48 rounded-[2rem] bg-gray-50 flex items-center justify-center text-gray-400 italic text-center p-4">
-                                User Image: Eden Center Arch
+                             <div className="h-48 rounded-[2rem] overflow-hidden bg-gray-50 border border-orange-100">
+                                <img src="https://images.pexels.com/photos/30136627/pexels-photo-30136627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover grayscale-0 hover:scale-110 transition-transform duration-500" alt="Eden Center Pho" />
                              </div>
                         </div>
                         <div className="p-10 border-2 border-gray-100 rounded-[3rem] hover:border-orange-200 transition-colors">
                             <h3 className="text-2xl font-bold mb-4 text-gray-900 text-center">Annandale</h3>
                             <p className="text-gray-500 text-center mb-8">NoVA's own Little Korea. Known for 24-hour KBBQ, world-class bakeries, and authentic soups that serve as the heart of the community.</p>
-                             <div className="h-48 rounded-[2rem] bg-gray-50 flex items-center justify-center text-gray-400 italic text-center p-4">
-                                User Image: Annandale Street
+                             <div className="h-48 rounded-[2rem] overflow-hidden bg-gray-50 border border-orange-100">
+                                <img src="https://images.pexels.com/photos/2611917/pexels-photo-2611917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover grayscale-0 hover:scale-110 transition-transform duration-500" alt="Annandale KBBQ" />
                              </div>
                         </div>
                         <div className="p-10 border-2 border-gray-100 rounded-[3rem] hover:border-orange-200 transition-colors">
                             <h3 className="text-2xl font-bold mb-4 text-gray-900 text-center">Old Town</h3>
                             <p className="text-gray-500 text-center mb-8">Walkable historic streets lined with upscale seafood, classic American taverns, and fine dining hotspots with views of the Potomac.</p>
-                             <div className="h-48 rounded-[2rem] bg-gray-50 flex items-center justify-center text-gray-400 italic text-center p-4">
-                                User Image: Old Town Waterfront
+                             <div className="h-48 rounded-[2rem] overflow-hidden bg-gray-50 border border-orange-100">
+                                <img src="https://images.pexels.com/photos/6267516/pexels-photo-6267516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover grayscale-0 hover:scale-110 transition-transform duration-500" alt="Old Town Bistro" />
                              </div>
                         </div>
                     </div>
@@ -260,23 +257,33 @@ export default function RestaurantsCategoryPage() {
                     </div>
                     
                     <div className="columns-2 md:columns-3 lg:columns-4 gap-6 space-y-6">
-                        <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm">
-                             <div className="aspect-[3/4] rounded-2xl bg-gray-100 flex items-center justify-center text-xs text-gray-400 italic p-4 text-center">User Image: Pho Close-up</div>
+                        <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm border border-gray-100">
+                             <div className="aspect-[3/4] rounded-2xl overflow-hidden">
+                                <img src="https://images.pexels.com/photos/30136627/pexels-photo-30136627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover" alt="Pho Close-up" />
+                             </div>
                         </div>
-                        <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm">
-                             <div className="aspect-square rounded-2xl bg-gray-100 flex items-center justify-center text-xs text-gray-400 italic p-4 text-center">User Image: Dumplings</div>
+                        <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm border border-gray-100">
+                             <div className="aspect-square rounded-2xl overflow-hidden">
+                                <img src="https://images.pexels.com/photos/3911229/pexels-photo-3911229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover" alt="Dumplings" />
+                             </div>
                         </div>
-                        <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm">
-                             <div className="aspect-[4/5] rounded-2xl bg-gray-100 flex items-center justify-center text-xs text-gray-400 italic p-4 text-center">User Image: KBBQ Grill</div>
+                        <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm border border-gray-100">
+                             <div className="aspect-[4/5] rounded-2xl overflow-hidden">
+                                <img src="https://images.pexels.com/photos/2611917/pexels-photo-2611917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover" alt="KBBQ Grill" />
+                             </div>
                         </div>
                         <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm">
                              <div className="aspect-video rounded-2xl bg-gray-100 flex items-center justify-center text-xs text-gray-400 italic p-4 text-center">User Image: Pasta Dish</div>
                         </div>
-                        <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm">
-                             <div className="aspect-[9/16] rounded-2xl bg-gray-100 flex items-center justify-center text-xs text-gray-400 italic p-4 text-center">User Image: Coffee Art</div>
+                        <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm border border-gray-100">
+                             <div className="aspect-[9/16] rounded-2xl overflow-hidden">
+                                <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover" alt="Coffee Art" />
+                             </div>
                         </div>
-                        <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm">
-                             <div className="aspect-square rounded-2xl bg-gray-100 flex items-center justify-center text-xs text-gray-400 italic p-4 text-center">User Image: Burger</div>
+                        <div className="break-inside-avoid rounded-3xl bg-white p-2 shadow-sm border border-gray-100">
+                             <div className="aspect-square rounded-2xl overflow-hidden">
+                                <img src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover" alt="Burger" />
+                             </div>
                         </div>
                     </div>
                 </div>
