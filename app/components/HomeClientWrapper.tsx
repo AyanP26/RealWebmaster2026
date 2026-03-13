@@ -28,12 +28,6 @@ export default function HomeClientWrapper({ children }: HomeClientWrapperProps) 
         setReady(true);
     }, []);
 
-    // On return visits, auto-scroll to the content section (past the landing)
-    useEffect(() => {
-        if (ready && !isFirstVisit && contentRef.current) {
-            contentRef.current.scrollIntoView();
-        }
-    }, [ready, isFirstVisit]);
 
     const handleNavbarReady = useCallback(() => {
         setNavbarVisible(true);

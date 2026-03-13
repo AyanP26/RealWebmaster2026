@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown, Apple, HeartPulse, BookOpen, Briefcase, Handshake, MapPin } from "lucide-react";
 
 interface NavbarProps {
     style?: React.CSSProperties;
@@ -33,14 +33,43 @@ export default function Navbar({ style }: NavbarProps) {
                 </Link>
 
                 {/* Center: Category Links */}
-                <div className="hidden lg:flex items-center space-x-4">
-                    <Link href="/category/food" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Food</Link>
-                    <Link href="/category/health" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Health</Link>
-                    <Link href="/category/education" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Education</Link>
-                    <Link href="/category/government" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Gov & Legal</Link>
-                    <Link href="/category/community" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Community</Link>
-                    <Link href="/category/restaurants" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">Dining</Link>
+                <div className="hidden lg:flex items-center space-x-6">
+                    <div className="relative group pt-1">
+                        <button className="flex items-center space-x-1 text-sm font-semibold text-gray-600 group-hover:text-primary-blue transition-colors pb-1">
+                            <span>Resources</span>
+                            <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
+                        </button>
+                        
+                        {/* Desktop Dropdown */}
+                        <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 translate-y-2 z-50">
+                            <div className="bg-white rounded-3xl shadow-2xl shadow-blue-900/10 border border-gray-100 p-6 min-w-[280px]">
+                                <div className="grid grid-cols-1 gap-1">
+                                    {[
+                                        { href: "/category/food", label: "Food", icon: <Apple className="w-4 h-4" /> },
+                                        { href: "/category/health", label: "Health", icon: <HeartPulse className="w-4 h-4" /> },
+                                        { href: "/category/education", label: "Education", icon: <BookOpen className="w-4 h-4" /> },
+                                        { href: "/category/government", label: "Gov & Legal", icon: <Briefcase className="w-4 h-4" /> },
+                                        { href: "/category/community", label: "Community", icon: <Handshake className="w-4 h-4" /> },
+                                        { href: "/category/restaurants", label: "Dining", icon: <MapPin className="w-4 h-4" /> },
+                                    ].map((item) => (
+                                        <Link 
+                                            key={item.href}
+                                            href={item.href} 
+                                            className="flex items-center space-x-3 p-3 rounded-2xl hover:bg-blue-50/50 transition-colors group/item"
+                                        >
+                                            <div className="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center group-hover/item:bg-white group-hover/item:shadow-sm text-gray-400 group-hover/item:text-primary-blue transition-all">
+                                                {item.icon}
+                                            </div>
+                                            <span className="text-sm font-semibold text-gray-600 group-hover/item:text-gray-900">{item.label}</span>
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <Link href="/history" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">History</Link>
+                    <Link href="/about" className="text-sm font-semibold text-gray-600 hover:text-primary-blue transition-colors">About</Link>
                 </div>
 
                 {/* Right side: CTAs and Mobile Toggle */}
@@ -71,13 +100,37 @@ export default function Navbar({ style }: NavbarProps) {
                 {/* Mobile Menu Dropdown */}
                 {isMobileMenuOpen && (
                     <div className="absolute top-[120%] left-0 w-full bg-white/95 backdrop-blur-md rounded-2xl shadow-xl shadow-blue-900/10 border border-white/20 p-4 flex flex-col space-y-3 lg:hidden origin-top animate-in fade-in slide-in-from-top-4 duration-200">
-                        <Link href="/category/food" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">Food</Link>
-                        <Link href="/category/health" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">Health</Link>
-                        <Link href="/category/education" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">Education</Link>
-                        <Link href="/category/government" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">Gov & Legal</Link>
-                        <Link href="/category/community" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">Community</Link>
-                        <Link href="/category/restaurants" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">Dining</Link>
-                        <Link href="/history" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-md hover:bg-blue-50/50">History</Link>
+                        <div className="space-y-1">
+                            <div className="px-2 py-2 text-xs font-bold text-gray-400 uppercase tracking-widest">Resources</div>
+                            <Link href="/category/food" onClick={toggleMenu} className="flex items-center space-x-3 p-2 rounded-xl hover:bg-blue-50/50 text-sm font-semibold text-gray-600">
+                                <Apple className="w-4 h-4 text-primary-blue" />
+                                <span>Food</span>
+                            </Link>
+                            <Link href="/category/health" onClick={toggleMenu} className="flex items-center space-x-3 p-2 rounded-xl hover:bg-blue-50/50 text-sm font-semibold text-gray-600">
+                                <HeartPulse className="w-4 h-4 text-accent-orange" />
+                                <span>Health</span>
+                            </Link>
+                            <Link href="/category/education" onClick={toggleMenu} className="flex items-center space-x-3 p-2 rounded-xl hover:bg-blue-50/50 text-sm font-semibold text-gray-600">
+                                <BookOpen className="w-4 h-4 text-primary-blue" />
+                                <span>Education</span>
+                            </Link>
+                            <Link href="/category/government" onClick={toggleMenu} className="flex items-center space-x-3 p-2 rounded-xl hover:bg-blue-50/50 text-sm font-semibold text-gray-600">
+                                <Briefcase className="w-4 h-4 text-accent-orange" />
+                                <span>Gov & Legal</span>
+                            </Link>
+                            <Link href="/category/community" onClick={toggleMenu} className="flex items-center space-x-3 p-2 rounded-xl hover:bg-blue-50/50 text-sm font-semibold text-gray-600">
+                                <Handshake className="w-4 h-4 text-primary-blue" />
+                                <span>Community</span>
+                            </Link>
+                            <Link href="/category/restaurants" onClick={toggleMenu} className="flex items-center space-x-3 p-2 rounded-xl hover:bg-blue-50/50 text-sm font-semibold text-gray-600">
+                                <MapPin className="w-4 h-4 text-accent-orange" />
+                                <span>Dining</span>
+                            </Link>
+                        </div>
+                        
+                        <div className="px-2 py-2 text-xs font-bold text-gray-400 uppercase tracking-widest pt-2">Explore</div>
+                        <Link href="/history" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-xl hover:bg-blue-50/50">History</Link>
+                        <Link href="/about" onClick={toggleMenu} className="text-sm font-semibold text-gray-600 hover:text-primary-blue p-2 rounded-xl hover:bg-blue-50/50">About</Link>
                         
                         <div className="border-t border-gray-100 pt-3 flex flex-col space-y-2">
                            <Link

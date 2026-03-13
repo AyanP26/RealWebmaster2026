@@ -26,23 +26,54 @@ export default function HistoryPage() {
             }} />
 
             {/* HERO SECTION */}
-            <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 z-0">
-                    <img 
-                        src="/nova_great_falls.png" 
-                        alt="Great Falls Northern Virginia" 
-                        className="w-full h-full object-cover scale-105 animate-slow-zoom"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-white" />
-                </div>
+            <section className="relative pt-32 pb-20 px-6 overflow-hidden bg-gradient-to-br from-gray-50 to-white">
+                {/* Decorative background blobs */}
+                <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-50/50 rounded-full filter blur-3xl -translate-y-1/2 translate-x-1/4 z-0" />
+                <div className="absolute top-1/2 left-0 w-[300px] h-[300px] bg-orange-50/50 rounded-full filter blur-3xl -translate-y-1/2 -translate-x-1/4 z-0" />
 
-                <div className="relative z-10 max-w-5xl px-6 text-center text-white">
-                    <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 animate-fade-in-up">
-                        The Soul of <span className="bg-gradient-to-r from-blue-400 to-orange-400 bg-clip-text text-transparent">Northern Virginia</span>
-                    </h1>
-                    <p className="text-xl md:text-2xl font-medium text-gray-200 max-w-3xl mx-auto leading-relaxed animate-fade-in-up delay-200">
-                        From the rushing waters of Great Falls to the digital veins of the internet—explore the heritage of the place we call home.
-                    </p>
+                <div className="max-w-7xl mx-auto relative z-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                        <div className="text-left animate-fade-in-up">
+                            <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100/50 text-primary-blue rounded-full text-xs font-bold mb-6 uppercase tracking-widest border border-blue-200/50">
+                                <BookOpen className="w-3.5 h-3.5" />
+                                Our Regional Legacy
+                            </div>
+                            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-gray-900 mb-8 leading-[1.1]">
+                                The Soul of <br />
+                                <span className="bg-gradient-to-r from-primary-blue to-accent-orange bg-clip-text text-transparent italic">
+                                    Northern Virginia
+                                </span>
+                            </h1>
+                            <p className="text-lg md:text-xl text-gray-600 max-w-xl leading-relaxed mb-10">
+                                Beyond the commute and the technology lies a story of resilience, innovation, and community. Journey through the heritage that defines our home.
+                            </p>
+                            <div className="flex gap-4">
+                                <Link href="#timeline" className="px-8 py-4 bg-primary-blue text-white rounded-full font-bold shadow-lg hover:shadow-blue-200 transition-all hover:-translate-y-1">
+                                    Begin Journey
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="relative animate-fade-in-up delay-200">
+                            <div className="relative aspect-[4/5] md:aspect-square rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white group">
+                                <img 
+                                    src="/nova_great_falls.jpg" 
+                                    alt="Great Falls Northern Virginia" 
+                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                            </div>
+                            {/* Accent badges */}
+                            <div className="absolute -top-6 -right-6 bg-white p-6 rounded-3xl shadow-xl border border-gray-100 hidden md:block">
+                                <div className="text-primary-blue font-bold text-lg mb-1 italic">est. 1742</div>
+                                <div className="text-gray-500 text-xs font-semibold uppercase tracking-widest">Fairfax County</div>
+                            </div>
+                            <div className="absolute -bottom-10 -left-10 bg-accent-orange p-6 rounded-[2.5rem] shadow-xl text-white hidden md:block border-4 border-white">
+                                <MapPin className="w-8 h-8 mb-2" />
+                                <div className="font-bold text-lg leading-tight">Great Falls <br />Park</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
