@@ -132,11 +132,11 @@ export default function RestaurantClient({ resources }: RestaurantClientProps) {
                         {/* Legend Card 3 */}
                         <div className="min-w-[300px] md:min-w-[450px] snap-start group relative">
                             <div className="relative aspect-[16/10] rounded-[3rem] overflow-hidden shadow-xl mb-6">
-                                <img src="https://images.pexels.com/photos/6267516/pexels-photo-6267516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Legendary Bistro" />
-                                <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl text-xs font-bold uppercase tracking-widest text-orange-600 border border-orange-100">Top Rated</div>
+                                <img src="https://images.pexels.com/photos/32083371/pexels-photo-32083371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Indian Cuisine" />
+                                <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl text-xs font-bold uppercase tracking-widest text-orange-600 border border-orange-100">Spice of NoVA</div>
                             </div>
-                            <h3 className="text-2xl font-extrabold text-gray-900 mb-2">Old Town Fine Dining</h3>
-                            <p className="text-gray-500 font-medium">Historic charm meets modern culinary innovation.</p>
+                            <h3 className="text-2xl font-extrabold text-gray-900 mb-2">Heritage Indian Gastronomy</h3>
+                            <p className="text-gray-500 font-medium">Authentic tandoors and contemporary spice routes.</p>
                         </div>
                     </div>
                 </div>
@@ -208,10 +208,10 @@ export default function RestaurantClient({ resources }: RestaurantClientProps) {
                              </div>
                         </div>
                         <div className="p-10 border-2 border-gray-100 rounded-[3rem] hover:border-orange-200 transition-colors">
-                            <h3 className="text-2xl font-bold mb-4 text-gray-900 text-center">Old Town</h3>
-                            <p className="text-gray-500 text-center mb-8">Walkable historic streets lined with upscale seafood, classic American taverns, and fine dining hotspots with views of the Potomac.</p>
+                            <h3 className="text-2xl font-bold mb-4 text-gray-900 text-center">Ashburn & Sterling</h3>
+                            <p className="text-gray-500 text-center mb-8">The region's hub for world-class Indian cuisine. From fiery Chettinad curries to aromatic Hyderabadi biryanis found in neighborhood plazas.</p>
                              <div className="h-48 rounded-[2rem] overflow-hidden bg-gray-50 border border-orange-100">
-                                <img src="https://images.pexels.com/photos/6267516/pexels-photo-6267516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover grayscale-0 hover:scale-110 transition-transform duration-500" alt="Old Town Bistro" />
+                                <img src="https://images.pexels.com/photos/32083371/pexels-photo-32083371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-full object-cover grayscale-0 hover:scale-110 transition-transform duration-500" alt="Indian Food Variety" />
                              </div>
                         </div>
                     </div>
