@@ -259,34 +259,6 @@ export default function RestaurantClient({ resources }: RestaurantClientProps) {
                 </div>
             </section>
 
-            {/* CURATED LIST WITH FILTERS */}
-            <section className="py-24 px-6 bg-gray-50/50">
-                <div className="max-w-6xl mx-auto">
-                    <div className="flex justify-between items-center mb-12">
-                        <h2 className="text-4xl font-extrabold text-gray-900 tracking-tight">
-                            Explore {selectedVibe ? selectedVibe.replace('-', ' ') : 'All'}
-                        </h2>
-                        <div className="text-sm font-bold text-gray-500 uppercase tracking-widest">
-                            {filteredResources.length} Establishments Found
-                        </div>
-                    </div>
-                    
-                    {filteredResources.length > 0 ? (
-                        <div className="grid grid-cols-1 gap-6">
-                            {filteredResources.map((resource) => (
-                                <CompactResourceCard key={resource.id} resource={resource} />
-                            ))}
-                        </div>
-                    ) : (
-                        <div className="py-20 text-center bg-white rounded-[3rem] border border-dashed border-gray-200">
-                             <Utensils className="w-16 h-16 text-gray-200 mx-auto mb-6" />
-                             <h4 className="text-xl font-bold text-gray-400">No restaurants match this specific vibe yet.</h4>
-                             <button onClick={() => setSelectedVibe(null)} className="mt-4 text-orange-600 font-bold underline">Clear Filters</button>
-                        </div>
-                    )}
-                </div>
-            </section>
-
             <style jsx global>{`
                 @keyframes fade-in-up {
                     from { opacity: 0; transform: translateY(30px); }
