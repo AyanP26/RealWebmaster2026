@@ -128,14 +128,7 @@ export default function ReferencesPage() {
                                 "https://www.pexels.com/photo/river-between-brown-trees-2432201/",
                                 "https://www.pexels.com/photo/stunning-great-falls-in-virginia-under-blue-sky-33518758/",
                                 "https://www.pexels.com/photo/serene-forest-stream-in-great-falls-park-34063250/",
-                                "https://www.pexels.com/photo/asphalt-roadway-in-rural-valley-against-cloudy-blue-sky-4595695/",
-                                "https://www.pexels.com/photo/delicious-vietnamese-pho-bowl-with-beef-and-fresh-herbs-30136627/",
-                                "https://www.pexels.com/photo/shabu-shabu-2611917/",
-                                "https://www.pexels.com/photo/overhead-photography-of-indian-cuisine-platter-32083371/",
-                                "https://www.pexels.com/photo/interior-of-modern-restaurant-with-table-and-chair-near-window-6267516/",
-                                "https://www.pexels.com/photo/a-closeup-of-dumplings-set-on-the-white-plate-3911229/",
-                                "https://www.pexels.com/photo/close-up-of-burger-1639557/",
-                                "https://www.pexels.com/photo/cup-of-caffelatte-312418/"
+                                "https://www.pexels.com/photo/asphalt-roadway-in-rural-valley-against-cloudy-blue-sky-4595695/"
                             ].map((url, i) => (
                                 <Link key={i} href={url} target="_blank" className="text-sm text-gray-500 hover:text-primary-blue truncate transition-all flex items-center gap-3 group">
                                     <div className="w-2 h-2 rounded-full bg-orange-100 group-hover:bg-primary-blue transition-colors"></div>
